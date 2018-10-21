@@ -1,0 +1,17 @@
+CMS@wordpress@wordpress@*@/wp-login.php
+CMS@wordpress@wordpress@*@/wp-admin/
+CMS@sixapart@movabletype@*@/cgi-bin/mt/mt.cgi
+CMS@joomla@joomla\!@*@/administrator/
+CMS@drupal@drupal@*@/user/login
+CMS@n-i-agroinformatics@soy_cms@*@/cms/admin/index.php
+CMS@n-i-agroinformatics@soy_cms@*@/soy/admin/index.php
+CMS@concrete5@concrete5@*@/index.php/login/
+CMS@concrete5@concrete5@*@/login
+CMS@mediawiki@mediawiki@*@/index.php?Special:UserLogin
+CMS@cmsimple@cmsimple@*@/?login
+CMS@cmsimple@cmsimple_classic@*@/?login
+CMS@cmsmadesimple@cms_made_simple@*@/?login
+CMS@MODX@modx_revolution@*@/manager/
+CMS@nucleuscms@nucleus@*@/nucleus/
+CMS@nucleuscms@nucleus_cms@*@/nucleus/
+CMS@xoops@xoops@*@/user.php

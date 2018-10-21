@@ -1,0 +1,4134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <title>UltimateLAMP - Run LAMP Applications directly with VMware Player</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <style type="text/css">@import url("styles.css");</style>
+</head>
+<body>
+<div style="width:100%; text-align:center;"><img src="/images/ultimateLAMP3.jpg" style="width:900px" alt="UltimateLAMP Logo" /></div>
+<p style="padding-left: 10px; padding-right: 10px;">
+This fully functional environment running in <a title="More Information on VMware Player" href="http://localhost/mediawiki/index.php/VMware_Player">VMware Player</a> allows you to easily
+try and evaluate a number of <a title="What is LAMP?" href="http://localhost/mediawiki/index.php/What_is_LAMP">LAMP</a> stack products without requiring any setup or configuration.
+This demonstration records all user entered information for later reference, indeed you will find a wealth of information already available within a number of the Product Recommendations starting with our supplied <a href="/mediawiki">Documentation</a>.</p>
+
+
+<table>
+<tr>
+<td style="width:100%">
+<fieldset id="recommended">
+<legend><img class="icon" src="images/recommended.png" alt=""/> Recommendations</legend>
+<table width="100%">
+<tr>
+<td valign="top" style="width:50%">
+<span class="product">WordPress</span>  <a title="Use Wordpress" href="/wordpress"><img src="images/go.png" alt="Use Wordpress" /></a>  <span class="cat">Authoring - Personal Blog</span><br />
+<span class="product">MediaWiki</span>  <a title="Use MediaWiki" href="/mediawiki"><img src="images/go.png" alt="Use MediaWiki" /></a>  <span class="cat">Authoring - Wiki</span><br />
+</td>
+<td valign="top" style="width:50%">
+<span class="product">Php Bulletin Board</span>  <a title="Use Php Bulletin Board" href="/phpbb"><img src="images/go.png" alt="Use Php Bulletin Board" /></a>  <span class="cat">Content Management - Forums </span><br />
+<span class="product">PhpMyAdmin</span>  <a title="Use PhpMyAdmin" href="/phpmyadmin"><img src="images/go.png" alt="Use PhpMyAdmin" /></a>   <span class="cat">System Administration - Database</span>
+</td>
+</tr>
+</table>
+</fieldset>
+
+<h3>Full List of Available Products</h3>
+<table width="100%">
+<tr>
+<td valign="top" style="width:50%">
+<fieldset class="products">
+<legend><img title="icon" src="images/authoring.png" alt="" /> Authoring</legend>
+<p>
+<span class="heading">Personal Blog:</span>
+<span class="product">WordPress</span>  <a title="Use Wordpress" href="/wordpress"><img src="images/go.png" alt="Use Wordpress" /></a>  
+<span class="product">TextPattern</span>  <a title="Use TextPatern" href="/textpattern"><img src="images/go.png" alt="Use TextPattern" /></a>  
+<span class="product">Serendipity</span>  <a title="Use Serendipity" href="/serendipity"><img src="images/go.png" alt="Use Serendipity" /></a>  
+</p>
+<p>
+<span class="heading">Wiki:</span>
+<span class="product">MediaWiki</span>  <a title="Use MediaWiki" href="/mediawiki"><img src="images/go.png" alt="Use MediaWiki" /></a>  
+<span class="product">TikiWiki</span>  <a title="Use TikiWiki" href="/tikiwiki"><img src="images/go.png" alt="Use TikiWiki" /></a> 
+</p>
+<span class="heading">Photos:</span>
+<span class="product">PHP Gallery</span>  <a title="Use PHP Gallery" href="/gallery"><img src="images/go.png" alt="Use PHP Gallery" /></a>  
+<br />
+
+<span class="heading">Education:</span>
+<span class="product">Moodle</span>  <a title="Use Moodle" href="/moodle"><img src="images/go.png" alt="Use Moodle" /></a> 
+<br />
+</fieldset>
+
+<fieldset>
+<legend><img class="icon" src="images/ecommerce.png" alt=""/> e-Commerce</legend>
+<span class="product">OsCommerce</span>  <a title="Use OsCommerce" href="/oscommerce"><img src="images/go.png" alt="Use OsCommerce" /></a>  
+<span class="product">Zen Cart</span>  <a title="Use Zen Cart" href="/zencart"><img src="images/go.png" alt="Use Zen Cart" /></a>  
+</fieldset>
+
+</td>
+<td valign="top" style="width:50%">
+<fieldset class="products">
+<legend><img class="icon" src="images/management.png" alt=""/> Management</legend>
+<span class="heading">Content:</span>
+<span class="product">PhpWebSite</span>  <a title="Use PhpWebSite" href="/phpwebsite"><img src="images/go.png" alt="Use PhpWebSite" /></a>  
+<span class="product">Joomla</span>  <a title="Use Joomla" href="/joomla"><img src="images/go.png" alt="Use Joomla" /></a>  
+<span class="product">eGroupWare</span>  <a title="Use eGroupWare" href="/egroupware"><img src="images/go.png" alt="Use eGroupWare" /></a>  
+<span class="product">Drupal</span>  <a title="Use Drupal" href="/drupal"><img src="images/go.png" alt="Use Drupal" /></a>  
+<br />
+<span class="product">Php Bulletin Board</span>  <a title="Use PhpBB" href="/phpbb"><img src="images/go.png" alt="Use PhpBB" /></a>  
+<br />
+<span class="heading">Customer:</span>
+<span class="product">Sugar CRM</span>  <a title="Use Sugar CRM" href="/sugarcrm"><img src="images/go.png" alt="Use Sugar CRM" /></a>  <br />
+<span class="heading">Document:</span>
+<span class="product">Owl</span>  <a title="Use Owl" href="/owl"><img src="images/go.png" alt="Use Owl" /></a>  
+<br />
+<span class="heading">Other:</span>
+<span class="product">WebCalendar</span>  <a title="Use WebCalendar" href="/webcalendar"><img src="images/go.png" alt="Use WebCalendar" /></a>  
+<br />
+
+<span class="heading">Project:</span>
+<span class="product">Dot Project</span>  <a title="Use Dot Project" href="/dotproject"><img src="images/go.png" alt="Use Dot Project" /></a>  
+<span class="product">PhpAdsNew</span>  <a title="Use PhpAdsNew" href="/phpadsnew"><img src="images/go.png" alt="Use PhpAdsNew" /></a>  
+<span class="product">Bugzilla</span>  <a title="Use Bugzilla" href="/bugzilla"><img src="images/go.png" alt="Use Bugzilla" /></a>  
+</fieldset>
+
+<fieldset>
+<legend><img class="icon" src="images/system.png" alt=""/> System Administration</legend>
+<span class="product">PhpMyAdmin</span>  <a title="Use PhpMyAdmin" href="/phpmyadmin"><img src="images/go.png" alt="Use PhpMyAdmin" /></a>  
+<span class="product">Webmin</span>  <a title="Use Webmin" href="/webmin"><img src="images/go.png" alt="Use Webmin" /></a>  
+</fieldset>
+</td>
+</tr>
+</table>  <!-- Internal Table of Fieldsets -->
+
+</td>
+<td valign="top" style="width:100px" align="center">
+<div class="iconnav">
+<a title="MediaWiki" href="/mediawiki"><img src="images/88x31/mediawiki.png" alt="MediaWiki Logo" /></a>
+<a title="Wordpress" href="/wordpress"><img src="images/88x31/wordpress.gif" alt="WordPress Logo" /></a>
+<a title="Php Bulletin Board" href="/phpbb"><img src="images/88x31/phpbb.gif" alt="Php Bulletin Board Logo" /></a>
+<a title="Joomla" href="/joomla"><img src="images/88x31/joomla.jpg" alt="Joomla Logo" /></a>
+<a title="Moodle" href="/moodle"><img src="images/88x31/moodle.gif" alt="Moodle Logo" /></a>
+<a title="Drupal" href="/drupal"><img src="images/88x31/drupal.png" alt="Drupal Logo" /></a>
+<a title="SugarCRM" href="/drupal"><img src="images/88x31/sugarcrm.gif" alt="SugarCRM Logo" /></a>
+<!--
+<a title="Serendipity" href="http://localhost/serendipity"><img src="/serendipity/templates/default/img/s9y_banner_small.png" alt="Serendipity PHP Weblog" /></a>
+-->
+</div>
+</td>
+</tr>
+</table>
+
+<div class="footer">
+<p>
+This VMware virtual machine is based on the provided <a title="Brower Appliance supplied start page" href="file:///usr/share/vmware-bavm-home/index.html">Browser Appliance</a> which uses Ubuntu and FireFox.
+</p>
+<p>
+VMware and the VMware &quot;boxes&quot; logo and design   are registered trademarks or trademarks of VMware, Inc. in the United States and/or other jurisdictions. <br /> All other marks and names mentioned herein may be trademarks of their respective companies. <br />Firefox is a registered trademark of the Mozilla Foundation.
+</p>
+<a href="http://www.vmware.com"><img src="images/VMware_Logo.gif" alt="VMware logo" width="187" height="72" /></a><a href="http://www.ubuntu.com"><img src="images/Ubuntu_Logo.png" alt="Ubuntu logo" width="170" height="72" /></a><a href="http://www.getfirefox.com"><img src="images/Firefox_Logo.png" alt="Firefox logo" width="182" height="74" /></a>
+</div>
+
+<div style="border-top: 2px solid #000000;">
+<a href="http://ultimateLAMP.arabx.com.au/">UltimateLAMP Home Page</a>
+Version 0.2 - 15 May 2006
+<span style="float:right"><a title="W3C CSS Validator" href="http://jigsaw.w3.org/css-validator/"><img src="images/vcss.png" alt="Valid CSS" /></a>
+<a href="http://validator.w3.org/check?uri=referer"><img
+        src="images/valid-xhtml10.png"
+        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</span>
+</div>
+</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Main Page,Dot Project,EGroupWare,Getting Started,Icons,Joomla,MediaWiki,Moodle,OsCommerce,Owl,PHPWebSite" />
+<link rel="shortcut icon" href="/favicon.ico" />
+		<title>Main Page - UltimateLAMP Wiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/mediawiki/skins/monobook/main.css?7"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/mediawiki/skins/common/commonPrint.css" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/mediawiki/skins/monobook/IE50Fixes.css";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/mediawiki/skins/monobook/IE55Fixes.css";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/mediawiki/skins/monobook/IE60Fixes.css";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/mediawiki/skins/monobook/IE70Fixes.css?1";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/mediawiki/skins/common/IEFixes.js"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		<script type="text/javascript">var skin = 'monobook';var stylepath = '/mediawiki/skins';</script>
+		<script type="text/javascript" src="/mediawiki/skins/common/wikibits.js"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/mediawiki/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/mediawiki/index.php?title=MediaWiki:Common.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/mediawiki/index.php?title=MediaWiki:Monobook.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/mediawiki/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="ns-0 ltr">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Main Page</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From UltimateLAMP Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>Welcome to the <b>UltimateLAMP</b> Wiki page.  This Wiki software is used to provide most of the documentation for this Software that you are viewing at present.
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/mediawiki/index.php?title=Main_Page&amp;action=edit&amp;section=1" title="Edit section: Getting Started">edit</a>]</div><a name="Getting_Started"></a><h2> Getting Started </h2>
+<p><a href="/mediawiki/index.php/What_is_LAMP" title="What is LAMP"> What is LAMP?</a> &middot;
+<a href="/mediawiki/index.php/What_is_UltimateLAMP" title="What is UltimateLAMP"> What Is UltimateLAMP?</a> &middot; 
+<a href="/mediawiki/index.php/Getting_Started" title="Getting Started"> Getting Started</a> &middot;
+<a href="/mediawiki/index.php/Passwords" title="Passwords"> Passwords</a> &middot;
+<a href="/mediawiki/index.php/Tips_and_Tricks" title="Tips and Tricks"> Tips &amp; Tricks</a> &middot;
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/mediawiki/index.php?title=Main_Page&amp;action=edit&amp;section=2" title="Edit section: Product Documentation">edit</a>]</div><a name="Product_Documentation"></a><h2> Product Documentation </h2>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/mediawiki/index.php?title=Main_Page&amp;action=edit&amp;section=3" title="Edit section: Recommended Products">edit</a>]</div><a name="Recommended_Products"></a><h3> Recommended Products </h3>
+<p><a href="/mediawiki/index.php/WordPress" title="WordPress"> WordPress</a> &middot;
+<a href="/mediawiki/index.php/MediaWiki" title="MediaWiki"> MediaWiki</a> &middot;
+<a href="/mediawiki/index.php/Php_Bulletin_Board" title="Php Bulletin Board"> Php Bulletin Board</a> &middot;
+<a href="/mediawiki/index.php/PhpMyAdmin" title="PhpMyAdmin"> PhpMyAdmin </a> &middot;
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/mediawiki/index.php?title=Main_Page&amp;action=edit&amp;section=4" title="Edit section: Product List">edit</a>]</div><a name="Product_List"></a><h3> Product List </h3>
+<p><a href="/mediawiki/index.php/Serendipity" title="Serendipity"> Serendipity </a> &middot;
+<a href="/mediawiki/index.php?title=Bugzilla&amp;action=edit" class="new" title="Bugzilla"> Bugzilla </a> &middot;
+<a href="/mediawiki/index.php/PHPWebSite" title="PHPWebSite"> PHPWebSite </a> &middot;
+<a href="/mediawiki/index.php/Joomla" title="Joomla"> Joomla </a> &middot;
+<a href="/mediawiki/index.php/Dot_Project" title="Dot Project"> Dot Project </a> &middot;
+<a href="/mediawiki/index.php/Moodle" title="Moodle"> Moodle </a> &middot;
+<a href="/mediawiki/index.php/EGroupWare" title="EGroupWare"> eGroupWare </a> &middot;
+<a href="/mediawiki/index.php/OsCommerce" title="OsCommerce"> osCommerce </a> &middot;
+<a href="/mediawiki/index.php?title=Zen_Cart&amp;action=edit" class="new" title="Zen Cart"> Zen Cart </a> &middot;
+<a href="/mediawiki/index.php/Owl" title="Owl"> Owl </a> &middot;
+<a href="/mediawiki/index.php?title=Tikiwiki&amp;action=edit" class="new" title="Tikiwiki"> Tikiwiki </a> &middot;
+<a href="/mediawiki/index.php?title=Web_Calendar&amp;action=edit" class="new" title="Web Calendar"> Web Calendar </a> &middot;
+</p><p>Use the following link to directly access the products available now to use and test. <a href="http://localhost" class='external text' title="http://localhost" rel="nofollow">UltimateLAMP Index </a>
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/mediawiki/index.php?title=Main_Page&amp;action=edit&amp;section=5" title="Edit section: Supporting Products">edit</a>]</div><a name="Supporting_Products"></a><h3> Supporting Products </h3>
+<p><a href="/mediawiki/index.php/VMware_Player" title="VMware Player"> VMware Player </a> &middot;
+<a href="/mediawiki/index.php?title=Ubuntu&amp;action=edit" class="new" title="Ubuntu"> Ubuntu </a> &middot;
+<a href="/mediawiki/index.php?title=Apache_HTTPD_Server&amp;action=edit" class="new" title="Apache HTTPD Server"> Apache HTTPD Server</a> &middot;
+<a href="/mediawiki/index.php?title=MySQL&amp;action=edit" class="new" title="MySQL"> MySQL </a> &middot;
+<a href="/mediawiki/index.php?title=PHP&amp;action=edit" class="new" title="PHP"> PHP</a> &middot;
+<a href="/mediawiki/index.php?title=Perl&amp;action=edit" class="new" title="Perl"> Perl </a> &middot;
+<a href="/mediawiki/index.php?title=Python&amp;action=edit" class="new" title="Python"> Python</a> &middot;
+</p>
+<div class="editsection" style="float:right;margin-left:5px;">[<a href="/mediawiki/index.php?title=Main_Page&amp;action=edit&amp;section=6" title="Edit section: Other Information">edit</a>]</div><a name="Other_Information"></a><h1> Other Information </h1>
+<p><a href="/mediawiki/index.php/Icons" title="Icons"> Icons </a>
+</p>
+<!-- Saved in parser cache with key mediawiki:pcache:idhash:1-0!1!0!0!!en!2 and timestamp 20180919073206 -->
+<div class="printfooter">
+Retrieved from "<a href="http://192.168.220.148/mediawiki/index.php/Main_Page">http://192.168.220.148/mediawiki/index.php/Main_Page</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mediawiki/index.php/Main_Page">Article</a></li>
+				 <li id="ca-talk" class="new"><a href="/mediawiki/index.php?title=Talk:Main_Page&amp;action=edit">Discussion</a></li>
+				 <li id="ca-edit"><a href="/mediawiki/index.php?title=Main_Page&amp;action=edit">Edit</a></li>
+				 <li id="ca-history"><a href="/mediawiki/index.php?title=Main_Page&amp;action=history">History</a></li>
+		</ul>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/mediawiki/index.php?title=Special:Userlogin&amp;returnto=Main_Page">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/images/ultimateLAMPx150.jpg);" href="/mediawiki/index.php/Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/mediawiki/index.php/Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/mediawiki/index.php/UltimateLAMP_Wiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/mediawiki/index.php/Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/mediawiki/index.php/Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/mediawiki/index.php/Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/mediawiki/index.php/Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/mediawiki/index.php/UltimateLAMP_Wiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mediawiki/index.php/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mediawiki/index.php/Special:Whatlinkshere/Main_Page">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/mediawiki/index.php/Special:Recentchangeslinked/Main_Page">Related changes</a></li>
+<li id="t-upload"><a href="/mediawiki/index.php/Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/mediawiki/index.php/Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/mediawiki/index.php?title=Main_Page&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/mediawiki/index.php?title=Main_Page&amp;oldid=1523">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mediawiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 08:56, 14 May 2006.</li>
+				<li id="viewcount">This page has been accessed 221 times.</li>
+				<li id="privacy"><a href="/mediawiki/index.php/UltimateLAMP_Wiki:Privacy_policy" title="UltimateLAMP Wiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/mediawiki/index.php/UltimateLAMP_Wiki:About" title="UltimateLAMP Wiki:About">About UltimateLAMP Wiki</a></li>
+				<li id="disclaimer"><a href="/mediawiki/index.php/UltimateLAMP_Wiki:General_disclaimer" title="UltimateLAMP Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+	<script type="text/javascript"> if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by vmware-bavm in 0.11 secs. -->
+</body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>UltimateLAMP  </title>
+
+<meta name="generator" content="WordPress 2.0.2" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://localhost/wordpress/wp-content/themes/zenmorning/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="UltimateLAMP RSS Feed" href="http://localhost/wordpress/?feed=rss2" />
+<link rel="pingback" href="http://localhost/wordpress/xmlrpc.php" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd" />
+</head>
+<body>
+<div id="page">
+
+
+<div id="header">
+	<div id="headerimg">
+		<h1><a href="http://localhost/wordpress/">UltimateLAMP</a></h1>
+		<div class="description">Just another WordPress weblog</div>
+	</div>
+</div>
+<hr />
+
+	<div id="content" class="narrowcolumn">
+
+			
+						
+			<div class="post" id="post-1">
+				<h2><a href="http://localhost/wordpress/?p=1" rel="bookmark" title="Permanent Link to Hello world!">Hello world!</a></h2>
+				<small>May 12th, 2006 <!-- by ultimateLAMP --></small>
+				
+				<div class="entry">
+					<p>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!
+</p>
+				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://localhost/wordpress/?cat=1" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> |   <a href="http://localhost/wordpress/?p=1#comments" title="Comment on Hello world!">1 Comment &#187;</a></p>
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+		
+	
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			<li>
+				<form method="get" id="searchform" action="http://localhost/wordpress/">
+<div><input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+			</li>
+
+			<!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
+			<li><h2>Author</h2>
+			<p>A little something about you, the author. Nothing lengthy, just an overview.</p>
+			</li>
+			-->
+
+			<li>
+						</li>
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item"><a href="http://localhost/wordpress/?page_id=2" title="About">About</a></li>
+</ul></li>
+			<li><h2>Archives</h2>
+				<ul>
+					<li><a href='http://localhost/wordpress/?m=200605' title='May 2006'>May 2006</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Categories</h2>
+				<ul>
+					<li><a href="http://localhost/wordpress/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a> (1)
+</li>
+				</ul>
+			</li>
+
+							
+					<li id="linkcat-4"><h2>Blogs</h2>
+	<ul>
+<li><a href="http://jpipes.com/">Jay Pipes</a></li>
+<li><a href="http://tocker.id.au">Morgan Tocker</a></li>
+<li><a href="http://rpbouman.blogspot.com/">Roland Bouman</a></li>
+<li><a href="http://pbxt.blogspot.com/">Paul McCullagh</a></li>
+<li><a href="http://www.planetmysql.org">PlanetMySQL</a></li>
+<li><a href="http://www.bytebot.net/blog/">Colin Charles</a></li>
+<li><a href="http://blog.arabx.com.au">Ronald Bradford</a></li>
+<li><a href="http://mike.kruckenberg.com/">Mike Kruckenberg</a></li>
+<li><a href="http://mysqldatabaseadministration.blogspot.com/">Frank Mash</a></li>
+<li><a href="http://arjen-lentz.livejournal.com/">Arjen Lentz</a></li>
+
+	</ul>
+</li>
+	<li id="linkcat-2"><h2>UltimateLAMP</h2>
+	<ul>
+<li><a href="http://localhost/wordpress">WordPress</a></li>
+<li><a href="http://localhost">Home</a></li>
+
+	</ul>
+</li>
+	<li id="linkcat-3"><h2>WebSites</h2>
+	<ul>
+<li><a href="http://www.google.com">Google</a></li>
+<li><a href="http://www.ubuntu.com">Ubuntu</a></li>
+<li><a href="http://ultimateLAMP.arabx.com.au">UltimateLAMP</a></li>
+<li><a href="http://www.vmware.com/products/player/">VMWare Player</a></li>
+<li><a href="http://www.wikipedia.org">Wikipedia</a></li>
+
+	</ul>
+</li>
+				
+				<li><h2>Meta</h2>
+				<ul>
+										<li><a href="http://localhost/wordpress/wp-login.php">Login</a></li>
+					<li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+					<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
+					<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
+					<li><a href="http://www.videoconferencinginsider.com" title="Theme by Video Conferencing Insider">Video Conferencing Insider</a></li>
+									</ul>
+				</li>
+						
+		</ul>
+	</div>
+
+
+
+<hr />
+<div id="footer">
+	<p>
+		UltimateLAMP is proudly powered by 
+		<a href="http://wordpress.org/">WordPress</a>
+		<br /><a href="feed:http://localhost/wordpress/?feed=rss2">Entries (RSS)</a>
+		and <a href="feed:http://localhost/wordpress/?feed=comments-rss2">Comments (RSS)</a>.
+		<br/>Theme by <a href="http://www.videoconferencinginsider.com">videoconferencinginsider.com</a>
+		<!--  queries.  seconds. -->
+	</p>
+</div>
+</div>
+
+
+		</body>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="Author" content="http://www.trushkin.net" />
+
+<link rel="top" href="./index.php?sid=8c115f114491341375614945340e63cd" title="UltimateLAMP Bulletin Board Forum Index" />
+<link rel="search" href="./search.php?sid=8c115f114491341375614945340e63cd" title="Search" />
+<link rel="help" href="./faq.php?sid=8c115f114491341375614945340e63cd" title="FAQ" />
+<link rel="author" href="./memberlist.php?sid=8c115f114491341375614945340e63cd" title="Memberlist" />
+
+<title>UltimateLAMP Bulletin Board :: Index</title>
+<link rel="stylesheet" href="./templates/Aeolus/Aeolus.css" type="text/css">
+<style type="text/css">
+<!--
+
+td.row1	{ background-color: #DCE3E9; }
+td.row1_over	{ background-color: #D6DEE4; }
+td.row2	{ background-color: #D3DDE4; }
+td.row2_over	{ background-color: #CDD8E0; }
+td.row3, td.row3Right	{ background-color: #C4D0D9; }
+td.row3_over	{ background-color: #BECBD6; }
+
+th, td.th, td.spacerow	{ background-image: url(./templates/Aeolus/images/bg_cat.gif); }
+td.th2	{ background-image: url(./templates/Aeolus/images/bg_cat2.gif); }
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom, td.row4	{ background-image: url(./templates/Aeolus/images/bg_cat4.gif); }
+
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("./templates/Aeolus/formIE.css");
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!--
+
+var PreloadFlag = false;
+var expDays = 90;
+var exp = new Date();
+var tmp = '';
+var tmp_counter = 0;
+var tmp_open = 0;
+
+exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
+
+function changeImages()
+{
+	if (document.images)
+	{
+		for (var i=0; i<changeImages.arguments.length; i+=2)
+		{
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+function newImage(arg)
+{
+	if (document.images)
+	{
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function PreloadImages()
+{
+	if (document.images)
+	{
+		// preload all rollover images
+		img0 = newImage('./templates/Aeolus/images/lang_english/btn_login_on.gif');
+		img1 = newImage('./templates/Aeolus/images/lang_english/btn_register_on.gif');
+		img6 = newImage('./templates/Aeolus/images/lang_english/btn_faq_on.gif');
+		img7 = newImage('./templates/Aeolus/images/lang_english/btn_search_on.gif');
+		img8 = newImage('./templates/Aeolus/images/lang_english/btn_users_on.gif');
+		img9 = newImage('./templates/Aeolus/images/lang_english/btn_index_on.gif');
+		PreloadFlag = true;
+	}
+	return true;
+}
+
+
+function SetCookie(name, value)
+{
+	var argv = SetCookie.arguments;
+	var argc = SetCookie.arguments.length;
+	var expires = (argc > 2) ? argv[2] : null;
+	var path = (argc > 3) ? argv[3] : null;
+	var domain = (argc > 4) ? argv[4] : null;
+	var secure = (argc > 5) ? argv[5] : false;
+	document.cookie = name + "=" + escape(value) +
+		((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+		((path == null) ? "" : ("; path=" + path)) +
+		((domain == null) ? "" : ("; domain=" + domain)) +
+		((secure == true) ? "; secure" : "");
+}
+
+function getCookieVal(offset)
+{
+	var endstr = document.cookie.indexOf(";",offset);
+	if (endstr == -1)
+	{
+		endstr = document.cookie.length;
+	}
+	return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie(name)
+{
+	var arg = name + "=";
+	var alen = arg.length;
+	var clen = document.cookie.length;
+	var i = 0;
+	while (i < clen)
+	{
+		var j = i + alen;
+		if (document.cookie.substring(i, j) == arg)
+			return getCookieVal(j);
+		i = document.cookie.indexOf(" ", i) + 1;
+		if (i == 0)
+			break;
+	}
+	return null;
+}
+
+function ShowHide(id1, id2, id3)
+{
+	var res = expMenu(id1);
+	if (id2 != '') expMenu(id2);
+	if (id3 != '') SetCookie(id3, res, exp);
+}
+
+function expMenu(id)
+{
+	var itm = null;
+	if (document.getElementById)
+	{
+		itm = document.getElementById(id);
+	}
+	else if (document.all)
+	{
+		itm = document.all[id];
+	}
+	else if (document.layers)
+	{
+		itm = document.layers[id];
+	}
+	if (!itm)
+	{
+		// do nothing
+	}
+	else if (itm.style)
+	{
+		if (itm.style.display == "none")
+		{
+			itm.style.display = "";
+			return 1;
+		}
+		else
+		{
+			itm.style.display = "none";
+			return 2;
+		}
+	}
+	else
+	{
+		itm.visibility = "show";
+		return 1;
+	}
+}
+
+//-->
+</script>
+</head>
+<body bgcolor="#CAD5DD" text="#000000" link="#975922" vlink="#A26024" marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" background="./templates/Aeolus/images/bg_main.gif" onload="PreloadImages();">
+
+<a name="top"></a>
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#5F7D8E" background="./templates/Aeolus/images/hdr_bg.gif">
+<tr>
+	<td width="100%" align="center" valign="middle"><table border="0" cellspacing="0" cellpadding="5" width="80%">
+	<tr>
+		<td align="center" valign="middle">
+			<a href="index.php?sid=8c115f114491341375614945340e63cd"><img src="./templates/Aeolus/images/logo_phpBB.gif" border="0" /></a>
+		</td>
+		<td><img src="./templates/Aeolus/images/spacer.gif" width="50" height="1" border="0" /></td>
+		<td align="center" valign="middle" nowrap="nowrap">
+			<span class="maintitle">UltimateLAMP Bulletin Board</span><br /><br />
+			<span class="subtitle">Demonstration of PhpBB</span>
+		</td>
+	</tr>
+	</table>
+	</td>
+</tr>
+<tr>
+	<td width="100%" height="23" align="left" valign="bottom"><table border="0" cellspacing="0" cellpadding="0" height="23">
+	<tr>
+		<td width="23"><img src="./templates/Aeolus/images/hdr_left.gif" width="23" height="23" border="0" /></td>
+		<td align="center" valign="middle"><a title="Log in" href="login.php?sid=8c115f114491341375614945340e63cd" class="mainmenu" onmouseover="changeImages('btn_top_login', './templates/Aeolus/images/lang_english/btn_login_on.gif'); return true;" onmouseout="changeImages('btn_top_login', './templates/Aeolus/images/lang_english/btn_login.gif'); return true;"><img name="btn_top_login" src="./templates/Aeolus/images/lang_english/btn_login.gif" height="23" border="0" alt="login.php?sid=8c115f114491341375614945340e63cd" /></a></td>
+		<td align="center" valign="middle"><a title="Register" href="profile.php?mode=register&amp;sid=8c115f114491341375614945340e63cd" class="mainmenu" onmouseover="changeImages('btn_top_register', './templates/Aeolus/images/lang_english/btn_register_on.gif'); return true;" onmouseout="changeImages('btn_top_register', './templates/Aeolus/images/lang_english/btn_register.gif'); return true;"><img name="btn_top_register" src="./templates/Aeolus/images/lang_english/btn_register.gif" height="23" border="0" alt="profile.php?mode=register&amp;sid=8c115f114491341375614945340e63cd" /></a></td>
+		<td align="center" valign="middle"><a title="FAQ" href="faq.php?sid=8c115f114491341375614945340e63cd" class="mainmenu" onmouseover="changeImages('btn_top_faq', './templates/Aeolus/images/lang_english/btn_faq_on.gif'); return true;" onmouseout="changeImages('btn_top_faq', './templates/Aeolus/images/lang_english/btn_faq.gif'); return true;"><img name="btn_top_faq" src="./templates/Aeolus/images/lang_english/btn_faq.gif" height="23" border="0" alt="faq.php?sid=8c115f114491341375614945340e63cd" /></a></td>
+		<td align="center" valign="middle"><a title="Memberlist" href="memberlist.php?sid=8c115f114491341375614945340e63cd" class="mainmenu" onmouseover="changeImages('btn_top_users', './templates/Aeolus/images/lang_english/btn_users_on.gif'); return true;" onmouseout="changeImages('btn_top_users', './templates/Aeolus/images/lang_english/btn_users.gif'); return true;"><img name="btn_top_users" src="./templates/Aeolus/images/lang_english/btn_users.gif" height="23" border="0" alt="memberlist.php?sid=8c115f114491341375614945340e63cd" /></a></td>
+		<td align="center" valign="middle"><a title="Search" href="search.php?sid=8c115f114491341375614945340e63cd" class="mainmenu" onmouseover="changeImages('btn_top_search', './templates/Aeolus/images/lang_english/btn_search_on.gif'); return true;" onmouseout="changeImages('btn_top_search', './templates/Aeolus/images/lang_english/btn_search.gif'); return true;"><img name="btn_top_search" src="./templates/Aeolus/images/lang_english/btn_search.gif" height="23" border="0" alt="search.php?sid=8c115f114491341375614945340e63cd" /></a></td>
+		<td align="center" valign="middle"><a title="UltimateLAMP Bulletin Board Forum Index" href="index.php?sid=8c115f114491341375614945340e63cd" class="mainmenu" onmouseover="changeImages('btn_top_index', './templates/Aeolus/images/lang_english/btn_index_on.gif'); return true;" onmouseout="changeImages('btn_top_index', './templates/Aeolus/images/lang_english/btn_index.gif'); return true;"><img name="btn_top_index" src="./templates/Aeolus/images/lang_english/btn_index.gif" height="23" border="0" alt="index.php?sid=8c115f114491341375614945340e63cd" /></a></td>
+		<td align="center" valign="middle" width="23"><img src="./templates/Aeolus/images/hdr_right.gif" width="23" height="23" border="0" /></td>
+	</tr>
+	</table></td>
+</tr>
+</table><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td background="./templates/Aeolus/images/hdr_border.gif"><img src="./templates/Aeolus/images/spacer.gif" width="1" height="10" border="0" /></td></tr></table>
+
+<br />
+
+<table border="0" cellspacing="0" cellpadding="10" width="100%">
+<tr>
+	<td align="center" valign="top">
+
+
+<table width="100%" cellspacing="0" cellpadding="2" border="0" align="center">
+  <tr>
+	<td align="left" valign="bottom"><span class="gensmall">
+	The time now is Wed Sep 19, 2018 11:57 pm<br />
+	All times are GMT<br />
+	</span><span class="nav"><a href="index.php?sid=8c115f114491341375614945340e63cd" class="nav">UltimateLAMP Bulletin Board Forum Index</a></span></td>
+	<td align="right" valign="bottom" class="gensmall">
+		<a href="search.php?search_id=unanswered&amp;sid=8c115f114491341375614945340e63cd" class="gensmall">View unanswered posts</a><br />
+		<a href="index.php?mark=forums&amp;sid=8c115f114491341375614945340e63cd" class="gensmall">Mark all forums read</a></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="23" align="right" valign="bottom"><img src="./templates/Aeolus/images/top_left.gif" width="23" height="36" border="0" alt="" /></td><td width="100%" align="left" valign="middle" background="./templates/Aeolus/images/top_center.gif"><table border="0" cellspacing="0" cellpadding="0"><tr><td><img src="./templates/Aeolus/images/spacer.gif" width="1" height="11" border="0" /></td></tr><tr><td align="left" valign="center"><span class="cattitle">&nbsp;<a href="javascript:ShowHide('cat_1','cat2_1','catrow_1');" class="cattitle">Test category 1</a>&nbsp;</span></td></tr></table></td><td width="60" align="left" valign="bottom"><img src="./templates/Aeolus/images/top_right.gif" width="60" height="36" border="0" alt="" /></td></tr></table><div id="cat_1" style="display: ''; position: relative;"><table width="100%" cellpadding="2" cellspacing="1" border="0" class="forumline">
+<tr>
+	<th colspan="2" class="thCornerL" height="26" nowrap="nowrap">&nbsp;Forum&nbsp;</th>
+	<th width="50" class="thTop" nowrap="nowrap">&nbsp;Topics&nbsp;</th>
+	<th width="50" class="thTop" nowrap="nowrap">&nbsp;Posts&nbsp;</th>
+	<th class="thCornerR" nowrap="nowrap">&nbsp;Last Post&nbsp;</th>
+</tr>
+<tr>
+	<td class="row4" align="center" valign="middle" width="30" height="30"><img src="templates/Aeolus/images/folder_big.gif" width="20" height="18" alt="No new posts" title="No new posts" /></td>
+	<td class="row1" width="100%" onmouseover="this.style.backgroundColor='#D6DEE4';" onmouseout="this.style.backgroundColor='#DCE3E9';" onclick="window.location.href='viewforum.php?f=1&amp;sid=8c115f114491341375614945340e63cd'"><span class="forumlink"> <a href="viewforum.php?f=1&amp;sid=8c115f114491341375614945340e63cd" class="forumlink">Test Forum 1</a><br />
+	  </span> <span class="genmed">This is just a test forum.<br />
+	  </span><span class="gensmall">&nbsp; &nbsp;</span></td>
+	<td class="row2" align="center" valign="middle"><span class="gensmall">1</span></td>
+	<td class="row2" align="center" valign="middle"><span class="gensmall">1</span></td>
+	<td class="row3" align="center" valign="middle" nowrap="nowrap"> <span class="gensmall">Sat Oct 21, 2000 12:01 am<br /><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=8c115f114491341375614945340e63cd">phpbb</a> <a href="viewtopic.php?p=1&amp;sid=8c115f114491341375614945340e63cd#1"><img src="templates/Aeolus/images/icon_latest_reply.gif" border="0" alt="View latest post" title="View latest post" /></a></span></td>
+</tr>
+</table></div><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td width="10" align="right" valign="top"><img src="./templates/Aeolus/images/bottom_left.gif" width="10" height="10" border="0" alt="" /></td><td width="100%" background="./templates/Aeolus/images/bottom_center.gif"><img src="./templates/Aeolus/images/spacer.gif" width="1" height="1" border="0" alt="" /></td><td width="10" align="left" valign="top"><img src="./templates/Aeolus/images/bottom_right.gif" width="10" height="10" border="0" alt="" /></td></tr></table>
+<script language="javascript" type="text/javascript">
+<!--
+tmp = 'catrow_1';
+if(GetCookie(tmp) == '2')
+{
+	ShowHide('cat_1','cat2_1','catrow_1');
+}
+//-->
+</script>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="23" align="right" valign="bottom"><img src="./templates/Aeolus/images/top_left.gif" width="23" height="36" border="0" alt="" /></td><td width="100%" align="left" valign="middle" background="./templates/Aeolus/images/top_center.gif"><table border="0" cellspacing="0" cellpadding="0"><tr><td><img src="./templates/Aeolus/images/spacer.gif" width="1" height="11" border="0" /></td></tr><tr><td align="left" valign="center"><span class="cattitle">&nbsp;<a href="viewonline.php?sid=8c115f114491341375614945340e63cd" class="cattitle">Who is Online</a>&nbsp;</span></td></tr></table></td><td width="60" align="left" valign="bottom"><img src="./templates/Aeolus/images/top_right.gif" width="60" height="36" border="0" alt="" /></td></tr></table><table width="100%" cellpadding="3" cellspacing="1" border="0" class="forumline">
+<tr>
+	<td class="row4" align="center" valign="middle" rowspan="2"><img src="./templates/Aeolus/images/whosonline.gif" alt="Who is Online" /></td>
+	<td class="row1" align="left" width="100%"><span class="gensmall">Our users have posted a total of <b>1</b> article<br />We have <b>1</b> registered user<br />The newest registered user is <b><a href="profile.php?mode=viewprofile&amp;u=2&amp;sid=8c115f114491341375614945340e63cd">phpbb</a></b></span>
+	</td>
+</tr>
+<tr>
+	<td class="row1" align="left"><span class="gensmall">In total there is <b>1</b> user online :: 0 Registered, 0 Hidden and 1 Guest &nbsp; [ <span style="color:#FF6600">Administrator</span> ] &nbsp; [ <span style="color:#00A000">Moderator</span> ]<br />Most users ever online was <b>2</b> on Tue Aug 21, 2018 8:28 am<br />Registered Users: None<br />This data is based on users active over the past five minutes</span></td>
+</tr>
+</table><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td width="10" align="right" valign="top"><img src="./templates/Aeolus/images/bottom_left.gif" width="10" height="10" border="0" alt="" /></td><td width="100%" background="./templates/Aeolus/images/bottom_center.gif"><img src="./templates/Aeolus/images/spacer.gif" width="1" height="1" border="0" alt="" /></td><td width="10" align="left" valign="top"><img src="./templates/Aeolus/images/bottom_right.gif" width="10" height="10" border="0" alt="" /></td></tr></table>
+
+<form method="post" action="login.php?sid=8c115f114491341375614945340e63cd">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="23" align="right" valign="bottom"><img src="./templates/Aeolus/images/top_left.gif" width="23" height="36" border="0" alt="" /></td><td width="100%" align="left" valign="middle" background="./templates/Aeolus/images/top_center.gif"><table border="0" cellspacing="0" cellpadding="0"><tr><td><img src="./templates/Aeolus/images/spacer.gif" width="1" height="11" border="0" /></td></tr><tr><td align="left" valign="center"><a name="login"></a><span class="cattitle">Log in</span></td></tr></table></td><td width="60" align="left" valign="bottom"><img src="./templates/Aeolus/images/top_right.gif" width="60" height="36" border="0" alt="" /></td></tr></table><table width="100%" cellpadding="3" cellspacing="1" border="0" class="forumline">
+<tr>
+	<td class="row1" align="center" valign="middle" height="28"><span class="gensmall">Username:
+		<input class="post" type="text" name="username" size="10" />
+		&nbsp;&nbsp;&nbsp;Password:
+		<input class="post" type="password" name="password" size="10" />
+		&nbsp;&nbsp; &nbsp;&nbsp;Log me on automatically each visit
+		<input class="text" type="checkbox" name="autologin" checked="checked" />
+		&nbsp;&nbsp;&nbsp;
+		<input type="submit" class="mainoption" name="login" value="Log in" />
+		</span> </td>
+</tr>
+</table><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td width="10" align="right" valign="top"><img src="./templates/Aeolus/images/bottom_left.gif" width="10" height="10" border="0" alt="" /></td><td width="100%" background="./templates/Aeolus/images/bottom_center.gif"><img src="./templates/Aeolus/images/spacer.gif" width="1" height="1" border="0" alt="" /></td><td width="10" align="left" valign="top"><img src="./templates/Aeolus/images/bottom_right.gif" width="10" height="10" border="0" alt="" /></td></tr></table>
+</form>
+
+<table cellspacing="3" border="0" align="center" cellpadding="0">
+  <tr>
+	<td width="20" align="center"><img src="./templates/Aeolus/images/folder_new_big.gif" alt="New posts"/></td>
+	<td><span class="gensmall">New posts</span></td>
+	<td>&nbsp;&nbsp;</td>
+	<td width="20" align="center"><img src="./templates/Aeolus/images/folder_big.gif" alt="No new posts" /></td>
+	<td><span class="gensmall">No new posts</span></td>
+	<td>&nbsp;&nbsp;</td>
+	<td width="20" align="center"><img src="./templates/Aeolus/images/folder_locked_big.gif" alt="Forum is locked" /></td>
+	<td><span class="gensmall">Forum is locked</span></td>
+  </tr>
+</table>
+
+
+<div align="center"><span class="gen"><br /><br /><span class="copyright">
+<!--
+	//
+	//	From phpBB team:
+	//
+
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB 2.0. If you cannot (for good
+	reason) retain the full copyright we request you at least leave in place the
+	Powered by phpBB  line, with phpBB linked to www.phpbb.com. If you refuse
+	to include even this then support on our forums may be affected.
+
+	The phpBB Group : 2002
+
+	//
+	//	From Vjacheslav Trushkin:
+	//
+
+	You are allowed to use this phpBB style only if you agree to the following conditions:
+	- You cannot remove my copyright notice from style without my permission.
+	- You cannot use images from this style anywhere else without my permission.
+	- You can convert this style to another software, but converted style must have my copyright.
+	- If you want to create new phpBB style based on this style you must ask my permission.
+	- If you modify this style it still should contain my copyright because it is based on my work. Modified style should not be available for download without my permission.
+
+	For support visit http://www.phpbbstyles.com
+
+// -->
+Powered by <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB</a>  &copy; 2001-2004 phpBB Group<br />phpBB Style by <a href="http://www.trushkin.net" target="_blank" class="copyright">Vjacheslav Trushkin</a><br /></span></div>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="http://localhost/textpattern/textpattern/css.php?s=default" type="text/css" media="screen" />
+	<title>Ultimate LAMP</title>
+</head>
+<body>
+<div id="accessibility">
+  <a href="#content" title="Go to content">Go to content</a> 
+  <a href="#sidebar-1" title="Go to navigation">Go to navigation</a> 
+  <a href="#sidebar-2" title="Go to search">Go to search</a> 
+</div> <!-- /accessibility -->
+<div id="container">
+
+<!-- head -->
+<div id="head">
+<h1><a href="http://localhost/textpattern/">Ultimate LAMP</a></h1>
+<h2>Writings in TextPattern</h2>
+
+</div>
+
+<!-- left -->
+<div id="sidebar-1">
+
+	<p class="linklist"><a href="http://textpattern.net" title="">TextBook</a><br />
+<a href="http://textpattern.com" title="">Textpattern</a><br />
+<a href="http://textpattern.org" title="">Txp Resources</a><br /></p>
+
+</div>
+
+<!-- right -->
+<div id="sidebar-2">
+
+		<form action="http://localhost/textpattern/" method="get"><p>Search<br /><input type="text" name="q" value="" size="15" /></p></form>
+		<form action="http://localhost/textpattern/" method="get">
+<p>Browse<br /><select name="c" onchange="submit(this.form)">
+	<option value=""></option>
+		<option value="hope-for-the-future">hope for the future</option>
+		<option value="meaningful-labor">meaningful labor</option>
+		<option value="reciprocal-affection">reciprocal affection</option>
+</select></p><noscript><input type="submit" value="go" /></noscript></form>
+		<p><a href="http://localhost/textpattern/index.php?rss=1" title="xml_feed_title">RSS</a> / <a href="http://localhost/textpattern/index.php?atom=1" title="xml_feed_title">Atom</a></p>
+
+		<p><img src="textpattern/txp_img/txp_slug105x45.gif" alt="textpattern" /></p>
+
+
+</div>
+
+<!-- center -->
+<div id="content">
+
+	<h3><a href="http://localhost/textpattern/index.php?id=1" title="Permanent link to this article">First Post</a> &#183; 4513 days ago by Ultimate LAMP</h3>
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec rutrum est eu mauris. In volutpat blandit felis. Suspendisse eget pede. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Quisque sed arcu. Aenean purus nulla, condimentum ac, pretium at, commodo sit amet, turpis. Aenean lacus. Ut in justo. Ut viverra dui vel ante. Duis imperdiet porttitor mi. Maecenas at lectus eu justo porta tempus. Cras fermentum ligula non purus. Duis id orci non magna rutrum bibendum. Mauris tincidunt, massa in rhoncus consectetuer, lectus dui ornare enim, ut egestas ipsum purus id urna. Vestibulum volutpat porttitor metus. Donec congue vehicula ante.</p>
+
+
+ 
+<p class="comments_invite"><a href="http://localhost/textpattern/index.php?id=1#comment"  class="comments_invite">Comment</a> [1]</p>
+<div align="center"><img src="http://localhost/textpattern/images/1.gif" style="height:1px;width:400px" class="divider" alt="" /></div>
+
+
+<p>
+
+
+</p>
+
+</div>
+
+<!-- footer -->
+<div id="foot">&nbsp;</div>
+
+</div>
+
+</body>
+</html>
+<!-- Runtime:    0.0159 -->
+<!-- Query time: 0.010766 -->
+<!-- Queries: 17 -->
+<!-- Memory: 1847Kb, end of textpattern() --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="en"
+    lang="en"
+    dir="ltr">
+<head>
+<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+<title>phpMyAdmin 2.8.0.3 -
+    192.168.220.148</title>
+<meta http-equiv="Content-Type"
+    content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" language="javascript">
+// <![CDATA[
+    // definitions used in querywindow.js
+    var common_query = 'lang=en-iso-8859-1&convcharset=iso-8859-1&collation_connection=utf8_unicode_ci';
+    var opendb_url = 'db_details_structure.php';
+    var safari_browser = false;
+    var querywindow_height = 400;
+    var querywindow_width = 600;
+    var collation_connection = 'utf8_unicode_ci';
+    var lang = 'en-iso-8859-1';
+    var server = '1';
+    var table = '';
+    var db    = '';
+    var text_dir = 'ltr';
+    var pma_absolute_uri = 'http://192.168.220.148/phpmyadmin/';
+// ]]>
+</script>
+<script src="./js/querywindow.js" type="text/javascript" language="javascript">
+</script>
+</head>
+<frameset cols="200,*" rows="*" id="mainFrameset">
+        <frame frameborder="0" id="frame_navigation"
+        src="left.php?lang=en-iso-8859-1&amp;convcharset=iso-8859-1&amp;collation_connection=utf8_unicode_ci&phpMyAdmin=7V%2CU-RsLJmfgrSPX7tfRmkLOD1a"
+        name="frame_navigation" />
+        <frame frameborder="0" id="frame_content"
+        src="main.php?lang=en-iso-8859-1&amp;convcharset=iso-8859-1&amp;collation_connection=utf8_unicode_ci&phpMyAdmin=7V%2CU-RsLJmfgrSPX7tfRmkLOD1a"
+        name="frame_content" />
+        <noframes>
+        <body>
+            <p>phpMyAdmin is more friendly with a <b>frames-capable</b> browser.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+           "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+    <title>Ultimate LAMP Blog </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="Powered-By" content="Serendipity v.0.9.1" />
+    <link rel="stylesheet" type="text/css" href="http://localhost/serendipity/index.php?/serendipity.css" />
+    <link rel="alternate"  type="application/rss+xml" title="Ultimate LAMP Blog RSS feed" href="http://localhost/serendipity/index.php?/feeds/index.rss2" />
+    <link rel="alternate"  type="application/x.atom+xml"  title="Ultimate LAMP Blog Atom feed"  href="http://localhost/serendipity/index.php?/feeds/atom.xml" />
+
+
+</head>
+
+<body>
+
+<div id="serendipity_banner">
+    <h1><a class="homelink1" href="http://localhost/serendipity/">Ultimate LAMP Blog</a></h1>
+    <h2><a class="homelink2" href="http://localhost/serendipity/">My little place on the web...</a></h2>
+</div>
+
+<table id="mainpane">
+    <tr>
+        <td id="content" valign="top"><!-- CONTENT START -->
+
+	<div class="serendipity_content_message"></div>
+
+<!-- ENTRIES START -->
+    
+
+                No entries to print
+        
+    <div class='serendipity_entryFooter' style="text-align: center">
+    
+            (Page 1 of 1, totaling 0 entries)
+    
+    
+    
+    </div>
+<!-- ENTRIES END -->
+
+
+<!-- CONTENT END --></td>
+        <td id="serendipityRightSideBar" valign="top">    <div class="serendipitySideBarItem container_serendipity_calendar_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_calendar_plugin">Calendar</h3>        <div class="serendipitySideBarContent"><table style="width: 100%" cellspacing="0" cellpadding="0" class="serendipity_calendar">
+    <tr>
+        <td class="serendipity_calendarHeader">
+            <a title="Back" href="http://localhost/serendipity/index.php?/archives/2018/08.html"><img alt="Back" src="/serendipity/templates/default/img/back.png" width="16" height="12" style="border: 0px" /></a>
+        </td>
+
+        <td colspan="5" class="serendipity_calendarHeader" style="text-align: center; vertical-align: bottom">
+            <b><a style="white-space: nowrap" href="http://localhost/serendipity/index.php?/archives/2018/09.html">September '18</a></b>
+        </td>
+
+        <td class="serendipity_calendarHeader" style="text-align: right">
+            <a title="Forward" href="http://localhost/serendipity/index.php?/archives/2018/10.html"><img alt="Forward" src="/serendipity/templates/default/img/forward.png" width="16" height="12" style="border: 0px" /></a>
+        </td>
+    </tr>
+
+    <tr>
+            <td scope="col" abbr="Monday" title="Monday" class="serendipity_weekDayName" align="center">Mon</td>
+            <td scope="col" abbr="Tuesday" title="Tuesday" class="serendipity_weekDayName" align="center">Tue</td>
+            <td scope="col" abbr="Wednesday" title="Wednesday" class="serendipity_weekDayName" align="center">Wed</td>
+            <td scope="col" abbr="Thursday" title="Thursday" class="serendipity_weekDayName" align="center">Thu</td>
+            <td scope="col" abbr="Friday" title="Friday" class="serendipity_weekDayName" align="center">Fri</td>
+            <td scope="col" abbr="Saturday" title="Saturday" class="serendipity_weekDayName" align="center">Sat</td>
+            <td scope="col" abbr="Sunday" title="Sunday" class="serendipity_weekDayName" align="center">Sun</td>
+        </tr>
+
+            <tr class="serendipity_calendar">
+                    <td class="serendipity_calendarDay FirstRow FirstInRow">&#160;</td>
+                    <td class="serendipity_calendarDay FirstRow">&#160;</td>
+                    <td class="serendipity_calendarDay FirstRow">&#160;</td>
+                    <td class="serendipity_calendarDay FirstRow">&#160;</td>
+                    <td class="serendipity_calendarDay FirstRow">&#160;</td>
+                    <td class="serendipity_calendarDay FirstRow">1</td>
+                    <td class="serendipity_calendarDay FirstRow LastInRow">2</td>
+                </tr>
+            <tr class="serendipity_calendar">
+                    <td class="serendipity_calendarDay FirstInRow">3</td>
+                    <td class="serendipity_calendarDay ">4</td>
+                    <td class="serendipity_calendarDay ">5</td>
+                    <td class="serendipity_calendarDay ">6</td>
+                    <td class="serendipity_calendarDay ">7</td>
+                    <td class="serendipity_calendarDay ">8</td>
+                    <td class="serendipity_calendarDay LastInRow">9</td>
+                </tr>
+            <tr class="serendipity_calendar">
+                    <td class="serendipity_calendarDay FirstInRow">10</td>
+                    <td class="serendipity_calendarDay ">11</td>
+                    <td class="serendipity_calendarDay ">12</td>
+                    <td class="serendipity_calendarDay ">13</td>
+                    <td class="serendipity_calendarDay ">14</td>
+                    <td class="serendipity_calendarDay ">15</td>
+                    <td class="serendipity_calendarDay LastInRow">16</td>
+                </tr>
+            <tr class="serendipity_calendar">
+                    <td class="serendipity_calendarDay FirstInRow">17</td>
+                    <td class="serendipity_calendarDay ">18</td>
+                    <td class="serendipity_calendarDay Today">19</td>
+                    <td class="serendipity_calendarDay ">20</td>
+                    <td class="serendipity_calendarDay ">21</td>
+                    <td class="serendipity_calendarDay ">22</td>
+                    <td class="serendipity_calendarDay LastInRow">23</td>
+                </tr>
+            <tr class="serendipity_calendar">
+                    <td class="serendipity_calendarDay FirstInRow LastRow">24</td>
+                    <td class="serendipity_calendarDay LastRow">25</td>
+                    <td class="serendipity_calendarDay LastRow">26</td>
+                    <td class="serendipity_calendarDay LastRow">27</td>
+                    <td class="serendipity_calendarDay LastRow">28</td>
+                    <td class="serendipity_calendarDay LastRow">29</td>
+                    <td class="serendipity_calendarDay LastInRow LastRow">30</td>
+                </tr>
+    </table></div>
+    </div>
+    <div class="serendipitySideBarItem container_serendipity_quicksearch_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_quicksearch_plugin">Quicksearch</h3>        <div class="serendipitySideBarContent"><form id="searchform" action="/serendipity/index.php" method="get">
+    <div>
+        <input type="hidden"  name="serendipity[action]" value="search" />
+        <input alt="Quicksearch" type="text"   id="serendipityQuickSearchTermField" name="serendipity[searchTerm]" size="13" />
+    </div>
+    <div id="LSResult" style="display: none;"><div id="LSShadow"></div></div>
+</form>
+</div>
+    </div>
+    <div class="serendipitySideBarItem container_serendipity_archives_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_archives_plugin">Archives</h3>        <div class="serendipitySideBarContent"><a href="/serendipity/index.php?/archives/2018/09.html" title="September 2018">September 2018</a><br />
+<a href="/serendipity/index.php?/archives/2018/08.html" title="August 2018">August 2018</a><br />
+<a href="/serendipity/index.php?/archives/2018/07.html" title="July 2018">July 2018</a><br />
+<a href="/serendipity/">Recent...</a><br />
+<a href="http://localhost/serendipity/index.php?/archive">Older...</a>
+</div>
+    </div>
+    <div class="serendipitySideBarItem container_serendipity_categories_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_categories_plugin">Categories</h3>        <div class="serendipitySideBarContent"><form action="http://localhost/serendipity/index.php" method="post"><div><br /><input type="submit" name="serendipity[isMultiCat]" value="Go!" /><br /><br /><a href="/serendipity/index.php" title="All categories">All categories</a></div></form></div>
+    </div>
+    <div class="serendipitySideBarItem container_serendipity_syndication_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_syndication_plugin">Syndicate This Blog</h3>        <div class="serendipitySideBarContent">        <div style="padding-bottom: 2px;">
+            <a href="/serendipity/index.php?/feeds/index.rss"><img src="/serendipity/templates/default/img/xml.gif" alt="XML" style="border: 0px" /></a>
+            <a href="/serendipity/index.php?/feeds/index.rss">RSS 0.91 feed</a>
+        </div>
+        <div style="padding-bottom: 2px;">
+            <a href="/serendipity/index.php?/feeds/index.rss1"><img src="/serendipity/templates/default/img/xml.gif" alt="XML" style="border: 0px" /></a>
+            <a href="/serendipity/index.php?/feeds/index.rss1">RSS 1.0 feed</a>
+        </div>
+        <div style="padding-bottom: 2px;">
+            <a href="/serendipity/index.php?/feeds/index.rss2"><img src="/serendipity/templates/default/img/xml.gif" alt="XML" style="border: 0px" /></a>
+            <a href="/serendipity/index.php?/feeds/index.rss2">RSS 2.0 feed</a>
+        </div>
+        <div style="padding-bottom: 2px;">
+            <a href="/serendipity/index.php?/feeds/atom03.xml"><img src="/serendipity/templates/default/img/xml.gif" alt="ATOM/XML" style="border: 0px" /></a>
+            <a href="/serendipity/index.php?/feeds/atom03.xml">ATOM 0.3 feed</a>
+        </div>
+        <div style="padding-bottom: 2px;">
+            <a href="/serendipity/index.php?/feeds/atom10.xml"><img src="/serendipity/templates/default/img/xml.gif" alt="ATOM/XML" style="border: 0px" /></a>
+            <a href="/serendipity/index.php?/feeds/atom10.xml">ATOM 1.0 feed</a>
+        </div>
+        <div style="padding-bottom: 2px;">
+            <a href="/serendipity/index.php?/feeds/comments.rss2"><img src="/serendipity/templates/default/img/xml.gif" alt="XML" style="border: 0px" /></a>
+            <a href="/serendipity/index.php?/feeds/comments.rss2"><nobr>RSS 2.0 Comments</nobr></a>
+        </div>
+</div>
+    </div>
+    <div class="serendipitySideBarItem container_serendipity_superuser_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_superuser_plugin">Blog Administration</h3>        <div class="serendipitySideBarContent"><a href="/serendipity/index.php?/admin" title="Open login screen">Open login screen</a></div>
+    </div>
+    <div class="serendipitySideBarItem container_serendipity_plug_plugin">
+        <h3 class="serendipitySideBarTitle serendipity_plug_plugin">Powered by</h3>        <div class="serendipitySideBarContent"><div class="serendipityPlug">
+    <a title="Powered by Serendipity" href="http://www.s9y.org/"><img src="/serendipity/templates/default/img/s9y_banner_small.png" alt="Serendipity PHP Weblog" style="border: 0px" /></a>
+</div>
+</div>
+    </div>
+</td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<script type="text/javascript">
+var tiki_cookie_jar = new Array();
+tiki_cookie_jar = {
+	};
+</script>
+<script type="text/javascript" src="lib/tiki-js.js"></script>
+<title>
+ : HomePage
+</title>
+
+<link rel="StyleSheet"  href="styles/transitions/1.8to1.9.css" type="text/css" />
+<link rel="StyleSheet"  href="styles/tikineat.css" type="text/css" />
+<link rel="icon" href="favicon.png" />
+
+
+
+
+    
+
+
+
+<link rel="alternate" type="application/xml" title="RSS Wiki" href="tiki-wiki_rss.php?ver=2" />
+
+
+
+
+</head>
+
+<body  class="tiki_wiki">
+
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<script type="text/javascript" language="JavaScript" src="lib/overlib.js"></script>
+
+<div id="tiki-main">
+    <div id="tiki-top">
+    This is TikiWiki 1.9.3.1 -Sirius- &#169; 2002&#8211;2006 by the <a href="http://tikiwiki.org" 
+title="tikiwiki.org">Tiki community</a>
+  Wed 19 of Sep, 2018 [23:57 UTC]
+  </div>
+    <div id="tiki-mid">
+  <table id="tiki-midtbl" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+            <td id="leftcolumn" valign="top">
+            
+
+
+
+
+<div class="box box-mnu_application_menu">
+<div class="box-title"><table class="box-title">
+  <tr>
+    <td ondblclick="javascript:icntoggle('mod-mnu_application_menu','mo.png');">
+<span class="box-titletext">Menu</span>
+    </td>
+    <td width="11">
+      <a title="Hide module contents" class="flipmodtitle" href="javascript:icntoggle('mod-mnu_application_menu','mo.png');"><img name="mod-mnu_application_menuicn" class="flipmodimage" src="img/icons/omo.png" border="0" alt="[hide]" /></a>
+</td>
+</tr>
+</table>
+</div><div id="mod-mnu_application_menu" style="display: block" class="box-data">
+
+<div id="mnu_application_menu" style="display:block;">
+
+
+<div class="option">&nbsp;<a href="tiki-index.php" class="linkmenu">Home</a></div>
+<div class="separator">
+
+<a class='separator' href="javascript:icntoggle('menu42__200');" title="Toggle options"><img src="img/icons/fo.gif" border="0" name="menu42__200icn" alt='Toggle'/></a>&nbsp;
+ 
+<a href="tiki-index.php" class="separator">Wiki</a>
+ 
+</div>
+<div style="display:none;" id='menu42__200'>
+<div class="option">&nbsp;<a href="tiki-index.php" class="linkmenu">Wiki Home</a></div>
+<div class="option">&nbsp;<a href="tiki-lastchanges.php" class="linkmenu">Last Changes</a></div>
+<div class="option">&nbsp;<a href="tiki-wiki_rankings.php" class="linkmenu">Rankings</a></div>
+<div class="option">&nbsp;<a href="tiki-listpages.php" class="linkmenu">List pages</a></div>
+<div class="option">&nbsp;<a href="tiki-orphan_pages.php" class="linkmenu">Orphan pages</a></div>
+<div class="option">&nbsp;<a href="tiki-editpage.php?page=sandbox" class="linkmenu">Sandbox</a></div>
+</div>
+
+
+<script language='Javascript' type='text/javascript'>
+      setfolderstate('menu42__200', 'd');
+  </script>
+
+</div>
+
+
+
+<script language="Javascript" type="text/javascript">
+  setsectionstate('mod-mnu_application_menu','mo.png');
+</script>
+
+</div></div>
+            
+
+<!-- no perm -->
+
+            
+
+
+
+<div class="box box-assistant">
+<div class="box-title">TikiWiki Assistant</div><div id="mod-assistant" style="display: block" class="box-data">
+<div><em>Thank you for installing TikiWiki!</em><br />
+Click the :: options in the Menu for more options.
+Please, also see <a class="link" href="http://tikiwiki.org/TikiMovies">TikiMovies</a> for more setup details.
+</div>
+
+
+</div></div>
+                      </td>
+            <td id="centercolumn" valign="top"><div id="tiki-center">
+
+
+<h1><a class="pagetitle" title="refresh" accesskey="2" href="tiki-index.php?page=HomePage">HomePage</a></h1>
+
+<div class="wikitopline">
+<table><tr>
+<td style="vertical-align:top;">
+
+</td>
+	<td style="text-align:right;width:142px;wrap:nowrap">
+	       
+				<a title="print" href="tiki-print.php?page=HomePage"><img src="img/icons/ico_print.gif" border="0"  width="16" height="16" alt="print" /></a>
+	
+				</td>
+
+	
+	
+	
+</tr></table>
+</div>
+
+<div class="wikitext">
+<br />
+
+</div> 
+
+
+<p class="editdate">
+  Created by: <a class='link'  target='_top' href='tiki-user_information.php?view_user=admin' >admin</a>
+  last modification: Sunday 14 of May, 2006 [08:42:33 UTC] by <a class='link'  target='_top' href='tiki-user_information.php?view_user=admin' >admin</a>
+</p>
+
+
+
+            
+
+<hr/>
+<div id="page-bar">
+  <table>
+    <tr>
+
+
+        <td>
+      <div class="button2" >
+      <a href="tiki-pagehistory.php?page=HomePage&amp;source=0" class="linkbut">
+        source
+      </a>
+      </div>
+    </td>
+    
+
+
+<td><div class="button2"><a href="tiki-pagehistory.php?page=HomePage" class="linkbut">history</a></div></td>
+
+<td><div class="button2"><a href="tiki-likepages.php?page=HomePage" class="linkbut">similar</a></div></td>
+
+
+
+ 
+
+  
+  
+  
+
+    
+  
+
+</tr>
+</table>
+</div>
+
+
+            </div>
+      </td>
+            <td id="rightcolumn" valign="top">
+            
+
+
+
+<div class="box box-login_box">
+<div class="box-title">Login</div><div id="mod-login_box" style="display: block" class="box-data">
+
+         <form name="loginbox" action="tiki-login.php" method="post" > 
+           <table border="0">
+      <tr>
+        <td>
+          <table>
+          <tr><td class="module"><label for="login-user">user:</label></td></tr>
+		          <tr><td><input type="text" name="user" id="login-user" size="20" /></td></tr>
+		                    <tr><td class="module"><label for="login-pass">pass:</label></td></tr>
+          <tr><td><input type="password" name="pass" id="login-pass" size="20" /></td></tr>
+          <tr><td><input type="submit" name="login" value="login" /></td></tr>
+                    <tr>
+                                                  <td valign="bottom">&nbsp;</td>
+                    </tr>
+                              </table>
+        </td>
+      </tr>
+      </table>
+
+              <input type="hidden" name="stay_in_ssl_mode" value="" />
+      			      </form>
+    
+
+</div></div>
+                      </td>
+          </tr>
+    </table>
+  </div>
+    <div id="tiki-bot">
+    	<div id="power" style="text-align: center">
+		<a href="http://tikiwiki.org/" title="TikiWiki"><img style="border: 0; vertical-align: middle" alt="Powered by TikiWiki" src="img/tiki/tikibutton2.png" /></a>
+		<a href="http://www.php.net/" title="PHP"><img style="border: 0; vertical-align: middle" alt="Powered by PHP" src="img/php.png" /></a>
+		<a href="http://smarty.php.net/" title="Smarty"><img style="border: 0; vertical-align: middle" alt="Powered by Smarty" src="img/smarty.gif"  /></a>
+		<a href="http://adodb.sourceforge.net/" title="ADOdb"><img style="border: 0; vertical-align: middle" alt="Powered by ADOdb" src="img/adodb.png" /></a>
+		<a href="http://www.w3.org/Style/CSS/" title="CSS"><img style="border: 0; vertical-align: middle" alt="Made with CSS" src="img/css1.png" /></a>
+		<a href="http://www.w3.org/RDF/" title="RDF"><img style="border: 0; vertical-align: middle" alt="Powered by RDF" src="img/rdf.gif"  /></a>
+						
+		
+	</div>
+
+	<div id="rss" style="text-align: center">
+						<a title="Wiki RSS" href="tiki-wiki_rss.php?ver=2"><img alt="RSS" style="border: 0; vertical-align: text-bottom;" src="img/rss.png" /></a>
+				<small>Wiki</small>
+																			</div>
+
+
+
+
+<div id="loadstats" style="text-align: center">
+	<small>[ Execution time: 0.36 secs ] &nbsp; [ Memory usage: 7.91MB ] &nbsp; [ 21 database queries used ] &nbsp; [ GZIP Disabled ] &nbsp; [ Server load: 0.00 ]</small>
+</div>
+  </div>
+  </div>
+
+
+</body>
+</html>  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="modules/icons/iconpacks/paularmstrongdesigns/icons.css"/>
+<script type="text/javascript" src="modules/search/SearchBlock.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Gallery</title>
+<link rel="stylesheet" type="text/css" href="themes/matrix/theme.css"/>
+</head>
+<body class="gallery">
+<div id="gallery">
+<div id="gsHeader">
+<img src="images/galleryLogo_sm.gif" width="107" height="48" alt=""/>
+</div>
+<div id="gsNavBar" class="gcBorder1">
+<div class="gbSystemLinks">
+<span class="block-core-SystemLink">
+<a href="main.php?g2_view=core.UserAdmin&amp;g2_subView=core.UserLogin&amp;g2_return=main.php%3F&amp;&amp;g2_returnName=album">Login</a>
+</span>
+<span class="block-core-SystemLink">
+<a href="main.php?g2_view=core.UserAdmin&amp;g2_subView=register.UserSelfRegistration&amp;g2_return=main.php%3F&amp;&amp;g2_returnName=album">Register</a>
+</span>
+</div>
+<div class="gbBreadCrumb">
+<div class="block-core-BreadCrumb">
+<span class="BreadCrumb-1">
+Gallery</span>
+</div>
+</div>
+</div>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td id="gsSidebarCol">
+<div id="gsSidebar" class="gcBorder1">
+<div class="block-search-SearchBlock gbBlock">
+<form id="search_SearchBlock" action="main.php" method="post" onsubmit="return search_SearchBlock_checkForm()">
+<div>
+<input type="hidden" name="g2_returnName" value="album"/>
+<input type="hidden" name="g2_return" value="main.php"/>
+<input type="hidden" name="g2_formUrl" value="main.php"/>
+<input type="hidden" name="g2_view" value="search.SearchScan"/>
+<input type="hidden" name="g2_form[formName]" value="search_SearchBlock"/>
+<input type="text" id="searchCriteria" size="18"
+name="g2_form[searchCriteria]"
+value="Search the Gallery"
+onfocus="search_SearchBlock_focus()"
+onblur="search_SearchBlock_blur()"
+class="textbox"/>
+<input type="hidden" name="g2_form[useDefaultSettings]" value="1" />
+</div>
+<div>
+<a href="main.php?g2_view=search.SearchScan&amp;g2_form%5BuseDefaultSettings%5D=1&amp;g2_return=main.php%3F&amp;&amp;g2_returnName=album"
+class="gbAdminLink gbLink-search_SearchScan advanced">Advanced Search</a>
+</div>
+</form>
+</div>
+<div class="block-core-ItemLinks gbBlock">
+<a href="main.php?g2_controller=cart.AddToCart&amp;g2_itemId=7&amp;g2_return=main.php%3F&amp;&amp;g2_returnName=album" class="gbAdminLink gbAdminLink gbLink-cart_AddToCart">Add Album To Cart</a>
+<a href="main.php?g2_view=rss.SimpleRender&amp;g2_itemId=7" class="gbAdminLink gbAdminLink gbLink-rss_SimpleRender">RSS Feed for this Album</a>
+<a href="main.php?g2_view=slideshow.Slideshow&amp;g2_itemId=7" class="gbAdminLink gbAdminLink gbLink-slideshow_Slideshow">View Slideshow</a>
+<a href="main.php?g2_view=slideshowapplet.SlideshowApplet&amp;g2_itemId=7" class="gbAdminLink gbAdminLink gbLink-slideshowapplet_SlideshowApplet">View Slideshow (Fullscreen)</a>
+</div>
+</div>
+</td>
+<td>
+<div id="gsContent" class="gcBorder1">
+<div class="gbBlock gcBackground1">
+<table style="width: 100%">
+<tr>
+<td>
+<h2> Gallery </h2>
+<p class="giDescription">
+This is the main page of your Gallery
+</p>
+</td>
+<td style="width: 30%">
+<div class="block-core-ItemInfo giInfo">
+<span class="date summary">
+Date: 05/13/2006
+</span>
+<span class="owner summary">
+Owner: Gallery Administrator
+</span>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="gbBlock giDescription gbEmptyAlbum">
+<h3 class="emptyAlbum">
+This album is empty.
+</h3>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<div id="gsFooter">
+<a href="http://gallery.sourceforge.net"><img src="images/gallery.gif" alt="Gallery 2.1" title="Gallery 2.1" style="border-style: none" width="80" height="15"/></a>
+</div>
+</div>
+<script type="text/javascript">
+// <![CDATA[
+search_SearchBlock_init('Search the Gallery', 'Please enter a search term.');
+// ]]>
+</script>
+</body>
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>phpWebSite</title>
+<meta name="generator" content="phpWebSite" />
+<meta name="keywords" content="phpwebsite" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+var cookievar = "11572c8851b75390b622a687745101ff[users][js_on]=1"; document.cookie = cookievar;
+//]]>
+</script>
+<link rel="stylesheet" href="themes/clean/style.css" type="text/css" />
+
+</head>
+<body>
+
+<!--
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr>
+<td width="10%"><img src="themes/clean/img/logo.gif" alt=""/></td>
+<td width="90%" style="background-image : url(themes/clean/img/bar.gif); background-repeat : repeat-x">&nbsp;</td>
+</tr>
+</table><br />
+-->
+<div align="right"><img src="/images/ultimateLAMP2x300.jpg" /></div>
+
+<table border="0" cellpadding="5" cellspacing="0" width="100%" summary="Layout table">
+  <tr>
+
+<td width="15%" valign="top" align="center">
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tr>
+    <td><img alt="" src="themes/clean/boxstyles/img/topLeft.gif" height="14" width="13" border="0" /></td>
+    <td width="100%" style="background-image : url(themes/clean/boxstyles/img/topBg.gif)"><img height="14" alt="" src="themes/clean/boxstyles/img/topBg.gif" width="10" border="0" /></td>
+    <td><img height="14" alt="" src="themes/clean/boxstyles/img/topRight.gif" width="19" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="13" style="background-image : url(themes/clean/boxstyles/img/leftBg.gif)"><img height="10" alt="" src="themes/clean/boxstyles/img/leftBg.gif" width="13" border="0" /></td>
+    <td width="100%" style="background-color : #eeeeee">
+      <div style="color : #777777; font-family : arial, helvetica; font-size : .8em; text-transform : uppercase; text-align : left; font-weight : bold">Menu</div><hr />
+      <div style="text-align : left"><table width="100%" border="0" cellpadding="2" cellspacing="0"><tr>
+<td align="left" nowrap="nowrap">
+
+
+
+
+<a href="./index.php?&amp;MMN_position=1:1">Home</a>
+</td>
+
+
+
+
+
+
+</tr></table></div>
+    </td>
+    <td width="19" style="background-image : url(themes/clean/boxstyles/img/rightBg.gif)"><img height="9" alt="" src="themes/clean/boxstyles/img/rightBg.gif" width="19" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="13"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomLeft.gif" width="13" border="0" /></td>
+    <td width="100%" style="background-image : url(themes/clean/boxstyles/img/bottomBg.gif)"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomBg.gif" width="10" border="0" /></td>
+    <td width="19"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomRight.gif" width="19" border="0" /></td>
+  </tr>
+</table>
+<br />
+
+    
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tr>
+    <td><img alt="" src="themes/clean/boxstyles/img/topLeft.gif" height="14" width="13" border="0" /></td>
+    <td width="100%" style="background-image : url(themes/clean/boxstyles/img/topBg.gif)"><img height="14" alt="" src="themes/clean/boxstyles/img/topBg.gif" width="10" border="0" /></td>
+    <td><img height="14" alt="" src="themes/clean/boxstyles/img/topRight.gif" width="19" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="13" style="background-image : url(themes/clean/boxstyles/img/leftBg.gif)"><img height="10" alt="" src="themes/clean/boxstyles/img/leftBg.gif" width="13" border="0" /></td>
+    <td width="100%" style="background-color : #eeeeee">
+      <div style="color : #777777; font-family : arial, helvetica; font-size : .8em; text-transform : uppercase; text-align : left; font-weight : bold">Calendar</div><hr />
+      <div style="text-align : left"><div align="center">	
+
+  <span class="smalltext noline"><a href="./index.php?module=calendar&amp;calendar[user]=changeBoxMonth&amp;month=08&amp;year=2018"> &lt;</a></span> <span class="noline"><b><a href="./index.php?module=calendar&amp;calendar[view]=month&amp;month=9&amp;year=2018">September</a>, <a href="./index.php?module=calendar&amp;calendar[view]=year&amp;year=2018">2018</a></b></span> <span class="smalltext noline"><a href="./index.php?module=calendar&amp;calendar[user]=changeBoxMonth&amp;month=10&amp;year=2018"> &gt;</a></span>
+  <table class="black" cellspacing="1" cellpadding="4">
+    <tr class="bg_medium">
+      <td align="center" width="14%"><span class="smalltext"><b>S</b></span></td>
+      <td align="center" width="14%"><span class="smalltext"><b>M</b></span></td>
+      <td align="center" width="14%"><span class="smalltext"><b>T</b></span></td>
+      <td align="center" width="14%"><span class="smalltext"><b>W</b></span></td>
+      <td align="center" width="14%"><span class="smalltext"><b>T</b></span></td>
+      <td align="center" width="14%"><span class="smalltext"><b>F</b></span></td>
+      <td align="center" width="14%"><span class="smalltext"><b>S</b></span></td>
+    </tr>
+  <tr>
+  <td class="bg_light"><span class="smalltext">26</span></td>
+  <td class="bg_light"><span class="smalltext">27</span></td>
+  <td class="bg_light"><span class="smalltext">28</span></td>
+  <td class="bg_light"><span class="smalltext">29</span></td>
+  <td class="bg_light"><span class="smalltext">30</span></td>
+  <td class="bg_light"><span class="smalltext">31</span></td>
+  <td class="white"><span class="smalltext">01</span></td>
+</tr>
+
+  <tr>
+  <td class="white"><span class="smalltext">02</span></td>
+  <td class="white"><span class="smalltext">03</span></td>
+  <td class="white"><span class="smalltext">04</span></td>
+  <td class="white"><span class="smalltext">05</span></td>
+  <td class="white"><span class="smalltext">06</span></td>
+  <td class="white"><span class="smalltext">07</span></td>
+  <td class="white"><span class="smalltext">08</span></td>
+</tr>
+
+  <tr>
+  <td class="white"><span class="smalltext">09</span></td>
+  <td class="white"><span class="smalltext">10</span></td>
+  <td class="white"><span class="smalltext">11</span></td>
+  <td class="white"><span class="smalltext">12</span></td>
+  <td class="white"><span class="smalltext">13</span></td>
+  <td class="white"><span class="smalltext">14</span></td>
+  <td class="white"><span class="smalltext">15</span></td>
+</tr>
+
+  <tr>
+  <td class="white"><span class="smalltext">16</span></td>
+  <td class="white"><span class="smalltext">17</span></td>
+  <td class="white"><span class="smalltext">18</span></td>
+  <td class="bg_medium"><span class="smalltext">19</span></td>
+  <td class="white"><span class="smalltext">20</span></td>
+  <td class="white"><span class="smalltext">21</span></td>
+  <td class="white"><span class="smalltext">22</span></td>
+</tr>
+
+  <tr>
+  <td class="white"><span class="smalltext">23</span></td>
+  <td class="white"><span class="smalltext">24</span></td>
+  <td class="white"><span class="smalltext">25</span></td>
+  <td class="white"><span class="smalltext">26</span></td>
+  <td class="white"><span class="smalltext">27</span></td>
+  <td class="white"><span class="smalltext">28</span></td>
+  <td class="white"><span class="smalltext">29</span></td>
+</tr>
+
+  
+  <tr>
+  <td class="white"><span class="smalltext">30</span></td>
+  <td class="bg_light"><span class="smalltext">01</span></td>
+  <td class="bg_light"><span class="smalltext">02</span></td>
+  <td class="bg_light"><span class="smalltext">03</span></td>
+  <td class="bg_light"><span class="smalltext">04</span></td>
+  <td class="bg_light"><span class="smalltext">05</span></td>
+  <td class="bg_light"><span class="smalltext">06</span></td>
+</tr>
+
+  
+  </table>
+<br />
+
+
+
+
+
+<form action="index.php" method="post">
+<input type="hidden" name="module" value="calendar" />
+<input type="hidden" name="calendar[user]" value="userEvent" />
+<input type="submit" name="newEvent" value="Submit Event" />
+</form>
+
+
+</div>
+</div>
+    </td>
+    <td width="19" style="background-image : url(themes/clean/boxstyles/img/rightBg.gif)"><img height="9" alt="" src="themes/clean/boxstyles/img/rightBg.gif" width="19" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="13"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomLeft.gif" width="13" border="0" /></td>
+    <td width="100%" style="background-image : url(themes/clean/boxstyles/img/bottomBg.gif)"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomBg.gif" width="10" border="0" /></td>
+    <td width="19"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomRight.gif" width="19" border="0" /></td>
+  </tr>
+</table>
+<br />
+
+</td>
+
+    <td valign="top" width="70%">
+    
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tr>
+    <td><img alt="" src="themes/clean/boxstyles/img/topLeft.gif" height="14" width="13" border="0" /></td>
+    <td width="100%" style="background-image : url(themes/clean/boxstyles/img/topBg.gif)"><img height="14" alt="" src="themes/clean/boxstyles/img/topBg.gif" width="10" border="0" /></td>
+    <td><img height="14" alt="" src="themes/clean/boxstyles/img/topRight.gif" width="19" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="13" style="background-image : url(themes/clean/boxstyles/img/leftBg.gif)"><img height="10" alt="" src="themes/clean/boxstyles/img/leftBg.gif" width="13" border="0" /></td>
+    <td width="100%" style="background-color : #eeeeee">
+      <div style="color : #777777; font-family : arial, helvetica; font-size : .8em; text-transform : uppercase; text-align : left; font-weight : bold">Web Page Demo</div><hr />
+      <div style="text-align : left">
+
+
+<h3>Web Page Demo Section</h3>
+
+
+
+phpWebSite provides a complete web site content management system. Web-based administration allows for easy maintenance of interactive, community-driven web sites.<br />
+<br />
+phpWebSite's growing number of modules allow for easy site customization without the need for unwanted or unused features. Client output from phpWebSite is valid XHTML 1.0 and meets the W3C's Web Accessibility Initiative requirements.<br />
+<br />
+Founded and hosted by the Web Technology Group at Appalachian State University, phpWebSite is developed by the phpWebSite Development Team, a network of developers from around the world. phpWebSite is free, open source software and is licensed under the GNU LGPL.<br />
+<br />
+Thank you! - The phpWebSite Development Team<br />
+<br />
+Theme packs are now available through the phpWebSite Community Project and can be found <a href="http://sourceforge.net/project/showfiles.php?group_id=81360&amp;package_id=83571">here</a>.<br />
+
+
+
+
+<h3>UltimateLAMP</h3>
+
+
+
+Feel free to experiment with PhpWebSite.<br />
+
+
+
+
+<br />
+<table border="0" width="100%">
+<tr>
+
+<td class="smalltext">
+Created on 02/04/2003 10:24 AM by admin<br />
+Updated on 05/13/2006 12:18 AM by phpwebsite
+</td>
+
+
+<td align="right">&nbsp;<a href="./index.php?module=pagemaster&amp;PAGE_user_op=view_printable&amp;PAGE_id=1&amp;lay_quiet=1" target="_blank" ><img src="./images/print.gif" border="0" width="22" height="20" alt="Printable Version"/></a>
+</td>
+
+</tr></table>
+
+</div>
+    </td>
+    <td width="19" style="background-image : url(themes/clean/boxstyles/img/rightBg.gif)"><img height="9" alt="" src="themes/clean/boxstyles/img/rightBg.gif" width="19" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="13"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomLeft.gif" width="13" border="0" /></td>
+    <td width="100%" style="background-image : url(themes/clean/boxstyles/img/bottomBg.gif)"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomBg.gif" width="10" border="0" /></td>
+    <td width="19"><img height="20" alt="" src="themes/clean/boxstyles/img/bottomRight.gif" width="19" border="0" /></td>
+  </tr>
+</table>
+<br />
+
+    
+    </td>
+
+  </tr>
+</table>
+
+<div class="smalltype" style="text-align : center">
+Copyright &#169; Appalachian State University 2002 - 2004<br />
+This Site is powered by phpWebSite &#169; The Web Technology Group, Appalachian State University<br />
+phpWebSite is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL</a>
+</div>
+<br />
+</body>
+</html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <title>UltimateLAMP Drupal | Drupal for everyday use</title>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css" media="all">@import "misc/drupal.css";</style><link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost/drupal/?q=rss.xml" />
+
+<link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon" />
+  <style type="text/css" media="all">@import "themes/pushbutton/style.css";</style></head>
+
+<body bgcolor="#ffffff">
+
+<div class="hide"><a href="#content" title="Skip navigation." accesskey="2">Skip navigation</a>.</div>
+
+<table id="primary-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td id="home" width="10%">
+              <a href="" title="Home"><img src="files/logo.jpg" alt="Home" border="0" /></a>
+          </td>
+
+    <td id="site-info" width="20%">
+              <div class='site-name'><a href="" title="Home">UltimateLAMP Drupal</a></div>
+                </td>
+    <td class="primary-links" width="70%" align="center" valign="middle">
+      <a href="?q=admin/menu">edit primary links</a>    </td>
+  </tr>
+</table>
+
+<table id="secondary-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td class="secondary-links" width="75%"  align="center" valign="middle">
+          </td>
+    <td  width="25%"  align="center" valign="middle">
+          </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div></div></td>
+  </tr>
+</table>
+
+<table id="content" border="0" cellpadding="15" cellspacing="0" width="100%">
+  <tr>
+        <td id="sidebar-left">
+      <div class="block block-user" id="block-user-0">
+  <div class="title"><h3>User login</h3></div>
+  <div class="content"><form action="?q=node&amp;destination="  method="post" id="user-login-form">
+<div><div class="form-item">
+ <label for="edit-name">Username:<span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="edit[name]" id="edit-name"  size="15" value="" class="form-text required" />
+</div>
+<div class="form-item">
+ <label for="edit-pass">Password:<span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" maxlength="" name="edit[pass]" id="edit-pass"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li><a href="?q=user/register" title="Create a new user account.">Create new account</a></li><li><a href="?q=user/password" title="Request new password via e-mail.">Request new password</a></li></ul></div><input type="hidden" name="edit[form_id]" id="edit-form_id" value="user_login_block"  />
+
+</div></form>
+</div>
+</div><div class="block block-user" id="block-user-1">
+  <div class="title"><h3>Navigation</h3></div>
+  <div class="content">
+<ul class="menu">
+<li class="leaf"><a href="?q=blog" title="">blogs</a></li>
+<li class="leaf"><a href="?q=filter/tips" title="">compose tips</a></li>
+<li class="leaf"><a href="?q=contact" title="">contact</a></li>
+<li class="leaf"><a href="?q=node" title="" class="active">content</a></li>
+<li class="leaf"><a href="?q=forum" title="">forums</a></li>
+<li class="leaf"><a href="?q=tracker">recent posts</a></li>
+
+</ul>
+</div>
+</div>    </td>
+    
+    <td valign="top">
+            <div id="mission">To provide a demonstration of what LAMP software can do for your organisation.</div>
+      
+      <div id="main">
+        
+        
+        
+      <!-- start main content -->
+      <!-- begin content --><div class="node">
+        <h1 class="title"><a href="?q=node/1">Drupal Installed in UltimateLAMP</a></h1>
+      <span class="submitted">Submitted by drupal on Sat, 2006-05-13 13:10.</span>
+    <span class="taxonomy"></span>
+    <div class="content"><p>Drupal has been installed and now incorporated as one of the products for the <a href="http://ultimateLAMP.arabx.com.au">UltimateLAMP</a> VMware Player demonstration.</p>
+<p>Be sure to check out all the installed software products at <a href="http://localhost">http://localhost</a>.</p>
+</div>
+        <div class="links">&raquo; <a href="?q=blog/1" title="Read drupal&#039;s latest blog entries.">drupal&#039;s blog</a></div>
+    </div>
+<!-- end content -->      <!-- end main content -->
+
+      </div><!-- main -->
+    </td>
+      </tr>
+</table>
+
+<table id="footer-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="middle">
+          <div class="primary-links">
+        <a href="?q=admin/menu">edit primary links</a>      </div>
+            </td>
+  </tr>
+</table>
+
+<div id="footer-message">
+    <p>
+</p>
+</div>
+</body>
+</html>
+<?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The UltimateLAMP home of Joomla - Home</title>
+<meta name="description" content="Joomla - the dynamic portal engine and content management system" />
+<meta name="keywords" content="Joomla, joomla" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+	<link rel="shortcut icon" href="http://localhost/joomla/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="http://localhost/joomla/templates/rhuk_solarflare_ii/css/template_css.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div align="center">
+	<table border="0" cellpadding="0" cellspacing="0" width="808">
+		<tr>
+			<td class="outline">
+		  		<div id="buttons_outer">
+		  		  <div id="buttons_inner">
+						<div id="buttons">
+						<ul id="mainlevel-nav"><li><a href="http://localhost/joomla/index.php" class="mainlevel-nav" >Home</a></li><li><a href="http://localhost/joomla/index.php?option=com_contact&amp;Itemid=3" class="mainlevel-nav" >Contact Us</a></li><li><a href="http://localhost/joomla/index.php?option=com_content&amp;task=section&amp;id=1&amp;Itemid=2" class="mainlevel-nav" >News</a></li><li><a href="http://localhost/joomla/index.php?option=com_weblinks&amp;Itemid=23" class="mainlevel-nav" >Links</a></li></ul>						</div>
+					</div>
+		  		</div>
+		  		<div id="search_outer">
+		  		  <div id="search_inner">
+		  		  
+<form action="index.php?option=com_search&amp;Itemid=5" method="get">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="search" class="inputbox" type="text" size="20" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />	</div>
+
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="5" />	
+</form>		  		  </div>
+		  		</div>
+		  		<div class="clr"></div>
+		  		<div id="header_outer">
+		  			<div id="header">
+		  			&nbsp;
+		  			</div>
+		  			<div id="top_outer">
+						<div id="top_inner">
+								<div class="moduletable">
+							<h3>
+					Newsflash				</h3>
+				
+		<table class="contentpaneopen">
+				<tr>
+			<td valign="top" colspan="2">
+			Joomla! 1.0 - 'Experience the Freedom'!. It has never been easier to create
+your own dynamic site. Manage all your content from the best CMS admin
+interface.			</td>
+		</tr>
+				</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+				</div>
+								 </div>
+				  </div>
+		  		</div>
+		  		<div id="left_outer">
+		  			<div id="left_inner">
+		  					<div class="moduletable">
+							<h3>
+					Main Menu				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" id="active_menu">Home</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=6" class="mainlevel" >Joomla! License</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_content&amp;task=section&amp;id=1&amp;Itemid=2" class="mainlevel" >News</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_content&amp;task=blogsection&amp;id=0&amp;Itemid=9" class="mainlevel" >Blog</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_weblinks&amp;Itemid=23" class="mainlevel" >Links</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_contact&amp;Itemid=3" class="mainlevel" >Contact Us</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_search&amp;Itemid=5" class="mainlevel" >Search</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_newsfeeds&amp;Itemid=7" class="mainlevel" >News Feeds</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_content&amp;task=category&amp;sectionid=3&amp;id=7&amp;Itemid=25" class="mainlevel" >FAQs</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/index.php?option=com_wrapper&amp;Itemid=8" class="mainlevel" >Wrapper</a></td></tr>
+</table>		</div>
+				<div class="moduletable">
+			
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://www.joomla.org" class="mainlevel" >Joomla! Home</a></td></tr>
+<tr align="left"><td><a href="http://forum.joomla.org" class="mainlevel" >Joomla! Forums</a></td></tr>
+<tr align="left"><td><a href="http://www.opensourcematters.org" class="mainlevel" >OSM Home</a></td></tr>
+<tr align="left"><td><a href="http://localhost/joomla/administrator/" class="mainlevel" >Administrator</a></td></tr>
+</table>		</div>
+				<div class="moduletable">
+							<h3>
+					Login Form				</h3>
+					<form action="http://localhost/joomla/index.php" method="post" name="login" >
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td>
+			<label for="mod_login_username">
+				Username			</label>
+			<br />
+			<input name="username" id="mod_login_username" type="text" class="inputbox" alt="username" size="10" />
+			<br />
+			<label for="mod_login_password">
+				Password			</label>
+			<br />
+			<input type="password" id="mod_login_password" name="passwd" class="inputbox" size="10" alt="password" />
+			<br />
+			<input type="checkbox" name="remember" id="mod_login_remember" class="inputbox" value="yes" alt="Remember Me" />
+			<label for="mod_login_remember">
+				Remember me			</label>
+			<br />
+			<input type="hidden" name="option" value="login" />
+			<input type="submit" name="Submit" class="button" value="Login" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<a href="http://localhost/joomla/index.php?option=com_registration&amp;task=lostPassword">
+			Lost Password?</a>
+		</td>
+	</tr>
+			<tr>
+			<td>
+				No account yet?				<a href="http://localhost/joomla/index.php?option=com_registration&amp;task=register">
+					Register</a>
+			</td>
+		</tr>
+			</table>
+	
+	<input type="hidden" name="op2" value="login" />
+	<input type="hidden" name="lang" value="english" />
+	<input type="hidden" name="return" value="http://localhost/joomla/http://192.168.220.148/joomla/" />
+	<input type="hidden" name="message" value="0" />
+	</form>
+			</div>
+				<div class="moduletable">
+							<h3>
+					Syndicate				</h3>
+				<div class="syndicate">
+			<div align="center">
+			<a href="http://localhost/joomla/index.php?option=com_rss&amp;feed=RSS0.91&amp;no_html=1">
+				<img src="http://localhost/joomla/images/M_images/rss091.gif" alt="RSS 0.91" align="middle" name="RSS091" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://localhost/joomla/index.php?option=com_rss&amp;feed=RSS1.0&amp;no_html=1">
+				<img src="http://localhost/joomla/images/M_images/rss10.gif" alt="RSS 1.0" align="middle" name="RSS10" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://localhost/joomla/index.php?option=com_rss&amp;feed=RSS2.0&amp;no_html=1">
+				<img src="http://localhost/joomla/images/M_images/rss20.gif" alt="RSS 2.0" align="middle" name="RSS20" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://localhost/joomla/index.php?option=com_rss&amp;feed=ATOM0.3&amp;no_html=1">
+				<img src="http://localhost/joomla/images/M_images/atom03.gif" alt="ATOM 0.3" align="middle" name="ATOM03" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://localhost/joomla/index.php?option=com_rss&amp;feed=OPML&amp;no_html=1">
+				<img src="http://localhost/joomla/images/M_images/opml.png" alt="OPML" align="middle" name="OPML" border="0" /></a>
+		</div>
+		</div>		</div>
+				  			</div>
+		  		</div>
+		  		<div id="content_outer">
+					<div id="content_inner">
+							  				<table border="0" cellpadding="0" cellspacing="0" width="100%" class="content_table">
+						<tr>
+								<td>
+									<div id="banner_inner">
+									<img src="http://localhost/joomla/templates/rhuk_solarflare_ii/images/advertisement.png" alt="advertisement.png, 0 kB" title="advertisement" border="0" height="8" width="468"/><br />
+			  					<a href="http://localhost/joomla/index.php?option=com_banners&amp;task=click&amp;bid=1" target="_blank"><img src="http://localhost/joomla/images/banners/osmbanner1.png" border="0" alt="Advertisement" /></a><br />
+									</div>
+									<div id="poweredby_inner">
+										<img src="http://localhost/joomla/templates/rhuk_solarflare_ii/images/powered_by.png" alt="powered_by.png, 1 kB" title="powered_by" border="0" height="68" width="165"/><br />
+									</div>
+								</td>
+							</tr>
+							</table>
+									  			<table border="0" cellpadding="0" cellspacing="0" width="100%" class="content_table">
+						<tr valign="top">
+							<td width="99%">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="content_table">
+
+																	<tr valign="top">
+														  						<td width="50%">
+				  							<div class="user1_inner">
+				  									<div class="moduletable">
+							<h3>
+					Latest News				</h3>
+				<ul class="latestnews">
+	<li class="latestnews">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=4&amp;Itemid=9" class="latestnews">
+			Newsflash 3</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=9" class="latestnews">
+			Newsflash 1</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=3&amp;Itemid=9" class="latestnews">
+			Newsflash 2</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=2" class="latestnews">
+			Example News Item 1</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=9&amp;Itemid=2" class="latestnews">
+			Example News Item 4</a>
+	</li>
+	</ul>		</div>
+						  							</div>
+				  						</td>
+				  																	<td width="2">
+												<img src="http://localhost/joomla/templates/rhuk_solarflare_ii/images/spacer.png" alt="" title="spacer" border="0" height="10" width="2"/>
+											</td>
+														  						<td width="50%">
+				  							<div class="user2_inner">
+				  									<div class="moduletable">
+							<h3>
+					Popular				</h3>
+				<ul class="mostread">
+ 	<li class="mostread">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=11&amp;Itemid=9" class="mostread">
+			Example FAQ Item 2</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=10&amp;Itemid=9" class="mostread">
+			Example FAQ Item 1</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=9&amp;Itemid=2" class="mostread">
+			Example News Item 4</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=2" class="mostread">
+			Example News Item 1</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=4&amp;Itemid=9" class="mostread">
+			Newsflash 3</a>
+ 	</li>
+ 	</ul>		</div>
+						  							</div>
+				  						</td>
+				  															</tr>
+									<tr>
+										<td colspan="3">
+											<img src="http://localhost/joomla/templates/rhuk_solarflare_ii/images/spacer.png" alt="" title="spacer" border="0" height="2" width="100"/><br />
+										</td>
+									</tr>
+																	<tr>
+									<td colspan="3">
+										<div id="pathway_text">
+										<span class="pathway">Home </span>										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3" class="body_outer">
+				  					 <table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><div>			<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+				Welcome to Joomla!								</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+				<tr>
+			<td width="70%" align="left" valign="top" colspan="2">
+			<span class="small">
+			 Written by Web Master			</span>
+			&nbsp;&nbsp;
+			</td>
+		</tr>
+					<tr>
+				<td valign="top" colspan="2" class="createdate">
+				Saturday, 12 June 2004				</td>
+			</tr>
+					<tr>
+			<td valign="top" colspan="2">
+			If you've read anything at all about Content Management Systems (CMS), you'll probably know at least three things: CMS are the most exciting way to do business, CMS can be really, I mean <i>really</i>, complicated and lastly Portals are absolutely, outrageously, often <i>unaffordably</i> expensive. <br /><br /><div class="mosimage"  style=" border-width: 1px; float: left; width: 120px;" align="center"><img src="http://localhost/joomla/images/stories/asterisk.png" width="70" height="67" hspace="6" alt="Joomla! Logo" title="Joomla! Logo" border="0" /><div class="mosimage_caption" style="text-align: center;" align="center">Example Caption</div></div>Joomla! is set to change all that ... Joomla! is different from the normal models for portal software. For a start, it's not complicated. Joomla! has been developed for the masses. It's licensed under the GNU/GPL license, easy to install and administer and reliable. Joomla! doesn't even require the user or administrator of the system to know HTML to operate it once it's up and running.			</td>
+		</tr>
+					<tr>
+				<td colspan="2" align="left" class="modifydate">
+				Last Updated ( Saturday, 12 June 2004 )
+				</td>
+			</tr>
+							<tr>
+					<td align="left" colspan="2">
+					<a href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=2" class="readon">
+					Read more...					</a>
+					</td>
+				</tr>
+						</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+		</div></td></tr><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="50%">			<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+				Newsflash 1								</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+				<tr>
+			<td width="70%" align="left" valign="top" colspan="2">
+			<span class="small">
+			 Written by Administrator			</span>
+			&nbsp;&nbsp;
+			</td>
+		</tr>
+					<tr>
+				<td valign="top" colspan="2" class="createdate">
+				Monday, 09 August 2004				</td>
+			</tr>
+					<tr>
+			<td valign="top" colspan="2">
+			Joomla! 1.0 - 'Experience the Freedom'!. It has never been easier to create
+your own dynamic site. Manage all your content from the best CMS admin
+interface.			</td>
+		</tr>
+				</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+		</td><td valign="top" width="50%">			<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+				Newsflash 2								</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+				<tr>
+			<td width="70%" align="left" valign="top" colspan="2">
+			<span class="small">
+			 Written by Administrator			</span>
+			&nbsp;&nbsp;
+			</td>
+		</tr>
+					<tr>
+				<td valign="top" colspan="2" class="createdate">
+				Monday, 09 August 2004				</td>
+			</tr>
+					<tr>
+			<td valign="top" colspan="2">
+			Yesterday all servers in the U.S. went out on strike in a bid to get more RAM and better CPUs. A spokes person said that the need for better RAM was due to some fool increasing the front-side bus speed. In future, busses will be told to slow down in residential motherboards.			</td>
+		</tr>
+				</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+		</td></tr></table></td></tr><tr><td valign="top"><div class="blog_more">			<div>
+			<strong>
+			More...			</strong>
+			</div>
+			<ul>
+						<li>
+			<a class="blogsection" href="http://localhost/joomla/index.php?option=com_content&amp;task=view&amp;id=4&amp;Itemid=9">
+			Newsflash 3			</a>
+			</li>
+					</ul>
+		</div></td></tr></table>									</td>
+								</tr>
+								</table>
+
+
+							</td>
+									  				<td>
+			  				<div id="right_outer">
+			  					<div id="right_inner">
+			  							<div class="moduletable">
+							<h3>
+					Polls				</h3>
+						<form name="form2" method="post" action="http://localhost/joomla/index.php?option=com_poll&amp;Itemid=1">
+		
+		<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center" class="poll">
+		<thead>
+		<tr>
+			<td style="font-weight: bold;">
+				This Joomla! installation was ....			</td>
+		</tr>
+		</thead>
+		<tr>
+			<td align="center">
+				<table class="pollstableborder" cellspacing="0" cellpadding="0" border="0">
+											<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid1" value="1" alt="1" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid1">
+										Absolutely simple									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid2" value="2" alt="2" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid2">
+										Reasonably easy									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid3" value="3" alt="3" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid3">
+										Not straight-forward but I worked it out									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid4" value="4" alt="4" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid4">
+										I had to install extra server stuff									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid5" value="5" alt="5" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid5">
+										I had no idea and got my friend to do it									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid6" value="6" alt="6" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid6">
+										My dog ran away with the README ...									</label>
+								</td>
+							</tr>
+									</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div align="center">
+					<input type="submit" name="task_button" class="button" value="Vote" />
+					&nbsp;
+					<input type="button" name="option" class="button" value="Results" onclick="document.location.href='http://localhost/joomla/index.php?option=com_poll&amp;task=results&amp;id=14';" />
+				</div>
+			</td>
+		</tr>
+		</table>
+
+		<input type="hidden" name="id" value="14" />
+		<input type="hidden" name="task" value="vote" />
+		</form>
+				</div>
+				<div class="moduletable">
+							<h3>
+					Who's Online				</h3>
+						</div>
+					  					</div>
+			  				</div>
+		  				</td>
+		  				
+						</tr>
+						</table>
+		  		</div>
+		  	</div>
+		  </td>
+	  </tr>
+  </table>
+</div>
+<div align="center">
+	(C) 2018 The UltimateLAMP home of Joomla</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> is Free Software released under the GNU/GPL License.</div></body>
+</html>
+<!-- 1537401473 --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="eGroupWare http://www.egroupware.org" />
+<meta name="description" content="eGroupWare login screen" />
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<meta name="keywords" content="eGroupWare login screen" />
+<link rel="stylesheet" href="phpgwapi/templates/idots/css/idots.css" type="text/css" />
+<link rel="icon" href="phpgwapi/templates/idots/images/favicon.ico" type="image/x-ico" />
+<link rel="shortcut icon" href="phpgwapi/templates/idots/images/favicon.ico" />
+<title>eGroupWare - Login</title>
+<style type="text/css">
+
+#divMain
+{
+	height:85%;
+}
+
+</style>
+
+		<!-- this solves the internet explorer png-transparency bug, but only for ie 5.5 and higher --> 
+		<!--[if gte ie 5.5000]>
+		<script src="./phpgwapi/templates/idots/js/pngfix.js" type=text/javascript>
+		</script>
+		<![endif]-->
+
+</head>
+<body>
+<div id="divLogo"><a href="http://www.eGroupWare.org" target="_blank"><img src="/egroupware/phpgwapi/templates/idots/images/logo.png" border="0" alt="www.eGroupWare.org" title="www.eGroupWare.org"/></a></div>
+
+<div id="divMain"style= "background-repeat:no-repeat;background-position: center center;background-image:url(./phpgwapi/templates/idots/images/login-background.jpg)">
+	<div id="divAppIconBar">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="180"></td>
+				<td>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="100%"><img src="./phpgwapi/templates/idots/images/spacer.gif" width="1" height="68" alt="spacer" /></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+<br/>
+<!--</div>-->
+<div id="containerDiv" >
+<div id="centerBox">
+<div align="center"></div>
+<div align="center">&nbsp;</div>
+<p>&nbsp;</p>
+<form name="login_form" method="post" action="/egroupware/login.php">
+	<table class="divLoginbox" cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr> 
+		<td class="divLoginboxHeader" style="border-bottom: #9c9c9c 1px solid;" align="center">eGroupWare</td>
+	</tr>
+	<tr > 
+		<td class="divSideboxEntry">
+
+		<table cellspacing="3" cellpadding="0" width="100%" border="0">
+		<tr>
+<td colspan="4" align="center">
+&nbsp;
+</td>
+</tr>
+		<tr>
+			<td colspan="3">
+				<input type="hidden" name="passwd_type" value="text">
+				<input type="hidden" name="account_type" value="u">
+			</td>
+			<td rowspan="4">
+				<img src="phpgwapi/templates/idots/images/password.png" />
+			</td>
+		</tr>
+
+
+
+
+			<tr>
+			<td align="right" tablindex="1">Username:&nbsp;</td>
+			<td align="left"><input name="login" value="" style="width: 150px; border: 1px solid silver;"></td>
+			<td align="left"></td>
+		</tr>
+		<tr>
+			<td align="right">Password:&nbsp;</td>
+			<td align="left"><input name="passwd" type="password" onChange="this.form.submit()" style="width: 150px; border: 1px solid silver;"></td>
+		</tr>
+		<tr>
+			<td align="right">&nbsp;</td>
+			<td align="left" style="margin-top:5px;">
+				<input type="submit" value="Login" name="submitit" style="width:100px">
+			</td>
+		</tr>
+<!-- BEGIN registration -->
+	<tr>
+	<td colspan="3">
+	<table width=100%>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr><td colspan=2 align="center"></td></tr>
+	</table>
+	</td>
+	</tr>
+<!-- END registration -->
+		</table>
+
+	</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</form>
+<script language="javascript1.2" type="text/javascript">
+<!--
+// position cursor in top form field
+document.login_form.login.focus();
+//-->
+</script>
+
+
+</div>
+</div>
+</div>
+<div style="bottom:10px;left:10px;position:absolute;visibility:hidden;">
+<img src="phpgwapi/templates/idots/images/valid-html401.png" border="0" alt="Valid HTML 4.01">
+<img src="phpgwapi/templates/idots/images/vcss.png" border="0" alt="Valid CSS">
+</div>
+<div id="divPoweredBy" align="center">
+<br/>
+<a href="http://www.egroupware.org" target="_blank">eGroupWare</a> 1.2.100</div>
+</body>
+</html>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<title>Owl Intranet  Owl 0.90 20060502</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<link rel="shortcut icon" href="/owl/graphics/favicon.ico"></link>
+<link rel="bookmark" href="/owl/graphics/favicon.ico"></link>
+<link rel="stylesheet" href="/owl/scripts/phplayersmenu/layersmenu-gtk2.css" type="text/css"></link>
+<link rel="stylesheet" href="/owl/scripts/phplayersmenu/layerstreemenu.css" type="text/css"></link>
+<link rel="stylesheet" type="text/css" title="style1" href="/owl/graphics/rsdx_blue1/styles.css"></link>
+<!--  /owl/index.php-->
+<script type="text/javascript">
+function delete_cookie ( cookie_name )
+{
+var cookie_date = new Date ( );  // current date & time
+cookie_date.setTime ( cookie_date.getTime() - 1 );
+document.cookie = cookie_name += "=; expires=" + cookie_date.toGMTString();
+}
+</script> 
+<!-- rsdx -->
+<link rel="stylesheet" type="text/css" title="style1" href="/owl/graphics/rsdx_blue1/login.css"></link>
+<!-- rsdx -->
+
+  <script type="text/javascript" src="/owl/scripts/DomTT/domLib.js"></script>
+  <script type="text/javascript" src="/owl/scripts/DomTT/domTT.js"></script>
+
+  <script type="text/javascript">
+var domTT_classPrefix = 'domTTOverlib';
+  </script>
+
+<script type="text/javascript">
+function highlightButton(s) 
+{
+   if ("INPUT"==event.srcElement.tagName) 
+      event.srcElement.className=s
+}
+</script>
+
+<script type="text/javascript">
+<!--
+function checkform(form)
+{
+   var test = 0
+   for (var i = 0; i < document.FileList.elements.length; i++)
+   {
+       if(document.FileList.elements[i].type == "checkbox")
+       {
+         if(document.FileList.elements[i].checked)
+         {
+           test++
+         }
+       }
+   }
+
+   if (test < 1)
+   {
+alert("Please select at least one File or Folder using the checkbox");      return false;
+   }
+   else
+   {
+      return true;
+   }
+}
+-->
+</script>
+
+
+<script type="text/javascript">
+<!--
+function CheckAll() {
+  for (var i = 0; i < document.FileList.elements.length; i++) {
+    if(document.FileList.elements[i].type == "checkbox"){
+      document.FileList.elements[i].checked =         !(document.FileList.elements[i].checked);
+    }
+  }
+}
+
+
+
+-->
+</script>
+
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+</head>
+<body><!-- top -->
+<center>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td class="logo" width="100%"><img src="/owl/graphics/rsdx_blue1/ui_misc/owl_logo1.gif" border="0" alt="Owl Intranet "></img></td></tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td class="note" colspan="3">&nbsp;<br /></td></tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0"><form name="login" action="index.php" method="post"><tr>
+  <td width="50%">&nbsp;<br /></td>
+  <td class="shadow">
+
+    <table class="box" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr><td class="title">Owl Intranet <br /></td></tr>
+    </table>
+    <table class="box" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr><td colspan="4"><img src="/owl/graphics/rsdx_blue1/ui_misc/x_clear.gif" width="1" height="18" border="0" alt=""></img></td></tr>
+    <tr>
+    	<td width="50%">&nbsp;<br /></td>
+      <td class="text1"><label for="loginname">Username:</label><br /></td>
+      <td class="text2"><input id="loginname" class="input1" type="text" name="loginname" size="20" maxlength="255" tabindex="1"></input></td>
+    	<td width="50%">&nbsp;<br /></td>
+    </tr>
+    <tr>
+    	<td>&nbsp;<br /></td>
+      <td class="text1"><label for="password">Password:</label><br /></td>
+      <td class="text2"><input id="password" class="input1" type="password" name="password" size="20" maxlength="255" tabindex="2"></input></td>
+      <td>&nbsp;<br /></td>
+    </tr>
+    <tr>
+    	<td colspan="2">&nbsp;<br /></td>
+     <td class="xbutton1">
+<input tabindex="3" class="xbutton2" type="submit" value="Login" alt="Log in to Owl Intranet" title="Log in to Owl Intranet" onmouseover="highlightButton('xbutton2')" onmouseout="highlightButton('xbutton2')"></input>     </td>
+      <td>&nbsp;<br /></td>
+    </tr>
+    </table>
+    <table class="box" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr><td class="anon1"><a class="anon2" href="browse.php" onclick="delete_cookie ( 'owl_sessid' );">(Anonymous Access)<br /></a></td></tr>
+    </table>
+<script type="text/javascript">document.login.loginname.focus();</script>   </td>
+  <td width="50%">&nbsp;</td>
+</tr>
+<tr><td class="link1" colspan="3">&nbsp;
+</td></tr>
+</form></table><table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr><td class="version1" width="15%"><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" border="0"/></a></td><td class="version1" align="center" width="70%"><a class="version2" href="http://owl.sourceforge.net/" target="_blank">Owl Intranet Engine, Version Owl 0.90 20060502</a></td><td class="version1" width="15%">&nbsp;</td></tr>
+</table>
+</center>
+</body>
+</html>
+<script type="text/javascript" src="include/javascript/sugar_3.js?s=4.2.0a&c="></script><script type="text/javascript" src="include/javascript/cookie.js?s=4.2.0a&c="></script><link rel="stylesheet" type="text/css" media="all" href="themes/Sugar/calendar-win2k-cold-1.css?s=4.2.0a&c="><script>jscal_today = 1.537376285E+12;</script><script type="text/javascript" src="jscalendar/calendar.js?s=4.2.0a&c="></script><script type="text/javascript" src="jscalendar/lang/calendar-en.js?s=4.2.0a&c="></script><script type="text/javascript" src="jscalendar/calendar-setup_3.js?s=4.2.0a&c="></script><script type="text/javascript">
+	var time_reg_format = '([0-9]{1,2}):([0-9]{1,2})';
+	var date_reg_format = '([0-9]{4})-([0-9]{1,2})-([0-9]{1,2})';
+	var date_reg_positions = {'Y': 1,'m': 2,'d': 3};
+	var time_separator = ':';
+	var cal_date_format = '%Y-%m-%d';
+	var time_offset = 0;
+</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD html 4.01 Transitional//EN">
+<html >
+<head >
+<link REL="SHORTCUT ICON" HREF="include/images/sugar_icon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SugarCRM - Commercial Open Source CRM</title>
+<style type="text/css">@import url("themes/Sugar/style.css?s=4.2.0a&c="); </style>
+<link href="themes/Sugar/navigation.css?s=4.2.0a&c=" rel="stylesheet" type="text/css" />
+<script language="javascript" src="themes/Sugar/menu.js?s=4.2.0a&c="></script>
+<script language="javascript" src="themes/Sugar/cookie.js?s=4.2.0a&c="></script>
+<script language="javascript">
+
+function hideLeftCol(id){
+
+	if(this.document.getElementById( id).style.display=='none'){
+		this.document.getElementById( id).style.display='inline';
+
+		Set_Cookie('showLeftCol','true',30,'/','','');
+		var show = Get_Cookie('showLeftCol');
+		document['HideHandle'].src = 'themes/Sugar/images/hide.gif';		
+	}else{
+		this.document.getElementById(  id).style.display='none';
+
+		Set_Cookie('showLeftCol','false',30,'/','','');
+		var show = Get_Cookie('showLeftCol');
+		document['HideHandle'].src = 'themes/Sugar/images/show.gif';	
+
+	}
+}
+
+function showSubMenu(id){
+	if(this.document.getElementById( id).style.display=='none'){
+		tbButtonMouseOver('HideHandle',122,'',10);
+	}
+}
+
+
+</script>
+</head>
+
+<body onload="set_focus()" onMouseOut="closeMenus();">
+	<div id="myaccountMenu" class="menu">
+	
+	</div>
+	
+	<div id="employeesMenu" class="menu">
+	
+	</div>
+	
+	<div id="usersMenu" class="menu">
+	
+	</div>
+	
+	<div id="aboutMenu" class="menu">
+	
+	</div>
+	
+	
+	<div id="MoreMenu" class="menu">
+	
+	</div>
+	<div id="HideMenu" class="subDmenu">
+	<p>
+	<table cellpadding="0" cellspacing="0" border="0" width="180" class="leftColumnModuleHead" onMouseOver="hiliteItem(this,'no');">
+    <tr>
+<th width="5" valign="top"><img src="themes/Sugar/images/moduleTab_left.gif" alt="Shortcuts" width="5" height="23" border="0"></th>
+		<th width="100%" class="leftColumnModuleName">Shortcuts</th>
+		<th width="7" valign="top"><img src="themes/Sugar/images/moduleTab_right.gif" alt="Shortcuts" width="7" height="23" border="0"></th></tr>
+		</table>
+	</table>
+	
+	<table cellpadding="0" cellspacing="0" border="0" class="subMenu" width="180" onMouseOver="hiliteItem(this,'no');">
+	
+	</table>
+	</p>
+	</div>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td colspan="3" style="background-image : url(themes/Sugar/images/header_bg.gif); background-repeat: repeat-x;">
+		<table cellspacing="0" cellpadding="0" border="0" width="100%">
+		<tr>
+		    <td width="80%" height="40" rowspan="2" valign="top"><img src="themes/Sugar/images/company_logo.png" width="212" height="40" alt="Company Logo" border="0" style="margin-left: 12px;margin-bottom: 3px;"></td>
+		    <td rowspan="2" align="right" valign="top" style="border: none;"><img src="themes/Sugar/images/myAreaSeparator.gif" width="20" height="20" alt="My Area Links:" border="0"></td><td height="20" align="right" valign="middle" nowrap class="myAreaBg"><a href="index.php?module=Users&action=DetailView&record=" class="myAreaLink" >My Account</a>&nbsp;|&nbsp;
+		    <a href="index.php?module=Employees&action=ListView" class="myAreaLink" >Employees</a>&nbsp;|&nbsp;
+		    <a href="index.php?module=Users&action=Logout" class="myAreaLink" >Logout</a>&nbsp;|&nbsp;
+		    <a href="index.php?module=Home&action=About" class="myAreaLink" >About</a>
+			
+	</td>
+		</tr>
+		<tr><td align="right" height="20"><img src="include/images/sugarsales_myarea.png" alt="Sugar Suite" width="140" height="15" border="0" style="margin-top: 6px; margin-right: 6px;"></td></tr>
+		 <tr>
+		    <td colspan="3">
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+			<tr>
+			    <td style="padding-left:7px; background-image :url(themes/Sugar/images/emptyTabSpace.gif);">&nbsp;</td>
+				
+				<td width="100%" style="background-image : url(themes/Sugar/images/emptyTabSpace.gif);"><img src="include/images/blank.gif" width="1" height="1" border="0" alt=""></td>
+			</tr>
+
+			</table>
+     </td>
+  </tr>
+		<tr height="20"><form name='UnifiedSearch'>
+				  <input type="hidden" name="action" value="UnifiedSearch">
+				  <input type="hidden" name="module" value="Home">
+				  <input type="hidden" name="search_form" value="false">
+		    <td class="subTabBar" colspan="3">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" height="20">
+			<tr>
+			    <td id="welcome" class="welcome" width="100%">Welcome </td>
+				
+			</tr>
+			</table>
+			</td>
+			</form>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr height="20">
+	<td class="lastView" nowrap colspan="3">	</td>
+</tr>
+<tr height="11">
+	<td colspan="3" style="padding-left: 10px;"></td>
+</tr>
+<tr>
+	<td colspan="3">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+    
+    
+
+	
+	
+	
+	
+
+    <td style="padding-right: 10px; vertical-align: top; width: 100%;">
+<!-- crmprint --><script type="text/javascript" language="JavaScript">
+<!-- Begin
+function set_focus() {
+	if (document.DetailView.user_name.value != '') {
+		document.DetailView.user_password.focus();
+		document.DetailView.user_password.select();
+	}
+	else document.DetailView.user_name.focus();
+}
+
+function toggleDisplay(id){
+
+	if(this.document.getElementById(id).style.display=='none'){
+		this.document.getElementById(id).style.display='inline'
+		if(this.document.getElementById(id+"link") != undefined){
+			this.document.getElementById(id+"link").style.display='none';
+		}
+	document['options'].src = 'themes/Sugar/images/basic_search.gif';		
+	}else{
+		this.document.getElementById(id).style.display='none'
+		if(this.document.getElementById(id+"link") != undefined){
+			this.document.getElementById(id+"link").style.display='inline';
+		}
+	document['options'].src = 'themes/Sugar/images/advanced_search.gif';	
+	}
+}
+		//  End -->
+	</script>
+	<style type="text/css">
+	
+	.body { 
+		font-size: 12px;
+		}
+		
+	.buttonLogin {
+		border: 1px solid #444444;
+		font-size: 11px;
+		color: #ffffff;
+		background-color: #666666;
+		font-weight: bold;
+		}
+		
+	table.tabForm td {
+	border: none;
+	}
+		
+	table,td {
+		}
+	
+	p {
+		MARGIN-TOP: 0px;
+		MARGIN-BOTTOM: 10px;
+		}
+		
+	form {
+		margin: 0px;
+		}
+
+	</style><br>
+	<br>
+	
+<table cellpadding="0" align="center" width="100%" cellspacing="0" border="0">
+<tr>
+<td>
+
+<table cellpadding="0"  cellspacing="0" border="0" align="center">
+<form action="index.php" method="post" name="DetailView" id="form" onsubmit="return document.getElementById('cant_login').value == ''">
+<tr>
+<td class="body"  style="padding-bottom: 10px;" ><b>Welcome to</b><br>
+<IMG src="include/images/sugar_md.png" width="300" height="25" alt="Sugar"></td>
+</tr>
+<tr>
+<td class="tabForm" align="center">
+
+		<table cellpadding="0" cellspacing="2" border="0" align="center" width="100%">
+		<tr>
+			<td class="dataLabel" colspan="2" width="100%" style="font-size: 12px; padding-bottom: 5px; font-weight: normal;">Please enter your username and password.</td>
+		</tr>
+			<input type="hidden" name="gmto" value="">
+			<input type="hidden" name="module" value="Users">
+			<input type="hidden" name="action" value="Authenticate">
+			<input type="hidden" name="return_module" value="Users">
+			<input type="hidden" name="return_action" value="Login">
+			<input type="hidden" id="cant_login" name="cant_login" value="">
+			<input type="hidden" name="login_module" value="">
+			<input type="hidden" name="login_action" value="">
+			<input type="hidden" name="login_record" value="">
+			<script type="text/javascript" language="JavaScript">
+				var now = new Date();
+				var d1 = new Date(now.getFullYear(), 0, 1, 0, 0, 0);
+				d1GMTString = d1.toGMTString();
+				var d2 = new Date(d1GMTString.substring(0, d1GMTString.lastIndexOf(' ') - 1));
+				document.DetailView.gmto.value = (d1 - d2) / (1000 * 60) * -1;
+			</script>
+		<tr>
+			<td class="dataLabel" width='1%'>&nbsp;</td>
+			<td><span id='post_error' class="error">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td class="dataLabel" width="30%">User Name:</td>
+			<td width="70%"><input type="text" size='20' id="user_name" name="user_name"  value=""/></td>
+		</tr>
+		<tr>
+			<td class="dataLabel">Password:</td>
+			<td width="30%"><input type="password" size='20'  id="user_password" name="user_password" value=""/></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><input title="Login [Alt+L]" accessKey="Login [Alt+L]" class="button" type="submit" id="login_button" name="Login" value="  Login  "></td>
+		</tr>
+		<tr>
+			<td align="right" colspan="2"><div  style="cursor: hand; cursor: pointer;" onclick='toggleDisplay("more");'><a class='utilsLink' href="javascript:void(0);" onClick="toggleDisplay(options);"><IMG src="themes/Sugar/images/basic_search.gif" border="0" alt="Hide Options" id="options">&nbsp;Options</a></div></td>
+		</tr>
+		</table>
+		<div id='more'>
+		<table cellpadding="0" cellspacing="2" border="0" align="center" width="100%">
+		<tr>
+			<td class="dataLabel" width="30%">Theme:</td>
+			<td width="70%"><select style='width: 120px' name='login_theme'>
+<OPTION value='Awesome80s'>Awesome 80s</OPTION>
+<OPTION value='FinalFrontier'>Final Frontier</OPTION>
+<OPTION value='GoldenGate'>Golden Gate</OPTION>
+<OPTION value='Links'>Links</OPTION>
+<OPTION value='Love'>Love</OPTION>
+<OPTION value='Paradise'>Paradise</OPTION>
+<OPTION value='Pipeline'>Pipeline</OPTION>
+<OPTION value='Retro'>Retro</OPTION>
+<OPTION value='RipCurl'>RipCurl</OPTION>
+<OPTION value='Shred'>Shred</OPTION>
+<OPTION selected value='Sugar'>Sugar</OPTION>
+<OPTION value='SugarClassic'>Sugar Classic</OPTION>
+<OPTION value='SugarLite'>Sugar Lite</OPTION>
+<OPTION value='Sunset'>Sunset</OPTION>
+<OPTION value='WhiteSands'>White Sands</OPTION></select></td>
+		</tr>
+		<tr>
+			<td class="dataLabel">Language:</td>
+			<td><select style='width: 120px' name='login_language'>
+<OPTION selected value='en_us'>US English</OPTION></select></td>
+		</tr>
+		</table>
+		</div>
+	</td>
+	</form>
+</tr>
+</table>
+</td>
+</tr></table><br>
+<br>
+<!-- crmprint --><script>		if(window.addEventListener){
+			window.addEventListener("load", checkAlerts, false);
+		}else{
+			window.attachEvent("onload", checkAlerts);
+		}
+		addAlert("System", "Session Timeout","", "Your session is about to timeout in 2 minutes. Please save your work.",640800,"")
+addAlert("System", "Session Timeout","", "Your session has timed out.",648000,"index.php")
+</script><!--end body panes-->
+	</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+<table cellpadding='0' cellspacing='0' width='100%' border='0' class='underFooter'><tr><td align='center' class='copyRight'>Server response time: 0.032016 seconds.<br />&copy; 2004-2006 <a href="http://www.sugarcrm.com" target="_blank" class="copyRightLink">SugarCRM Inc.</a> All Rights Reserved.<br /><A href='http://www.sugarforge.org' target='_blank'><img style='margin-top: 2px' border='0' width='106' height='23' src='include/images/poweredby_sugarcrm.png' alt='Powered By SugarCRM'></a>
+</td></tr></table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Project</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+       	<title>UltimateLAMP Company :: dotProject Login</title>
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta name="Version" content="2.0.2" />
+	<link rel="stylesheet" type="text/css" href="./style/default/main.css" media="all" />
+	<style type="text/css" media="all">@import "./style/default/main.css";</style>
+	<link rel="shortcut icon" href="./style/default/images/favicon.ico" type="image/ico" />
+</head>
+
+<body bgcolor="#f0f0f0" onload="document.loginform.username.focus();">
+<br /><br /><br /><br />
+<!--form action="./index.php" method="post" name="loginform"-->
+<form method="post" action="index.php" name="loginform">
+<table align="center" border="0" width="250" cellpadding="6" cellspacing="0" class="std">
+<input type="hidden" name="login" value="1537401488" />
+<input type="hidden" name="lostpass" value="0" />
+<input type="hidden" name="redirect" value="" />
+<tr>
+	<th colspan="2"><em>UltimateLAMP Company</em></th>
+</tr>
+<tr>
+	<td align="right" nowrap>Username:</td>
+	<td align="left" nowrap><input type="text" size="25" maxlength="20" name="username" class="text" /></td>
+</tr>
+<tr>
+	<td align="right" nowrap>Password:</td>
+	<td align="left" nowrap><input type="password" size="25" maxlength="32" name="password" class="text" /></td>
+</tr>
+<tr>
+	<td align="left" nowrap><a href="http://www.dotproject.net/"><img src="./style/default/images/dp_icon.gif" border="0" alt="dotProject logo" /></a></td>
+	<td align="right" valign="bottom" nowrap><input type="submit" name="login" value="login" class="button" /></td>
+</tr>
+<tr>
+	<td colspan="2"><a href="#" onclick="f=document.loginform;f.lostpass.value=1;f.submit();">Help! I've forgotten my password!</a></td>
+</tr>
+</table>
+<div align="center">
+	<span style="font-size:7pt">Version 2.0.2</span>
+</div>
+</form>
+<div align="center">
+<span class="error"></span></div>
+<center>* You must have cookies enabled in your browser</center>
+</body>
+</html><?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>WebCalendar</title>
+<script type="text/javascript">
+// error check login/password
+function valid_form ( form ) {
+  if ( form.login.value.length == 0 || form.password.value.length == 0 ) {
+    alert ( "You must enter a login and password." );
+    return false;
+  }
+  return true;
+}
+function myOnLoad() {
+    document.login_form.login.focus();
+  }
+</script>
+<style type="text/css">
+<!--
+body {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #FFFFFF;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #0000FF;
+}
+#edituser,
+#edituserhandler,
+#groupedit,
+#editnonusers,
+#groupedithandler,
+#editnonusershandler {
+  background-color: #F8F8FF;
+}
+#tabscontent {
+  margin: 0px;
+  padding: 0.5em;
+  border: 2px groove #C0C0C0;
+  width: 70%;
+  background-color: #F8F8FF;
+}
+.tabfor {
+  padding: 0.2em 0.2em 0.07em 0.2em;
+  margin: 0px 0.2em 0px 0.8em;
+  border-top: 2px ridge #C0C0C0;
+  border-left: 2px ridge #C0C0C0;
+  border-right: 2px ridge #C0C0C0;
+  border-bottom: 2px solid #F8F8FF;
+  background-color: #F8F8FF;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+.tabbak {
+  padding: 0.2em 0.2em 0px 0.2em;
+  margin: 0 0.2em 0 0.8em;
+  border-top: 2px ridge #C0C0C0;
+  border-left: 2px ridge #C0C0C0;
+  border-right: 2px ridge #C0C0C0;
+  background-color: #E0E0E0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+#tabscontent_public,
+#tabscontent_groups,
+#tabscontent_nonuser,
+#tabscontent_other,
+#tabscontent_email,
+#tabscontent_colors,
+#tabscontent_participants,
+#tabscontent_sched,
+#tabscontent_pete,
+#tabscontent_export,
+#tabscontent_nonusers,
+#useriframe,
+#grpiframe,
+#nonusersiframe {
+  display: none;
+}
+label {
+  font-weight: bold;
+}
+.sample {
+  border-style: groove;
+}
+.weeknumber,
+.weeknumber a {
+  font-size: 10px;
+  color: #B04040;
+  text-decoration: none;
+}
+img.color {
+  border-width: 0px;
+  width: 15px;
+  height: 15px;
+}
+#cat {
+  display: none;
+  font-size: 18px;
+}
+#trailer {
+  margin: 0px;
+  padding: 0px;
+}
+#trailer form {
+  float: left;
+  width: 33%;
+  border-top: 1px solid #000000;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+#trailer label {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+#monthform {
+  clear: left;
+}
+#weekform {
+  text-align: center;
+}
+#yearform {
+  text-align: right;
+  clear: right;
+}
+#menu {
+  clear: both;
+}
+#menu a {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+.prefix {
+  font-weight: bold;
+  font-size: 14px;
+}
+a#programname {
+  margin-top: 10px;
+  font-size: 10px;
+}
+.printer {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  clear: both;
+  display: block;
+  width: 15ex;
+}
+.new {
+  border-width: 0px;
+  float: right;
+}
+.unapprovedentry {
+  font-size: 13px;
+  color: #800000;
+  text-decoration: none;
+  padding-right: 3px;
+}
+.nounapproved {
+  margin-left: 20px;
+}
+.layerentry {
+  font-size: 13px;
+  color: #006060;
+  text-decoration: none;
+  padding-right: 3px;
+}
+.entry {
+  font-size: 13px;
+  color: #006000;
+  text-decoration: none;
+  padding-right: 3px;
+}
+.entry img,
+.layerentry img,
+.unapprovedentry img {
+  border-width: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.dayofmonth {
+  font-size: 13px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  padding: 0px 2px 0px 3px;
+}
+.dayofmonth:hover {
+  color: #0000FF;
+  border-right: 1px solid #0000FF;
+  border-bottom: 1px solid #0000FF;
+}
+.prev img {
+  border-width: 0px;
+  margin-left: 3px;
+  margin-top: 7px;
+  float: left;
+}
+.next img {
+  border-width: 0px;
+  margin-right: 3px;
+  margin-top: 7px;
+  float: right;
+}
+#activitylog .prev {
+  border-width: 0px;
+  float: left;
+}
+#activitylog .next {
+  border-width: 0px;
+  float: right;
+}
+#day .prev img {
+  border-width: 0px;
+  margin-top: 37px;
+  float: left;
+}
+#day .next img {
+  border-width: 0px;
+  margin-top: 37px;
+  float: right;
+}
+#day .monthnav .prev img {
+  border-width: 0px;
+  margin: 0px;
+  float: left;
+}
+#day .monthnav .next img {
+  border-width: 0px;
+  margin: 0px;
+  float: right;
+}
+.dailymatrix {
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: right;
+  background-color: #FFFFFF;
+}
+td.matrixappts {
+  cursor: pointer;
+  text-align: left;
+  background-color: #C0C0C0;
+  vertical-align: middle;
+}
+td.matrix {
+  height: 1px;
+  background-color: #000000;
+}
+.matrix img {
+  border-width: 0px;
+  width: 100%;
+  height: 1px;
+}
+a.matrix img {
+  border-width: 0px;
+  width: 100%;
+  height: 8px;
+}
+.matrixd {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.matrixlegend {
+  margin-top: 25px;
+  padding: 5px;
+  text-align: center;
+  background: #ffffff;
+  margin-left: auto; 
+  margin-right: auto;
+  border: 1px solid #000000;
+}
+.matrixlegend img {
+  border-width: 0px;
+  width: 10px;
+  height: 10px;
+}
+.nav {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+.popup {
+  font-size: 12px;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  position: absolute;
+  z-index: 20;
+  visibility: hidden;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #000000;
+  padding: 3px;
+}
+.popup dl {
+  margin: 0px;
+  padding: 0px;
+}
+.popup dt {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.popup dd {
+  margin-left: 20px;
+}
+.tooltip {
+  cursor: help;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tooltipselect {
+  cursor: help;
+  text-decoration: none;
+  font-weight: bold;
+  vertical-align: top;
+}
+h2 {
+  font-size: 20px;
+  color: #000000;
+}
+h3 {
+  font-size: 18px;
+}
+p,
+input,
+select {
+  font-size: 12px;
+}
+textarea {
+  font-size: 12px;
+  overflow: auto;
+}
+.user {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+.categories {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+.help {
+  vertical-align: top;
+  font-weight: bold;
+}
+img.help {
+  border-width: 0px;
+  cursor: help;
+}
+.standard {
+  border: 1px solid #000000;
+  background-color: #C0C0C0;
+  font-size: 12px;
+}
+.standard th {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  padding: 0px;
+  border-bottom: 1px solid #000000;
+}
+.minical {
+  font-size: 12px;
+  border-collapse: collapse;
+  margin: 0px 0px 5px 0px;
+}
+.minical caption a {
+  font-weight: bold;
+  color: #B04040;
+}
+.minical caption a:hover {
+  color: #0000FF;
+}
+.minical th, 
+.minical td.empty {
+  color: #000000;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.minical td {
+  padding: 0px 2px;
+  border: 1px solid #FFFFFF;
+}
+.minical td a {
+  display: block;
+  text-align: center;
+  margin: 0px;
+  padding: 3px;
+}
+.minical td.weekend {
+  background-color: #D0D0D0;
+}
+.minical td#today {
+  background-color: #FFFF33;
+}
+.minical td.hasevents {
+  background-color: #DDDDFF;
+  font-weight: bold;
+}
+#activitylog table,
+.embactlog {
+  width: 100%;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-spacing: 0px;
+}
+#activitylog tr,
+.embactlog tr {
+  background-color: #FFFFFF;
+}
+#activitylog .odd,
+.embactlog .odd {
+  background-color: #EEEEEE;
+}
+#activitylog th,
+.embactlog th {
+  width: 14%;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding: 1px 3px;
+}
+#activitylog th.usr,
+.embactlog th.usr,
+#activitylog th.cal,
+.embactlog th.cal,
+#activitylog th.action,
+.embactlog th.action {
+  width: 7%;
+}
+#activitylog td,
+.embactlog td {
+  border-left: 1px solid #000000;
+  padding: 1px 3px;
+}
+#day div.minicalcontainer {
+  text-align: right;
+  border: 1px solid #000000;
+  padding: 3px;
+}
+#day .minical caption {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 47px;
+}
+#day .minical td.selectedday {
+  border: 2px solid #000000;
+}
+#day .monthnav th {
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-width: 0px;
+  padding: 3px;
+}
+.glance {
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  width: 100%;
+}
+.glance th.empty {
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+.glance th.row {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  height: 40px;
+  width: 14%;
+  color: #000000;
+  font-size: 13px;
+  background-color: #FFFFFF;
+  vertical-align: top;
+}
+.glance td {
+  vertical-align: top;
+  background-color: #C0C0C0;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding-left: 3px;
+}
+#day dl.desc {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+#day dl.desc dt {
+  font-weight: bold;
+}
+#day dl.desc dd {
+  margin: 0px;
+  padding-left: 20px;
+}
+.viewt,
+#viewv .main,
+#viewm .main,
+#vieww .main,
+#week .main,
+#viewl .main,
+#month .main {
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  width: 100%;
+  clear: both;
+}
+#year .main tr {
+  vertical-align: top;
+}
+th {
+  font-size: 13px;
+  color: #000000;
+  background-color: #FFFFFF;
+}  
+#viewv .main th,
+#viewl .main th,
+#month .main th {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  background-color: #FFFFFF;
+  width: 14%;
+}
+#vieww .main th,
+#week .main th {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  width: 12%;
+}
+#viewm .main th {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+#viewd .main th {
+  border-right: 1px solid #000000;
+  padding: 1px;
+}
+#viewv .main th.empty,
+#viewm .main th.empty,
+#vieww .main th.empty,
+#week .main th.empty {
+  background-color: #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+}
+#week .main th.row {
+  width: 10%;
+  vertical-align: top;
+  height: 40px;
+}
+#vieww .main th.row,
+#viewv .main th.row,
+#viewm .main th.row,
+#viewt th.row {
+  width: 10%;
+  vertical-align: top;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+#viewd .main th.row {
+  border-right-width: 0px;
+  text-align: left;
+}
+#vieww .main th.today,
+#viewm .main th.today,
+#viewv .main th.today,
+#viewt .main th.today {
+  width: 10%;
+  background-color: #FFFF33;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  vertical-align: top;
+}
+#week .main th.today {
+  background-color: #FFFF33;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  width: 12%;
+}
+#week .main td.hasevents,
+#day .glance td.hasevents {
+  background-color: #FFFF33;
+}
+#week .main th a,
+#weekdetails .main th a {
+  color: #000000;
+}
+#week .main th a:hover,
+#weekdetails .main th a:hover {
+  color: #0000FF;
+}
+#year .main td {
+  text-align: center;
+  padding: 0px 3px;
+}
+#viewl .main td,
+#month .main td {
+  font-size: 12px;
+  height: 75px;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  background-color: #C0C0C0;
+  vertical-align: top;
+}
+#vieww .main td,
+#week .main td,
+#viewm .main td,
+#viewv .main td {
+  font-size: 12px;
+  background-color: #C0C0C0;
+  vertical-align: top;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding-left: 3px;
+}
+#viewl .main td.weekend,
+#month .main td.weekend,
+#viewm .main td.weekend,
+#viewv .main td.weekend,
+#vieww .main td.weekend,
+#week .main td.weekend {
+  background-color: #D0D0D0;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+#viewl .main td.today,
+#month .main td.today,
+#viewm .main td.today,
+#vieww .main td.today,
+#viewv .main td.today {
+  background-color: #FFFF33;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  vertical-align: top;
+}
+#month #prevmonth,
+#viewl #prevmonth {
+  float: left;
+}
+#month #nextmonth,
+#viewl #nextmonth {
+  float: right;
+}
+#month .minical caption,
+#viewl .minical caption {
+  margin-left: 4ex;
+}
+#year .minical {
+  margin: 5px auto;
+  display: block;
+}
+#year .minical caption {
+  margin: 0px auto;
+}
+#viewl .minical,
+#month .minical {
+  border-width: 0px;
+}
+#viewt td.reg {
+  background-color: #C0C0C0;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  width: 90%;
+}
+.title {
+  width: 99%;
+  text-align: center;
+}
+#day .title {
+  margin-top: 3px;
+  text-align: center;
+}
+#day .title .date,
+.title .date {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.title .weeknumber {
+  font-size: 20px;
+  color: #000000;
+}
+.title .viewname,
+#day .title .user,
+.title .user {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+#weekdetails .main {
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  width: 90%;
+}
+#weekdetails .main th {
+  font-size: 13px;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  width: 100%;
+  padding: 2px;
+}
+#weekdetails .main td {
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  background-color: #C0C0C0;
+  vertical-align: top;
+  height: 75px;
+}
+#weekdetails .main th.today {
+  background-color: #FFFF33;
+}
+#weekdetails .main td.weekend {
+  background-color: #D0D0D0;
+}
+#viewt table {
+  border-collapse: collapse;
+}
+#viewt .timebar {
+  padding: 0px;
+  width: 100%;
+  border-width: 0px;
+}
+#viewt .timebar td {
+  padding: 0px;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #CCCCCC;
+  font-size: 10px;
+}
+#viewt .yardstick {
+  width: 100%;
+  padding: 0px;
+  border-width: 0px;
+}
+#viewt .yardstick td {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+}
+#viewt .entrycont {
+  width: 100%;
+  padding: 0px;
+  border-width: 0px;
+}
+#viewt .entrycont td {
+  text-align: right;
+}
+#viewt .entrybar {
+  width: 100%;
+  border-width: 0px;
+}
+#viewt .entrybar td.entry {
+  text-align: center;
+  background-color: #F5DEB3;
+  border: 1px solid #000000;
+}
+#viewt .weekend {
+  width: 90%;
+  background-color: #D0D0D0;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  vertical-align: top;
+}
+#viewt td.today {
+  width: 90%;
+  background-color: #FFFF33;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  vertical-align: top;
+}
+#viewt th.today {
+  color: #000000;
+  background-color: #FFFF33;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  vertical-align: top;
+}
+#login {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#login table {
+  border: 1px solid #000000;
+  background-color: #C0C0C0;
+  font-size: 12px;
+}
+.cookies {
+  font-size: 13px;
+}
+.standard th {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  padding: 0px;
+  border-bottom: 1px solid #000000;
+}
+abbr {
+  cursor: help;
+}
+-->
+</style>
+</head>
+<body onload="myOnLoad();">
+
+<h2>WebCalendar</h2>
+
+<br />
+<form name="login_form" id="login" action="login.php" method="post" 
+  onsubmit="return valid_form(this)">
+
+<table cellpadding="10" align="center">
+<tr><td rowspan="2">
+ <img src="login.gif" alt="Login" /></td><td align="right">
+ <label for="user">Username:</label></td><td>
+ <input name="login" id="user" size="15" maxlength="25" 
+   value="" 
+   tabindex="1" />
+</td></tr>
+<tr><td style="text-align:right;">
+ <label for="password">Password:</label></td><td>
+ <input name="password" id="password" type="password" size="15" 
+   maxlength="30" tabindex="2" />
+</td></tr>
+<tr><td colspan="3" style="font-size: 10px;">
+ <input type="checkbox" name="remember" id="remember" tabindex="3" 
+   value="yes"  /><label for="remember">&nbsp;
+   Save login via cookies so I don't have to login next time</label>
+</td></tr>
+<tr><td colspan="4" style="text-align:center;">
+ <input type="submit" value="Login" tabindex="4" />
+</td></tr>
+</table>
+</form>
+
+
+<br /><br /><br />
+<span class="cookies"><b>Note:</b> This application requires cookies to be enabled.</span><br />
+<hr />
+<br /><br />
+<a href="http://webcalendar.sourceforge.net/" id="programname">WebCalendar v1.0.3 (11 Apr 2006)</a>
+
+</body>
+</html>#!/usr/bin/perl -wT
+# -*- Mode: perl; indent-tabs-mode: nil -*-
+#
+# The contents of this file are subject to the Mozilla Public
+# License Version 1.1 (the "License"); you may not use this file
+# except in compliance with the License. You may obtain a copy of
+# the License at http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS
+# IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+# implied. See the License for the specific language governing
+# rights and limitations under the License.
+#
+# The Original Code is the Bugzilla Bug Tracking System.
+#
+# The Initial Developer of the Original Code is Netscape Communications
+# Corporation. Portions created by Netscape are
+# Copyright (C) 1998 Netscape Communications Corporation. All
+# Rights Reserved.
+#
+# Contributor(s): Jacob Steenhagen <jake@bugzilla.org>
+#
+
+###############################################################################
+# Script Initialization
+###############################################################################
+
+# Make it harder for us to do dangerous things in Perl.
+use strict;
+
+# Include the Bugzilla CGI and general utility library.
+use lib ".";
+require "globals.pl";
+
+# Check whether or not the user is logged in
+use Bugzilla::Constants;
+Bugzilla->login(LOGIN_OPTIONAL);
+
+###############################################################################
+# Main Body Execution
+###############################################################################
+
+my $cgi = Bugzilla->cgi;
+# Force to use HTTPS unless Param('ssl') equals 'never'.
+# This is required because the user may want to log in from here.
+if (Param('sslbase') ne '' and Param('ssl') ne 'never') {
+    $cgi->require_https(Param('sslbase'));
+}
+
+my $template = Bugzilla->template;
+
+# Return the appropriate HTTP response headers.
+print $cgi->header();
+
+# Generate and return the UI (HTML page) from the appropriate template.
+$template->process("index.html.tmpl")
+  || ThrowTemplateError($template->error());
+#!/usr/local/bin/perl
+# Display all Webmin modules visible to the current user
+
+require './web-lib.pl';
+&init_config();
+$hostname = &get_display_hostname();
+$ver = &get_webmin_version();
+&get_miniserv_config(\%miniserv);
+if ($gconfig{'real_os_type'}) {
+	if ($gconfig{'os_version'} eq "*") {
+		$ostr = $gconfig{'real_os_type'};
+		}
+	else {
+		$ostr = "$gconfig{'real_os_type'} $gconfig{'real_os_version'}";
+		}
+	}
+else {
+	$ostr = "$gconfig{'os_type'} $gconfig{'os_version'}";
+	}
+%access = &get_module_acl();
+
+# Build a list of all modules
+@modules = &get_visible_module_infos();
+
+if (!defined($in{'cat'})) {
+	# Maybe redirect to some module after login
+	local $goto = &get_goto_module(\@modules);
+	if ($goto) {
+		&redirect($goto->{'dir'}.'/');
+		exit;
+		}
+	}
+
+$gconfig{'sysinfo'} = 0 if ($gconfig{'sysinfo'} == 1);
+if ($gconfig{'alt_startpage'}) {
+	# Tim's webmin header
+	&header(&text('main_title', $ver, $hostname, $ostr));
+	print "<TABLE BORDER=0 WIDTH=100%>\n";
+	print "<TR><TD WIDTH=20% ALIGN=left>\n";
+	print "Version $ver<BR>$hostname<BR>$ostr</TD>";
+	print "<TD WIDTH=60% ALIGN=center>\n";
+	print "<IMG SRC=\"images/newlogo.gif\" BORDER=0>";
+	print "</TD><TD WIDTH=20% ALIGN=right>";
+	print "<a href=http://www.webmin.com/>$text{'main_homepage'}</a><br>";
+	print "<a href=feedback_form.cgi>$text{'main_feedback'}</a>"
+		if ($gconfig{'nofeedbackcc'} != 2 && $access{'feedback'});
+	if ($miniserv{'logout'} && !$ENV{'SSL_USER'} && !$ENV{'LOCAL_USER'} &&
+	    $ENV{'HTTP_USER_AGENT'} !~ /webmin/i) {
+		print "<br><br>\n";
+		if ($main::session_id) {
+			print "<a href='session_login.cgi?logout=1'>",
+			      "$text{'main_logout'}</a>";
+			}
+		else {
+			print "<a href=switch_user.cgi>$text{'main_switch'}</a>";
+			}
+		}
+	print "</TD></TR></TABLE><HR><P>\n\n";
+	}
+else {
+	# Standard webmin header
+	if ($gconfig{'texttitles'}) {
+		@args = ( $text{'main_title2'}, undef );
+		}
+	else {
+		@args = ( $gconfig{'nohostname'} ? $text{'main_title2'} :
+			    &text('main_title', $ver, $hostname, $ostr),
+			  "images/newlogo.gif" );
+		if ($gconfig{'showlogin'}) {
+			$args[0] = $remote_user." : ".$args[0];
+			}
+		}
+	&header(@args, undef, undef, 1, 1,
+		$tconfig{'brand'} ? 
+		"<a href=$tconfig{'brand_url'}>$tconfig{'brand'}</a>" :
+		$gconfig{'brand'} ? 
+		"<a href=$gconfig{'brand_url'}>$gconfig{'brand'}</a>" :
+		"<a href=http://www.webmin.com/>$text{'main_homepage'}</a>".
+		($gconfig{'nofeedbackcc'} == 2 || !$access{'feedback'} ? "" :
+		  "<br><a href=feedback_form.cgi>$text{'main_feedback'}</a>")
+		);
+	print "<center><font size=+1>",
+	    &text('main_version', $ver, $hostname, $ostr),"</font></center>\n"
+		if (!$gconfig{'nohostname'});
+	print "<hr><p>\n";
+	}
+print $text{'main_header'};
+
+if (!@modules) {
+	# use has no modules!
+	print "<p><b>$text{'main_none'}</b><p>\n";
+	}
+elsif ($gconfig{"notabs_${base_remote_user}"} == 2 ||
+    $gconfig{"notabs_${base_remote_user}"} == 0 && $gconfig{'notabs'}) {
+	# Generate main menu with all modules on one page
+	print "<center><table cellpadding=5>\n";
+	$pos = 0;
+	$cols = $gconfig{'nocols'} ? $gconfig{'nocols'} : 4;
+	$per = 100.0 / $cols;
+	foreach $m (@modules) {
+		if ($pos % $cols == 0) { print "<tr>\n"; }
+		print "<td valign=top align=center width=$per\%>\n";
+		local $idx = $m->{'index_link'};
+		print "<table border><tr><td><a href=$gconfig{'webprefix'}/$m->{'dir'}/$idx>",
+		      "<img src=$m->{'dir'}/images/icon.gif border=0 ",
+		      "width=48 height=48></a></td></tr></table>\n";
+		print "<a href=$gconfig{'webprefix'}/$m->{'dir'}/$idx>$m->{'desc'}</a></td>\n";
+		if ($pos % $cols == $cols - 1) { print "</tr>\n"; }
+		$pos++;
+		}
+	print "</table></center><p><hr>\n";
+	}
+else {
+	# Display under categorised tabs
+	&ReadParse();
+	&read_file("$config_directory/webmin.catnames", \%catnames);
+	foreach $m (@modules) {
+		$c = $m->{'category'};
+		next if ($cats{$c});
+		if (defined($catnames{$c})) {
+			$cats{$c} = $catnames{$c};
+			}
+		elsif ($text{"category_$c"}) {
+			$cats{$c} = $text{"category_$c"};
+			}
+		else {
+			# try to get category name from module ..
+			local %mtext = &load_language($m->{'dir'});
+			if ($mtext{"category_$c"}) {
+				$cats{$c} = $mtext{"category_$c"};
+				}
+			else {
+				$c = $m->{'category'} = "";
+				$cats{$c} = $text{"category_$c"};
+				}
+			}
+		}
+	@cats = sort { $b cmp $a } keys %cats;
+	$cats = @cats;
+	$per = $cats ? 100.0 / $cats : 100;
+	if (!defined($in{'cat'})) {
+		# Use default category
+		if (defined($gconfig{'deftab'}) &&
+		    &indexof($gconfig{'deftab'}, @cats) >= 0) {
+			$in{'cat'} = $gconfig{'deftab'};
+			}
+		else {
+			$in{'cat'} = $cats[0];
+			}
+		}
+	elsif (!$cats{$in{'cat'}}) {
+		$in{'cat'} = "";
+		}
+	print "<table border=0 cellpadding=0 cellspacing=0 height=20><tr>\n";
+	$usercol = defined($gconfig{'cs_header'}) ||
+		   defined($gconfig{'cs_table'}) ||
+		   defined($gconfig{'cs_page'});
+	foreach $c (@cats) {
+		$t = $cats{$c};
+		if ($in{'cat'} eq $c) {
+			print "<td valign=top $cb>", $usercol ? "<br>" :
+			  "<img src=images/lc2.gif alt=\"\">","</td>\n";
+			print "<td $cb>&nbsp;<b>$t</b>&nbsp;</td>\n";
+			print "<td valign=top $cb>", $usercol ? "<br>" :
+			  "<img src=images/rc2.gif alt=\"\">","</td>\n";
+			}
+		else {
+			print "<td valign=top $tb>", $usercol ? "<br>" :
+			  "<img src=images/lc1.gif alt=\"\">","</td>\n";
+			print "<td $tb>&nbsp;",
+			      "<a href=$gconfig{'webprefix'}/?cat=$c><b>$t</b></a>&nbsp;</td>\n";
+			print "<td valign=top $tb>", $usercol ? "<br>" :
+			  "<img src=images/rc1.gif alt=\"\">","</td>\n";
+			}
+		print "<td width=10></td>\n";
+		}
+	print "</tr></table> <table border=0 cellpadding=0 cellspacing=0 ",
+              "width=100% $cb>\n";
+	print "<tr><td><table width=100% cellpadding=5>\n";
+
+	# Display the modules in this category
+	$pos = 0;
+	$cols = $gconfig{'nocols'} ? $gconfig{'nocols'} : 4;
+	$per = 100.0 / $cols;
+	foreach $m (@modules) {
+		next if ($m->{'category'} ne $in{'cat'});
+
+		if ($pos % $cols == 0) { print "<tr>\n"; }
+		local $idx = $m->{'index_link'};
+		print "<td valign=top align=center width=$per\%>\n";
+		print "<table border bgcolor=#ffffff><tr><td><a href=$gconfig{'webprefix'}/$m->{'dir'}/$idx>",
+		      "<img src=$m->{'dir'}/images/icon.gif alt=\"\" border=0></a>",
+		      "</td></tr></table>\n";
+		print "<a href=$gconfig{'webprefix'}/$m->{'dir'}/$idx>$m->{'desc'}</a></td>\n";
+		if ($pos++ % $cols == $cols - 1) { print "</tr>\n"; }
+		}
+	while($pos++ % $cols) {
+		print "<td width=$per\%></td>\n";
+		}
+	print "</table></td></tr></table><p><hr>\n";
+	}
+
+if ($miniserv{'logout'} && !$gconfig{'alt_startpage'} &&
+    !$ENV{'SSL_USER'} && !$ENV{'LOCAL_USER'} && !$ENV{'ANONYMOUS_USER'} &&
+    $ENV{'HTTP_USER_AGENT'} !~ /webmin/i) {
+	print "<table width=100% cellpadding=0 cellspacing=0><tr>\n";
+	if ($main::session_id) {
+		print "<td align=right><a href='session_login.cgi?logout=1'>",
+		      "$text{'main_logout'}</a></td>\n";
+		}
+	else {
+		print "<td align=right><a href=switch_user.cgi>",
+		      "$text{'main_switch'}</a></td>\n";
+		}
+	print "</tr></table>\n";
+	}
+
+print $text{'main_footer'};
+&footer();
+
