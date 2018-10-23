@@ -38,12 +38,12 @@ class ContentExplorer:
             sys.exit(1)
 
     # Explore unnecessary contents.
-    def content_explorer(self, cve_explorer, protocol, fqdn, port, target_category, report):
+    def content_explorer(self, cve_explorer, protocol, fqdn, port, path, target_category, report):
         self.utility.print_message(NOTE, 'Explore unnecessary contents.')
         self.utility.write_log(20, '[In] Explore contents [{}].'.format(self.file_name))
 
         # Open signature file.
-        target_base = protocol + '://' + fqdn + ':' + str(port)
+        target_base = protocol + '://' + fqdn + ':' + str(port) + path
         signature_file = os.path.join(self.signature_dir, self.signature_base + target_category + '.txt')
         with codecs.open(signature_file, 'r', encoding='utf-8') as fin:
             signatures = fin.readlines()
@@ -53,9 +53,9 @@ class ContentExplorer:
                 signature = signature.replace('\n', '').replace('\r', '').split('@')
                 target_url = ''
                 if signature[4].startswith('/') is True:
-                    target_url = target_base + signature[4]
+                    target_url = target_base + signature[4][1:]
                 else:
-                    target_url = target_base + '/' + signature[4]
+                    target_url = target_base + signature[4]
 
                 # Get HTTP response (header + body).
                 date = self.utility.get_current_date('%Y%m%d%H%M%S%f')[:-3]

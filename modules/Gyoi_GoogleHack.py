@@ -56,9 +56,6 @@ class GoogleCustomSearch:
             for signature in signatures:
                 signature = signature.replace('\n', '').replace('\r', '').split('@')
                 query = 'site:' + fqdn + ' ' + signature[4]
-                msg = 'Search query: {}'.format(query)
-                self.utility.print_message(OK, msg)
-                self.utility.write_log(20, msg)
                 result_count = self.custom_search(query, self.start_index)
 
                 if result_count != 0:

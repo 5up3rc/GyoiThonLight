@@ -39,8 +39,8 @@ class CreateReport:
         self.utility.print_message(NOTE, 'Create report header : {}'.format(self.report_path))
         self.utility.write_log(20, '[In] Create report header [{}].'.format(self.file_name))
 
-        self.report_path = self.report_path.replace('*', fqdn)
-        pd.DataFrame([], columns=self.header).to_csv(self.report_path, mode='w', index=False)
+        report_file_name = self.report_path.replace('*', fqdn)
+        pd.DataFrame([], columns=self.header).to_csv(report_file_name, mode='w', index=False)
         self.utility.write_log(20, '[Out] Create report header [{}].'.format(self.file_name))
 
     # Create report's body.
@@ -107,6 +107,7 @@ class CreateReport:
         msg = 'Create report : {}'.format(self.report_path)
         self.utility.print_message(OK, msg)
         self.utility.write_log(20, msg)
-        pd.DataFrame(report).to_csv(self.report_path, mode='a', header=False, index=False)
+        report_file_name = self.report_path.replace('*', fqdn)
+        pd.DataFrame(report).to_csv(report_file_name, mode='a', header=False, index=False)
 
         self.utility.write_log(20, '[Out] Create report body [{}].'.format(self.file_name))
