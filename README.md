@@ -24,10 +24,7 @@ root@kali:~/GyoiThonLight# pip3 install -r requirements.txt
 ```
 
 #### Step.3 Edit config.ini of GyoiThonLight.
-You have to be match server_host value with IP address of your Kali Linux.  
-
 ```
-root@kali:~/GyoiThon# cd classifier4gyoithon
 root@kali:~/GyoiThonLight# vim config.ini
 ```
 
