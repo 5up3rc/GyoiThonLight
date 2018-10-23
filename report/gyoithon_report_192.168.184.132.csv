@@ -1,0 +1,2027 @@
+fqdn,ip_addr,port,cloud_type,method,url,vendor_name,prod_name,prod_version,prod_trigger,prod_type,prod_vuln,origin_login,origin_login_trigger,wrong_comment,error_msg,server_header,log,date
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=login.php,-,-,-,-,-,-,"Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133048780.log,2018/10/23 13:30:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=login.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133048780.log,2018/10/23 13:30:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=login.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133048780.log,2018/10/23 13:30:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=login.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133048780.log,2018/10/23 13:30:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=login.php,php,php,*,PHPSESSID=0f31fd537ad4f62e4d328a09e9b76e78;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133048780.log,2018/10/23 13:30:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=change-log.htm,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133053183.log,2018/10/23 13:30:53
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=change-log.htm,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133053183.log,2018/10/23 13:30:53
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=change-log.htm,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133053183.log,2018/10/23 13:30:53
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=change-log.htm,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133053183.log,2018/10/23 13:30:53
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=change-log.htm,php,php,*,PHPSESSID=f0723a209b7d55983a57342a2c4dffab;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133053183.log,2018/10/23 13:30:53
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=secret-administrative-pages.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133100071.log,2018/10/23 13:31:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=secret-administrative-pages.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133100071.log,2018/10/23 13:31:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=secret-administrative-pages.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133100071.log,2018/10/23 13:31:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=secret-administrative-pages.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133100071.log,2018/10/23 13:31:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=secret-administrative-pages.php,php,php,*,PHPSESSID=8aea0427e5c3508e647ec2c411c37913;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133100071.log,2018/10/23 13:31:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=home.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133104436.log,2018/10/23 13:31:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=home.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133104436.log,2018/10/23 13:31:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=home.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133104436.log,2018/10/23 13:31:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=home.php,php,php,*,PHPSESSID=e4be13e2c518c6955bdc66bce648a202;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133104436.log,2018/10/23 13:31:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=home.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133104436.log,2018/10/23 13:31:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/vulnerabilities.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133108708.log,2018/10/23 13:31:08
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/vulnerabilities.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133108708.log,2018/10/23 13:31:08
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/vulnerabilities.php,php,php,*,PHPSESSID=5487cfea353de9be7df8e7dc3be1091e;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133108708.log,2018/10/23 13:31:08
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/vulnerabilities.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133108708.log,2018/10/23 13:31:08
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/vulnerabilities.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133108708.log,2018/10/23 13:31:08
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=credits.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133113553.log,2018/10/23 13:31:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=credits.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133113553.log,2018/10/23 13:31:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=credits.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133113553.log,2018/10/23 13:31:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=credits.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133113553.log,2018/10/23 13:31:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=credits.php,php,php,*,PHPSESSID=b3104e0c4863ee2cf21fcd1960dc939d;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133113553.log,2018/10/23 13:31:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-info.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133117793.log,2018/10/23 13:31:17
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-info.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133117793.log,2018/10/23 13:31:17
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-info.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133117793.log,2018/10/23 13:31:17
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-info.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133117793.log,2018/10/23 13:31:17
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-info.php,php,php,*,PHPSESSID=257644f7ed283a9622cabb8198e965b9;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133117793.log,2018/10/23 13:31:17
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=notes.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133122064.log,2018/10/23 13:31:22
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=notes.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133122064.log,2018/10/23 13:31:22
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=notes.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133122064.log,2018/10/23 13:31:22
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=notes.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133122064.log,2018/10/23 13:31:22
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=notes.php,php,php,*,PHPSESSID=fbae9828a1f7f80efbdcff6d4bf4db92;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133122064.log,2018/10/23 13:31:22
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/set-up-database.php,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133126179.log,2018/10/23 13:31:26
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/set-up-database.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133126179.log,2018/10/23 13:31:26
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/set-up-database.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133126179.log,2018/10/23 13:31:26
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/set-up-database.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133126179.log,2018/10/23 13:31:26
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=text-file-viewer.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133130009.log,2018/10/23 13:31:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=text-file-viewer.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133130009.log,2018/10/23 13:31:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=text-file-viewer.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133130009.log,2018/10/23 13:31:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=text-file-viewer.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133130009.log,2018/10/23 13:31:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=text-file-viewer.php,php,php,*,PHPSESSID=ba82b0ec33fe0d5a5e760294f7bf4b8f;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133130009.log,2018/10/23 13:31:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=usage-instructions.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133134048.log,2018/10/23 13:31:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=usage-instructions.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133134048.log,2018/10/23 13:31:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=usage-instructions.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133134048.log,2018/10/23 13:31:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=usage-instructions.php,php,php,*,PHPSESSID=9fec9e92d9e44fe4633e3465fa2ce66e;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133134048.log,2018/10/23 13:31:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=usage-instructions.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133134048.log,2018/10/23 13:31:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=site-footer-xss-discussion.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133138144.log,2018/10/23 13:31:38
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=site-footer-xss-discussion.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133138144.log,2018/10/23 13:31:38
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=site-footer-xss-discussion.php,php,php,*,PHPSESSID=e013f19c4de481f266d702e04823b8c9;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133138144.log,2018/10/23 13:31:38
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=site-footer-xss-discussion.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133138144.log,2018/10/23 13:31:38
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=site-footer-xss-discussion.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133138144.log,2018/10/23 13:31:38
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=register.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133142150.log,2018/10/23 13:31:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=register.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133142150.log,2018/10/23 13:31:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=register.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133142150.log,2018/10/23 13:31:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=register.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133142150.log,2018/10/23 13:31:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=register.php,php,php,*,PHPSESSID=166d539de2070a375337360c1fafb062;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133142150.log,2018/10/23 13:31:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=secret-administrative-pages.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133146298.log,2018/10/23 13:31:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=secret-administrative-pages.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133146298.log,2018/10/23 13:31:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=secret-administrative-pages.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133146298.log,2018/10/23 13:31:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=secret-administrative-pages.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133146298.log,2018/10/23 13:31:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=secret-administrative-pages.php,php,php,*,PHPSESSID=e699c2a4494fac110da50d83dc611263;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133146298.log,2018/10/23 13:31:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=text-file-viewer.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133150440.log,2018/10/23 13:31:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=text-file-viewer.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133150440.log,2018/10/23 13:31:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=text-file-viewer.php,php,php,*,PHPSESSID=92d697bfdb10964fc0081218f8bdc1b4;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133150440.log,2018/10/23 13:31:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=text-file-viewer.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133150440.log,2018/10/23 13:31:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=text-file-viewer.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133150440.log,2018/10/23 13:31:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=captured-data.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133154612.log,2018/10/23 13:31:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=captured-data.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133154612.log,2018/10/23 13:31:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=captured-data.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133154612.log,2018/10/23 13:31:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=captured-data.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133154612.log,2018/10/23 13:31:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=captured-data.php,php,php,*,PHPSESSID=84ec3d0b6a41bdd01f501193ae4b35f2;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133154612.log,2018/10/23 13:31:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133158829.log,2018/10/23 13:31:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133158829.log,2018/10/23 13:31:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php,php,php,*,PHPSESSID=3ceceede112fcf5ae8367b806d4707c9;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133158829.log,2018/10/23 13:31:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133158829.log,2018/10/23 13:31:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133158829.log,2018/10/23 13:31:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=text-file-viewer.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133202942.log,2018/10/23 13:32:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=text-file-viewer.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133202942.log,2018/10/23 13:32:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=text-file-viewer.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133202942.log,2018/10/23 13:32:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=text-file-viewer.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133202942.log,2018/10/23 13:32:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=text-file-viewer.php,php,php,*,PHPSESSID=0a414f243bf6e5197f206d1ad3c46588;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133202942.log,2018/10/23 13:32:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133206989.log,2018/10/23 13:32:06
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133206989.log,2018/10/23 13:32:06
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,php,php,*,PHPSESSID=675d41cfa96b61c0f0fb5519b2d6071a;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133206989.log,2018/10/23 13:32:06
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133206989.log,2018/10/23 13:32:06
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133206989.log,2018/10/23 13:32:06
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=site-footer-xss-discussion.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133211166.log,2018/10/23 13:32:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=site-footer-xss-discussion.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133211166.log,2018/10/23 13:32:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=site-footer-xss-discussion.php,php,php,*,PHPSESSID=f7408f94f0d945c558e27cc4633e6a0e;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133211166.log,2018/10/23 13:32:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=site-footer-xss-discussion.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133211166.log,2018/10/23 13:32:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=site-footer-xss-discussion.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133211166.log,2018/10/23 13:32:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/framer.html,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133215155.log,2018/10/23 13:32:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/framer.html,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133215155.log,2018/10/23 13:32:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/framer.html,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133215155.log,2018/10/23 13:32:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=captured-data.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133216483.log,2018/10/23 13:32:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=captured-data.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133216483.log,2018/10/23 13:32:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=captured-data.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133216483.log,2018/10/23 13:32:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=captured-data.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133216483.log,2018/10/23 13:32:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=captured-data.php,php,php,*,PHPSESSID=51aad0fdd24b5d9ad1f77528dee61aee;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133216483.log,2018/10/23 13:32:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=pen-test-tool-lookup.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133220722.log,2018/10/23 13:32:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=pen-test-tool-lookup.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133220722.log,2018/10/23 13:32:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=pen-test-tool-lookup.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133220722.log,2018/10/23 13:32:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=pen-test-tool-lookup.php,php,php,*,PHPSESSID=ca065755e7951a93c5da69777f0b7538;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133220722.log,2018/10/23 13:32:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=pen-test-tool-lookup.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133220722.log,2018/10/23 13:32:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=arbitrary-file-inclusion.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133224909.log,2018/10/23 13:32:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=arbitrary-file-inclusion.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133224909.log,2018/10/23 13:32:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=arbitrary-file-inclusion.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133224909.log,2018/10/23 13:32:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=arbitrary-file-inclusion.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133224909.log,2018/10/23 13:32:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=arbitrary-file-inclusion.php,php,php,*,PHPSESSID=ef578d4095b79f5e52280199ba1409ca;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133224909.log,2018/10/23 13:32:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=add-to-your-blog.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133228864.log,2018/10/23 13:32:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=add-to-your-blog.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133228864.log,2018/10/23 13:32:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=add-to-your-blog.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133228864.log,2018/10/23 13:32:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=add-to-your-blog.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133228864.log,2018/10/23 13:32:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=add-to-your-blog.php,php,php,*,PHPSESSID=b7d954eb59634a45bab7127aacae60d4;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133228864.log,2018/10/23 13:32:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=view-someones-blog.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133233211.log,2018/10/23 13:32:33
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=view-someones-blog.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133233211.log,2018/10/23 13:32:33
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=view-someones-blog.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133233211.log,2018/10/23 13:32:33
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=view-someones-blog.php,php,php,*,PHPSESSID=a7a0a14ea321901e47b78e9d42f1bf0b;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133233211.log,2018/10/23 13:32:33
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=view-someones-blog.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133233211.log,2018/10/23 13:32:33
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=credits.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133237345.log,2018/10/23 13:32:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=credits.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133237345.log,2018/10/23 13:32:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=credits.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133237345.log,2018/10/23 13:32:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=credits.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133237345.log,2018/10/23 13:32:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=credits.php,php,php,*,PHPSESSID=3264b0b853eca9d98371e12c01877b8c;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133237345.log,2018/10/23 13:32:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=framing.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133241756.log,2018/10/23 13:32:41
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=framing.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133241756.log,2018/10/23 13:32:41
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=framing.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133241756.log,2018/10/23 13:32:41
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=framing.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133241756.log,2018/10/23 13:32:41
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=framing.php,php,php,*,PHPSESSID=824842066ff3907b79bf0ad03eee0e89;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133241756.log,2018/10/23 13:32:41
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=login.php,-,-,-,-,-,-,"Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133245839.log,2018/10/23 13:32:45
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=login.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133245839.log,2018/10/23 13:32:45
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=login.php,php,php,*,PHPSESSID=94a4a70717a124c627cf459c98d28624;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133245839.log,2018/10/23 13:32:45
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=login.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133245839.log,2018/10/23 13:32:45
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=login.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133245839.log,2018/10/23 13:32:45
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=home.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133250011.log,2018/10/23 13:32:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=home.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133250011.log,2018/10/23 13:32:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=home.php,php,php,*,PHPSESSID=f1b196a47dc6dd2e62c6b3299bc0eeb3;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133250011.log,2018/10/23 13:32:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=home.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133250011.log,2018/10/23 13:32:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-hints&page=home.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133250011.log,2018/10/23 13:32:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=dns-lookup.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133254234.log,2018/10/23 13:32:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=dns-lookup.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133254234.log,2018/10/23 13:32:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=dns-lookup.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133254234.log,2018/10/23 13:32:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=dns-lookup.php,php,php,*,PHPSESSID=9f229f02d885a37dd5cf206c2e07a133;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133254234.log,2018/10/23 13:32:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=dns-lookup.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133254234.log,2018/10/23 13:32:54
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=set-background-color.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133258359.log,2018/10/23 13:32:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=set-background-color.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133258359.log,2018/10/23 13:32:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=set-background-color.php,php,php,*,PHPSESSID=e73370bbc928f0017430e29d0fc11c95;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133258359.log,2018/10/23 13:32:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=set-background-color.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133258359.log,2018/10/23 13:32:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=set-background-color.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133258359.log,2018/10/23 13:32:58
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=browser-info.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133302395.log,2018/10/23 13:33:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=browser-info.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133302395.log,2018/10/23 13:33:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=browser-info.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133302395.log,2018/10/23 13:33:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=browser-info.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133302395.log,2018/10/23 13:33:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=browser-info.php,php,php,*,PHPSESSID=66b791c68e18bf76b61c6474a407e693;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133302395.log,2018/10/23 13:33:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=login.php,-,-,-,-,-,-,"Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133307189.log,2018/10/23 13:33:07
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=login.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133307189.log,2018/10/23 13:33:07
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=login.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133307189.log,2018/10/23 13:33:07
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=login.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133307189.log,2018/10/23 13:33:07
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=login.php,php,php,*,PHPSESSID=6296a04bb170c2db76a97ed64cdf69a8;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133307189.log,2018/10/23 13:33:07
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/documentation/mutillidae-installation-on-xampp-win7.pdf,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133311356.log,2018/10/23 13:33:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/documentation/mutillidae-installation-on-xampp-win7.pdf,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133311356.log,2018/10/23 13:33:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/documentation/mutillidae-installation-on-xampp-win7.pdf,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133311356.log,2018/10/23 13:33:11
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=browser-info.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133313504.log,2018/10/23 13:33:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=browser-info.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133313504.log,2018/10/23 13:33:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=browser-info.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133313504.log,2018/10/23 13:33:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=browser-info.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133313504.log,2018/10/23 13:33:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=browser-info.php,php,php,*,PHPSESSID=7dfe276136af98b27e3c0caf622c0bb8;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133313504.log,2018/10/23 13:33:13
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=source-viewer.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133318386.log,2018/10/23 13:33:18
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=source-viewer.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133318386.log,2018/10/23 13:33:18
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=source-viewer.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133318386.log,2018/10/23 13:33:18
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=source-viewer.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133318386.log,2018/10/23 13:33:18
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=source-viewer.php,php,php,*,PHPSESSID=356762884ebdc5f0fcf63d1c376aea2c;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133318386.log,2018/10/23 13:33:18
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133325736.log,2018/10/23 13:33:25
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133325736.log,2018/10/23 13:33:25
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,php,php,*,PHPSESSID=517316498e52a7bf56f8102eecd8ef15;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133325736.log,2018/10/23 13:33:25
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133325736.log,2018/10/23 13:33:25
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/how-to-access-Mutillidae-over-Virtual-Box-network.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133325736.log,2018/10/23 13:33:25
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=php-errors.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133330056.log,2018/10/23 13:33:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=php-errors.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133330056.log,2018/10/23 13:33:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=php-errors.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133330056.log,2018/10/23 13:33:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=php-errors.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133330056.log,2018/10/23 13:33:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=php-errors.php,php,php,*,PHPSESSID=c0edea2f497a81283b752f5599d3bafa;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133330056.log,2018/10/23 13:33:30
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=register.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133334036.log,2018/10/23 13:33:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=register.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133334036.log,2018/10/23 13:33:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=register.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133334036.log,2018/10/23 13:33:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=register.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133334036.log,2018/10/23 13:33:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=register.php,php,php,*,PHPSESSID=ffc1cb5c8685d0d76a7941ec27c5e902;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133334036.log,2018/10/23 13:33:34
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=capture-data.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133337997.log,2018/10/23 13:33:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=capture-data.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133337997.log,2018/10/23 13:33:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=capture-data.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133337997.log,2018/10/23 13:33:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=capture-data.php,php,php,*,PHPSESSID=e0a1dfc99f435e7a72e34f976c3e1dff;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133337997.log,2018/10/23 13:33:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=capture-data.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133337997.log,2018/10/23 13:33:37
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=pen-test-tool-lookup.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133342228.log,2018/10/23 13:33:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=pen-test-tool-lookup.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133342228.log,2018/10/23 13:33:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=pen-test-tool-lookup.php,php,php,*,PHPSESSID=d913d47dc5b7ffa8bf3be8cbafc8283a;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133342228.log,2018/10/23 13:33:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=pen-test-tool-lookup.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133342228.log,2018/10/23 13:33:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=pen-test-tool-lookup.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133342228.log,2018/10/23 13:33:42
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=html5-storage.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133346475.log,2018/10/23 13:33:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=html5-storage.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133346475.log,2018/10/23 13:33:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=html5-storage.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133346475.log,2018/10/23 13:33:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=html5-storage.php,php,php,*,PHPSESSID=968ca8544f1a5b1ff443dec25472c085;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133346475.log,2018/10/23 13:33:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=html5-storage.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133346475.log,2018/10/23 13:33:46
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-poll.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133350896.log,2018/10/23 13:33:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-poll.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133350896.log,2018/10/23 13:33:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-poll.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133350896.log,2018/10/23 13:33:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-poll.php,php,php,*,PHPSESSID=ed538fc3984d151e875b415709147d15;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133350896.log,2018/10/23 13:33:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-poll.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133350896.log,2018/10/23 13:33:50
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-info.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133355039.log,2018/10/23 13:33:55
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-info.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133355039.log,2018/10/23 13:33:55
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-info.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133355039.log,2018/10/23 13:33:55
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-info.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133355039.log,2018/10/23 13:33:55
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=user-info.php,php,php,*,PHPSESSID=9537674c33a359777b7527294d09a2ec;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133355039.log,2018/10/23 13:33:55
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=view-someones-blog.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133359071.log,2018/10/23 13:33:59
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=view-someones-blog.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133359071.log,2018/10/23 13:33:59
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=view-someones-blog.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133359071.log,2018/10/23 13:33:59
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=view-someones-blog.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133359071.log,2018/10/23 13:33:59
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=view-someones-blog.php,php,php,*,PHPSESSID=e3cac5520535bc919dbf35ddfb7d896a;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133359071.log,2018/10/23 13:33:59
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=source-viewer.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133403290.log,2018/10/23 13:34:03
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=source-viewer.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133403290.log,2018/10/23 13:34:03
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=source-viewer.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133403290.log,2018/10/23 13:34:03
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=source-viewer.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133403290.log,2018/10/23 13:34:03
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=source-viewer.php,php,php,*,PHPSESSID=a68f3dc93b7ec8a67af64aba86dca50a;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133403290.log,2018/10/23 13:34:03
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/vulnerabilities.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133410543.log,2018/10/23 13:34:10
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/vulnerabilities.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133410543.log,2018/10/23 13:34:10
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/vulnerabilities.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133410543.log,2018/10/23 13:34:10
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/vulnerabilities.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133410543.log,2018/10/23 13:34:10
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=documentation/vulnerabilities.php,php,php,*,PHPSESSID=2660d4d6ee99da28b59f3e387ed72160;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : username,uid,Log in,UID
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133410543.log,2018/10/23 13:34:10
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133415307.log,2018/10/23 13:34:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133415307.log,2018/10/23 13:34:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/,php,php,*,PHPSESSID=3e38ecad06f66ba06d135e412707e481;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133415307.log,2018/10/23 13:34:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133415307.log,2018/10/23 13:34:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133415307.log,2018/10/23 13:34:15
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=framing.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133419446.log,2018/10/23 13:34:19
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=framing.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133419446.log,2018/10/23 13:34:19
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=framing.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133419446.log,2018/10/23 13:34:19
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=framing.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133419446.log,2018/10/23 13:34:19
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=framing.php,php,php,*,PHPSESSID=869d5d3c9ab0064d3db43d52ae438029;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133419446.log,2018/10/23 13:34:19
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=user-info.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133423429.log,2018/10/23 13:34:23
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=user-info.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133423429.log,2018/10/23 13:34:23
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=user-info.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133423429.log,2018/10/23 13:34:23
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=user-info.php,php,php,*,PHPSESSID=cca75456aa7c0b3588ea615e1ee59e16;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133423429.log,2018/10/23 13:34:23
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=user-info.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password""
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133423429.log,2018/10/23 13:34:23
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=dns-lookup.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133427442.log,2018/10/23 13:34:27
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=dns-lookup.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133427442.log,2018/10/23 13:34:27
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=dns-lookup.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133427442.log,2018/10/23 13:34:27
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=dns-lookup.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133427442.log,2018/10/23 13:34:27
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=dns-lookup.php,php,php,*,PHPSESSID=7fe0c730aaacf3c61d384c7b97eb97f6;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133427442.log,2018/10/23 13:34:27
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=usage-instructions.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133431814.log,2018/10/23 13:34:31
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=usage-instructions.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133431814.log,2018/10/23 13:34:31
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=usage-instructions.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133431814.log,2018/10/23 13:34:31
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=usage-instructions.php,php,php,*,PHPSESSID=216f5027741be24e84a0eae13994eeaf;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133431814.log,2018/10/23 13:34:31
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=usage-instructions.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133431814.log,2018/10/23 13:34:31
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=password-generator.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133435789.log,2018/10/23 13:34:35
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=password-generator.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133435789.log,2018/10/23 13:34:35
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=password-generator.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133435789.log,2018/10/23 13:34:35
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=password-generator.php,php,php,*,PHPSESSID=ddc39d6e26d089feed3fb42417653f8b;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133435789.log,2018/10/23 13:34:35
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=password-generator.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133435789.log,2018/10/23 13:34:35
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=password-generator.php&username=anonymous,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133439945.log,2018/10/23 13:34:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=password-generator.php&username=anonymous,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133439945.log,2018/10/23 13:34:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=password-generator.php&username=anonymous,php,php,*,PHPSESSID=f9b7d702a7df64b8fc04627ba1eaf2d4;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133439945.log,2018/10/23 13:34:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=password-generator.php&username=anonymous,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133439945.log,2018/10/23 13:34:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=password-generator.php&username=anonymous,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username,Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133439945.log,2018/10/23 13:34:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=add-to-your-blog.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133443996.log,2018/10/23 13:34:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=add-to-your-blog.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133443996.log,2018/10/23 13:34:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=add-to-your-blog.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133443996.log,2018/10/23 13:34:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=add-to-your-blog.php,php,php,*,PHPSESSID=bca9c6223b637365b61d0d49585f41c5;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133443996.log,2018/10/23 13:34:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=add-to-your-blog.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133443996.log,2018/10/23 13:34:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=view-someones-blog.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133448221.log,2018/10/23 13:34:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=view-someones-blog.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133448221.log,2018/10/23 13:34:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=view-someones-blog.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133448221.log,2018/10/23 13:34:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=view-someones-blog.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133448221.log,2018/10/23 13:34:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=view-someones-blog.php,php,php,*,PHPSESSID=5f5d0daa88566e6e1ff2f72ff1249eaa;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133448221.log,2018/10/23 13:34:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=capture-data.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133452339.log,2018/10/23 13:34:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=capture-data.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133452339.log,2018/10/23 13:34:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=capture-data.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133452339.log,2018/10/23 13:34:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=capture-data.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133452339.log,2018/10/23 13:34:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=capture-data.php,php,php,*,PHPSESSID=cdd1ac3b3ffe7ad078bae7435a8b5e0c;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133452339.log,2018/10/23 13:34:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-poll.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133456491.log,2018/10/23 13:34:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-poll.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133456491.log,2018/10/23 13:34:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-poll.php,php,php,*,PHPSESSID=4f2605ce747fd29520ea2e52fe7bda5e;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133456491.log,2018/10/23 13:34:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-poll.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133456491.log,2018/10/23 13:34:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=user-poll.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133456491.log,2018/10/23 13:34:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=captured-data.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133500727.log,2018/10/23 13:35:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=captured-data.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133500727.log,2018/10/23 13:35:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=captured-data.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133500727.log,2018/10/23 13:35:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=captured-data.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133500727.log,2018/10/23 13:35:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=captured-data.php,php,php,*,PHPSESSID=3894dc099601095647cb382c55496e77;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133500727.log,2018/10/23 13:35:00
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=show-log.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133505018.log,2018/10/23 13:35:05
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=show-log.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133505018.log,2018/10/23 13:35:05
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=show-log.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133505018.log,2018/10/23 13:35:05
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=show-log.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133505018.log,2018/10/23 13:35:05
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=show-log.php,php,php,*,PHPSESSID=a2b661330190655ca9d1e295ea90c492;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133505018.log,2018/10/23 13:35:05
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=register.php,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133509028.log,2018/10/23 13:35:09
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=register.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133509028.log,2018/10/23 13:35:09
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=register.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133509028.log,2018/10/23 13:35:09
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=register.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133509028.log,2018/10/23 13:35:09
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=register.php,php,php,*,PHPSESSID=b0372e843ad7d3cd0dcb515219adabb9;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 37.5 %
+Url : 0.0 %","Log : name"",username,<input type=""password"",Username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133509028.log,2018/10/23 13:35:09
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=arbitrary-file-inclusion.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133512943.log,2018/10/23 13:35:12
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=arbitrary-file-inclusion.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133512943.log,2018/10/23 13:35:12
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=arbitrary-file-inclusion.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133512943.log,2018/10/23 13:35:12
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=arbitrary-file-inclusion.php,php,php,*,PHPSESSID=ec4e93422fbdee984ccb86db6b4d593c;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133512943.log,2018/10/23 13:35:12
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=arbitrary-file-inclusion.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133512943.log,2018/10/23 13:35:12
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=show-log.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133516921.log,2018/10/23 13:35:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=show-log.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133516921.log,2018/10/23 13:35:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=show-log.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133516921.log,2018/10/23 13:35:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=show-log.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133516921.log,2018/10/23 13:35:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=show-log.php,php,php,*,PHPSESSID=4563a28c2f7af0e6f02cbe96f256b9a4;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133516921.log,2018/10/23 13:35:16
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=set-background-color.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133520820.log,2018/10/23 13:35:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=set-background-color.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133520820.log,2018/10/23 13:35:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=set-background-color.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133520820.log,2018/10/23 13:35:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=set-background-color.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133520820.log,2018/10/23 13:35:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=set-background-color.php,php,php,*,PHPSESSID=76fd8bd94b9168dac1520bcdc1b0afbe;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133520820.log,2018/10/23 13:35:20
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=notes.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133524800.log,2018/10/23 13:35:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=notes.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133524800.log,2018/10/23 13:35:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=notes.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133524800.log,2018/10/23 13:35:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=notes.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133524800.log,2018/10/23 13:35:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=notes.php,php,php,*,PHPSESSID=58d8c1ced6cfec820ddd4bbf51928c85;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133524800.log,2018/10/23 13:35:24
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=show-log.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133528755.log,2018/10/23 13:35:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=show-log.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133528755.log,2018/10/23 13:35:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=show-log.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133528755.log,2018/10/23 13:35:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=show-log.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133528755.log,2018/10/23 13:35:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=show-log.php,php,php,*,PHPSESSID=0a81a439f9e30e1233bc210d2f2a2f00;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133528755.log,2018/10/23 13:35:28
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=source-viewer.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133532670.log,2018/10/23 13:35:32
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=source-viewer.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133532670.log,2018/10/23 13:35:32
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=source-viewer.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133532670.log,2018/10/23 13:35:32
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=source-viewer.php,php,php,*,PHPSESSID=67dbf41957fe59b87e81a25e2d800de4;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133532670.log,2018/10/23 13:35:32
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/?page=source-viewer.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133532670.log,2018/10/23 13:35:32
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=html5-storage.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133539737.log,2018/10/23 13:35:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=html5-storage.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133539737.log,2018/10/23 13:35:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=html5-storage.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133539737.log,2018/10/23 13:35:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=html5-storage.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133539737.log,2018/10/23 13:35:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=html5-storage.php,php,php,*,PHPSESSID=63e8a166c9110de26c96b7c207e34ec0;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133539737.log,2018/10/23 13:35:39
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=add-to-your-blog.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133543937.log,2018/10/23 13:35:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=add-to-your-blog.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133543937.log,2018/10/23 13:35:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=add-to-your-blog.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133543937.log,2018/10/23 13:35:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=add-to-your-blog.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133543937.log,2018/10/23 13:35:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=add-to-your-blog.php,php,php,*,PHPSESSID=5a5e5df18768d3b2941b6fdc5eb327cc;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133543937.log,2018/10/23 13:35:43
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=login.php,-,-,-,-,-,-,"Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133548034.log,2018/10/23 13:35:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=login.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133548034.log,2018/10/23 13:35:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=login.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133548034.log,2018/10/23 13:35:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=login.php,php,php,*,PHPSESSID=50c513c2f681d3321b18fbb8259752b1;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133548034.log,2018/10/23 13:35:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=login.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 50.0 %
+Url : 100.0 %","Log : username,<input name=""login-php-submit-button"" class=""button"" type=""submit"" value=""Login,<input type=""password"",name""
+Url : login",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133548034.log,2018/10/23 13:35:48
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=php-errors.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133552153.log,2018/10/23 13:35:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=php-errors.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133552153.log,2018/10/23 13:35:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=php-errors.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133552153.log,2018/10/23 13:35:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=php-errors.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133552153.log,2018/10/23 13:35:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=php-errors.php,php,php,*,PHPSESSID=d9b306d05742186bdde117e43716597f;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133552153.log,2018/10/23 13:35:52
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=change-log.htm,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133556051.log,2018/10/23 13:35:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=change-log.htm,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133556051.log,2018/10/23 13:35:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=change-log.htm,php,php,*,PHPSESSID=e2afdc5952e1f9fc0f1cac040f112a52;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133556051.log,2018/10/23 13:35:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=change-log.htm,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133556051.log,2018/10/23 13:35:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=change-log.htm,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133556051.log,2018/10/23 13:35:56
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=installation.php,-,-,-,-,-,-,"Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133602495.log,2018/10/23 13:36:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=installation.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133602495.log,2018/10/23 13:36:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=installation.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133602495.log,2018/10/23 13:36:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=installation.php,php,php,*,PHPSESSID=f6e4164e1c440f238e50eda47c4b27ae;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133602495.log,2018/10/23 13:36:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?page=installation.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : - %
+Url : 0.0 %","Log : -
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133602495.log,2018/10/23 13:36:02
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=home.php,-,-,-,-,-,-,"Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133604790.log,2018/10/23 13:36:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=home.php,apache,http_server,2.2.8,Apache/2.2.8,Web,"CVE-2016-4975
+CVE-2010-0425
+CVE-2011-3192
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133604790.log,2018/10/23 13:36:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=home.php,ubuntu,ubuntu_linux,*,(Ubuntu),OS,"CVE-2005-0109
+CVE-2004-0882
+CVE-2004-0888
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133604790.log,2018/10/23 13:36:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=home.php,php,php,*,PHPSESSID=a4bcd82f133fecab177bcd55a7f939ff;,Language,"CVE-2015-4599
+CVE-2015-4600
+CVE-2015-4601
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133604790.log,2018/10/23 13:36:04
+192.168.184.132,192.168.184.132,80,Unknown,Crawling,http://192.168.184.132:80/mutillidae/index.php?do=toggle-security&page=home.php,php,php,5.2.4,PHP/5.2.4,Language,"CVE-2015-8994
+CVE-2016-7478
+CVE-2008-0599
+","Log : 25.0 %
+Url : 0.0 %","Log : username
+Url : -",-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\http_192.168.184.132_80_20181023133604790.log,2018/10/23 13:36:04
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/index.php/login/,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133612670.log,2018/10/23 13:36:12
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/index.php/login/,concrete5,concrete5,*,/index.php/login/,CMS,"CVE-2015-4724
+CVE-2018-13790
+CVE-2017-8082
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133612670.log,2018/10/23 13:36:12
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/login,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133613725.log,2018/10/23 13:36:13
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/login,concrete5,concrete5,*,/login,CMS,"CVE-2015-4724
+CVE-2018-13790
+CVE-2017-8082
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133613725.log,2018/10/23 13:36:13
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/index.php?Special:UserLogin,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133614784.log,2018/10/23 13:36:14
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/index.php?Special:UserLogin,mediawiki,mediawiki,*,/index.php?Special:UserLogin,CMS,"CVE-2014-9487
+CVE-2017-0372
+CVE-2017-8809
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133614784.log,2018/10/23 13:36:14
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/?login,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133615855.log,2018/10/23 13:36:15
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/?login,cmsimple,cmsimple,*,/?login,CMS,"CVE-2008-2650
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133615855.log,2018/10/23 13:36:15
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/?login,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133616901.log,2018/10/23 13:36:16
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/?login,cmsimple,cmsimple_classic,*,/?login,CMS,"CVE-2014-2219
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133616901.log,2018/10/23 13:36:16
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/?login,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133617968.log,2018/10/23 13:36:17
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/?login,cmsmadesimple,cms_made_simple,*,/?login,CMS,"CVE-2017-1000453
+CVE-2017-16783
+CVE-2017-6070
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133617968.log,2018/10/23 13:36:17
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/phpMyAdmin/,-,-,-,-,-,-,*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133643950.log,2018/10/23 13:36:43
+192.168.184.132,192.168.184.132,80,*,Direct,http://192.168.184.132:80/mutillidae/phpMyAdmin/,phpmyadmin,phpmyadmin,*,/phpMyAdmin/,Tool,"CVE-2016-6629
+CVE-2016-5703
+CVE-2016-5734
+",*,*,-,-,Server: Apache/2.2.8 (Ubuntu) DAV/2,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\http_192.168.184.132_80_20181023133643950.log,2018/10/23 13:36:43

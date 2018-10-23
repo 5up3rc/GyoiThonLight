@@ -1,0 +1,325 @@
+fqdn,ip_addr,port,cloud_type,method,url,vendor_name,prod_name,prod_version,prod_trigger,prod_type,prod_vuln,origin_login,origin_login_trigger,wrong_comment,error_msg,server_header,log,date
+google-gruyere.appspot.com,172.217.25.212,443,Unknown,Crawling,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/login,-,-,-,-,-,-,"Log : 50.0 %
+Url : 100.0 %","Log : Sign in,<input type='password',uid,<input type='submit' value='Login
+Url : login",-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\https_google-gruyere.appspot.com_443_20181023131734131.log,2018/10/23 13:17:34
+google-gruyere.appspot.com,172.217.25.212,443,Unknown,Crawling,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/newaccount.gtl,-,-,-,-,-,-,"Log : 50.0 %
+Url : 0.0 %","Log : Sign in,<input type='password',uid
+Url : -",-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\https_google-gruyere.appspot.com_443_20181023131853656.log,2018/10/23 13:18:53
+google-gruyere.appspot.com,172.217.25.212,443,Unknown,Crawling,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/snippets.gtl?uid=cheddar,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : Sign in,name""
+Url : -",-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\https_google-gruyere.appspot.com_443_20181023131854216.log,2018/10/23 13:18:54
+google-gruyere.appspot.com,172.217.25.212,443,Unknown,Crawling,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/snippets.gtl?uid=brie,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : Sign in,name""
+Url : -",-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\https_google-gruyere.appspot.com_443_20181023131854896.log,2018/10/23 13:18:54
+google-gruyere.appspot.com,172.217.25.212,443,Unknown,Crawling,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/,-,-,-,-,-,-,"Log : 37.5 %
+Url : 0.0 %","Log : Sign in,uid
+Url : -",-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\logs\https_google-gruyere.appspot.com_443_20181023131855495.log,2018/10/23 13:18:55
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-login.php,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132006986.log,2018/10/23 13:20:06
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-login.php,wordpress,wordpress,*,/wp-login.php,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132006986.log,2018/10/23 13:20:06
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-admin/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132008497.log,2018/10/23 13:20:08
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-admin/,wordpress,wordpress,*,/wp-admin/,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132008497.log,2018/10/23 13:20:08
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/cgi-bin/mt/mt.cgi,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132009983.log,2018/10/23 13:20:09
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/cgi-bin/mt/mt.cgi,sixapart,movabletype,*,/cgi-bin/mt/mt.cgi,CMS,"CVE-2010-4509
+CVE-2010-4511
+CVE-2010-3922
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132009983.log,2018/10/23 13:20:09
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/administrator/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132011517.log,2018/10/23 13:20:11
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/administrator/,joomla,joomla\!,*,/administrator/,CMS,"CVE-2016-8869
+CVE-2016-9081
+CVE-2016-9836
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132011517.log,2018/10/23 13:20:11
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/user/login,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132013041.log,2018/10/23 13:20:13
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/user/login,drupal,drupal,*,/user/login,CMS,"CVE-2017-6920
+CVE-2018-7600
+CVE-2018-7602
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132013041.log,2018/10/23 13:20:13
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/cms/admin/index.php,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132014557.log,2018/10/23 13:20:14
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/cms/admin/index.php,n-i-agroinformatics,soy_cms,*,/cms/admin/index.php,CMS,"CVE-2017-2163
+CVE-2017-2164
+CVE-2014-1998
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132014557.log,2018/10/23 13:20:14
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/soy/admin/index.php,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132016046.log,2018/10/23 13:20:16
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/soy/admin/index.php,n-i-agroinformatics,soy_cms,*,/soy/admin/index.php,CMS,"CVE-2017-2163
+CVE-2017-2164
+CVE-2014-1998
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132016046.log,2018/10/23 13:20:16
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/index.php/login/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132017539.log,2018/10/23 13:20:17
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/index.php/login/,concrete5,concrete5,*,/index.php/login/,CMS,"CVE-2015-4724
+CVE-2018-13790
+CVE-2017-8082
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132017539.log,2018/10/23 13:20:17
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/login,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132019111.log,2018/10/23 13:20:19
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/login,concrete5,concrete5,*,/login,CMS,"CVE-2015-4724
+CVE-2018-13790
+CVE-2017-8082
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132019111.log,2018/10/23 13:20:19
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/index.php?Special:UserLogin,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132020639.log,2018/10/23 13:20:20
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/index.php?Special:UserLogin,mediawiki,mediawiki,*,/index.php?Special:UserLogin,CMS,"CVE-2014-9487
+CVE-2017-0372
+CVE-2017-8809
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132020639.log,2018/10/23 13:20:20
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/?login,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132022088.log,2018/10/23 13:20:22
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/?login,cmsimple,cmsimple,*,/?login,CMS,"CVE-2008-2650
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132022088.log,2018/10/23 13:20:22
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/?login,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132023588.log,2018/10/23 13:20:23
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/?login,cmsimple,cmsimple_classic,*,/?login,CMS,"CVE-2014-2219
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132023588.log,2018/10/23 13:20:23
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/?login,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132025070.log,2018/10/23 13:20:25
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/?login,cmsmadesimple,cms_made_simple,*,/?login,CMS,"CVE-2017-1000453
+CVE-2017-16783
+CVE-2017-6070
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132025070.log,2018/10/23 13:20:25
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/manager/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132026646.log,2018/10/23 13:20:26
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/manager/,MODX,modx_revolution,*,/manager/,CMS,Cannot search.,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132026646.log,2018/10/23 13:20:26
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/nucleus/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132028075.log,2018/10/23 13:20:28
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/nucleus/,nucleuscms,nucleus,*,/nucleus/,CMS,"CVE-2010-5041
+CVE-2010-5040
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132028075.log,2018/10/23 13:20:28
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/nucleus/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132029589.log,2018/10/23 13:20:29
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/nucleus/,nucleuscms,nucleus_cms,*,/nucleus/,CMS,"CVE-2011-3760
+CVE-2015-5454
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132029589.log,2018/10/23 13:20:29
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/user.php,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132031071.log,2018/10/23 13:20:31
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/user.php,xoops,xoops,*,/user.php,CMS,"CVE-2017-11174
+CVE-2017-7290
+CVE-2017-12138
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132031071.log,2018/10/23 13:20:31
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/icons/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132059107.log,2018/10/23 13:20:59
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/icons/,apache,http_server,*,/icons/,Web,"CVE-2017-3167
+CVE-2017-3169
+CVE-2017-7668
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132059107.log,2018/10/23 13:20:59
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/manual/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132100802.log,2018/10/23 13:21:00
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/manual/,apache,http_server,*,/manual/,Web,"CVE-2017-3167
+CVE-2017-3169
+CVE-2017-7668
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132100802.log,2018/10/23 13:21:00
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-content/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132102318.log,2018/10/23 13:21:02
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-content/,wordpress,wordpress,*,/wp-content/,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132102318.log,2018/10/23 13:21:02
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-includes/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132103775.log,2018/10/23 13:21:03
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-includes/,wordpress,wordpress,*,/wp-includes/,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132103775.log,2018/10/23 13:21:03
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-json/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132105301.log,2018/10/23 13:21:05
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/wp-json/,wordpress,wordpress,*,/wp-json/,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132105301.log,2018/10/23 13:21:05
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/xmlrpc.php,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132106853.log,2018/10/23 13:21:06
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/xmlrpc.php,wordpress,wordpress,*,/xmlrpc.php,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132106853.log,2018/10/23 13:21:06
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/feed/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132108376.log,2018/10/23 13:21:08
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/feed/,wordpress,wordpress,*,/feed/,CMS,"CVE-2017-14723
+CVE-2017-16510
+CVE-2017-5611
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132108376.log,2018/10/23 13:21:08
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/core/misc/drupalSettingsLoader.js,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132109857.log,2018/10/23 13:21:09
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/core/misc/drupalSettingsLoader.js,drupal,drupal,*,/core/misc/drupalSettingsLoader.js,CMS,"CVE-2017-6920
+CVE-2018-7600
+CVE-2018-7602
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132109857.log,2018/10/23 13:21:09
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/core/misc/drupal.js,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132111390.log,2018/10/23 13:21:11
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/core/misc/drupal.js,drupal,drupal,*,/core/misc/drupal.js,CMS,"CVE-2017-6920
+CVE-2018-7600
+CVE-2018-7602
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132111390.log,2018/10/23 13:21:11
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/core/misc/drupal.init.js,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132112938.log,2018/10/23 13:21:12
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/core/misc/drupal.init.js,drupal,drupal,*,/core/misc/drupal.init.js,CMS,"CVE-2017-6920
+CVE-2018-7600
+CVE-2018-7602
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132112938.log,2018/10/23 13:21:12
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/themes/bootstrap/js/drupal.bootstrap.js,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132114452.log,2018/10/23 13:21:14
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/themes/bootstrap/js/drupal.bootstrap.js,drupal,drupal,*,/themes/bootstrap/js/drupal.bootstrap.js,CMS,"CVE-2017-6920
+CVE-2018-7600
+CVE-2018-7602
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132114452.log,2018/10/23 13:21:14
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/drupal/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132115986.log,2018/10/23 13:21:15
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/drupal/,drupal,drupal,*,/drupal/,CMS,"CVE-2017-6920
+CVE-2018-7600
+CVE-2018-7602
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132115986.log,2018/10/23 13:21:15
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/joomla/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132117538.log,2018/10/23 13:21:17
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/joomla/,joomla,joomla\!,*,/joomla/,CMS,"CVE-2016-8869
+CVE-2016-9081
+CVE-2016-9836
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132117538.log,2018/10/23 13:21:17
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/templates/joomla/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132119092.log,2018/10/23 13:21:19
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/templates/joomla/,joomla,joomla\!,*,/templates/joomla/,CMS,"CVE-2016-8869
+CVE-2016-9081
+CVE-2016-9836
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132119092.log,2018/10/23 13:21:19
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mt/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132120598.log,2018/10/23 13:21:20
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mt/,sixapart,movabletype,*,/mt/,CMS,"CVE-2010-4509
+CVE-2010-4511
+CVE-2010-3922
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132120598.log,2018/10/23 13:21:20
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mt-static/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132122192.log,2018/10/23 13:21:22
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mt-static/,sixapart,movabletype,*,/mt-static/,CMS,"CVE-2010-4509
+CVE-2010-4511
+CVE-2010-3922
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132122192.log,2018/10/23 13:21:22
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mt/mt-search.cgi,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132123685.log,2018/10/23 13:21:23
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mt/mt-search.cgi,sixapart,movabletype,*,/mt/mt-search.cgi,CMS,"CVE-2010-4509
+CVE-2010-4511
+CVE-2010-3922
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132123685.log,2018/10/23 13:21:23
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/sugarcrm/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132125166.log,2018/10/23 13:21:25
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/sugarcrm/,sugarcrm,sugarcrm,*,/sugarcrm/,CMS,"CVE-2014-3244
+CVE-2018-6308
+CVE-2017-14508
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132125166.log,2018/10/23 13:21:25
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/tikiwiki/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132126685.log,2018/10/23 13:21:26
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/tikiwiki/,tiki,tikiwiki_cms\/groupware,*,/tikiwiki/,CMS,"CVE-2017-14924
+CVE-2017-14925
+CVE-2016-10143
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132126685.log,2018/10/23 13:21:26
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/tomcat-docs/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132128245.log,2018/10/23 13:21:28
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/tomcat-docs/,apache,tomcat,*,/tomcat-docs/,Framework,"CVE-2016-8735
+CVE-2017-5651
+CVE-2018-8014
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132128245.log,2018/10/23 13:21:28
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/jsp,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132129725.log,2018/10/23 13:21:29
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/jsp,apache,tomcat,*,/examples/jsp,Framework,"CVE-2016-8735
+CVE-2017-5651
+CVE-2018-8014
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132129725.log,2018/10/23 13:21:29
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/servlets/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132131258.log,2018/10/23 13:21:31
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/servlets/,apache,tomcat,*,/examples/servlets/,Framework,"CVE-2016-8735
+CVE-2017-5651
+CVE-2018-8014
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132131258.log,2018/10/23 13:21:31
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webdav/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132132776.log,2018/10/23 13:21:32
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webdav/,apache,tomcat,*,/webdav/,Framework,"CVE-2016-8735
+CVE-2017-5651
+CVE-2018-8014
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132132776.log,2018/10/23 13:21:32
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/admin/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132134319.log,2018/10/23 13:21:34
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/admin/,apache,tomcat,*,/admin/,Framework,"CVE-2016-8735
+CVE-2017-5651
+CVE-2018-8014
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132134319.log,2018/10/23 13:21:34
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/tomcat-docs/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132135888.log,2018/10/23 13:21:35
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/tomcat-docs/,apache,coyote_http_connector,*,/tomcat-docs/,Framework,"CVE-2005-2090
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132135888.log,2018/10/23 13:21:35
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/jsp,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132137359.log,2018/10/23 13:21:37
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/jsp,apache,coyote_http_connector,*,/examples/jsp,Framework,"CVE-2005-2090
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132137359.log,2018/10/23 13:21:37
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/servlets/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132138899.log,2018/10/23 13:21:38
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/examples/servlets/,apache,coyote_http_connector,*,/examples/servlets/,Framework,"CVE-2005-2090
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132138899.log,2018/10/23 13:21:38
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webdav/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132140440.log,2018/10/23 13:21:40
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webdav/,apache,coyote_http_connector,*,/webdav/,Framework,"CVE-2005-2090
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132140440.log,2018/10/23 13:21:40
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/admin/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132141890.log,2018/10/23 13:21:41
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/admin/,apache,coyote_http_connector,*,/admin/,Framework,"CVE-2005-2090
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132141890.log,2018/10/23 13:21:41
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/CFIDE/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132143409.log,2018/10/23 13:21:43
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/CFIDE/,adobe,coldfusion,*,/CFIDE/,Framework,"CVE-2018-4939
+CVE-2016-1114
+CVE-2017-11283
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132143409.log,2018/10/23 13:21:43
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/cfdocs/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132144974.log,2018/10/23 13:21:44
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/cfdocs/,adobe,coldfusion,*,/cfdocs/,Framework,"CVE-2018-4939
+CVE-2016-1114
+CVE-2017-11283
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132144974.log,2018/10/23 13:21:44
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/sqwebmail/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132146623.log,2018/10/23 13:21:46
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/sqwebmail/,squirrelmail,squirrelmail,*,/sqwebmail/,Tool,"CVE-2017-7692
+CVE-2018-8741
+CVE-2018-14950
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132146623.log,2018/10/23 13:21:46
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webmail/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132148106.log,2018/10/23 13:21:48
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webmail/,squirrelmail,squirrelmail,*,/webmail/,Tool,"CVE-2017-7692
+CVE-2018-8741
+CVE-2018-14950
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132148106.log,2018/10/23 13:21:48
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/svn/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132149608.log,2018/10/23 13:21:49
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/svn/,apache,subversion,*,/svn/,Tool,"CVE-2017-9800
+CVE-2013-4246
+CVE-2015-5259
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132149608.log,2018/10/23 13:21:49
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/repos/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132151122.log,2018/10/23 13:21:51
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/repos/,apache,subversion,*,/repos/,Tool,"CVE-2017-9800
+CVE-2013-4246
+CVE-2015-5259
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132151122.log,2018/10/23 13:21:51
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/visitors/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132152604.log,2018/10/23 13:21:52
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/visitors/,hping,visitors,*,/visitors/,Tool,Cannot search.,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132152604.log,2018/10/23 13:21:52
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/log/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132154069.log,2018/10/23 13:21:54
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/log/,hping,visitors,*,/log/,Tool,Cannot search.,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132154069.log,2018/10/23 13:21:54
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webdruid/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132155562.log,2018/10/23 13:21:55
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webdruid/,webdruid,webdruid,*,/webdruid/,Tool,Cannot search.,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132155562.log,2018/10/23 13:21:55
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/usage/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132157037.log,2018/10/23 13:21:57
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/usage/,webdruid,webdruid,*,/usage/,Tool,Cannot search.,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132157037.log,2018/10/23 13:21:57
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/htdig/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132158478.log,2018/10/23 13:21:58
+google-gruyere.appspot.com,172.217.25.212,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/htdig/,htdig,htdig,*,/htdig/,Tool,"CVE-2005-0085
+CVE-2001-0834
+CVE-2000-0208
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132158478.log,2018/10/23 13:21:58
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/htsearch/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132159996.log,2018/10/23 13:21:59
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/htsearch/,htdig,htdig,*,/htsearch/,Tool,"CVE-2005-0085
+CVE-2001-0834
+CVE-2000-0208
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132159996.log,2018/10/23 13:21:59
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mailman/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132201568.log,2018/10/23 13:22:01
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mailman/,gnu,mailman,*,/mailman/,Tool,"CVE-2016-6893
+CVE-2016-7123
+CVE-2018-13796
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132201568.log,2018/10/23 13:22:01
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/phpMyAdmin/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132203161.log,2018/10/23 13:22:03
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/phpMyAdmin/,phpmyadmin,phpmyadmin,*,/phpMyAdmin/,Tool,"CVE-2016-6629
+CVE-2016-5703
+CVE-2016-5734
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132203161.log,2018/10/23 13:22:03
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/roundcube/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132204726.log,2018/10/23 13:22:04
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/roundcube/,roundcube,webmail,*,/roundcube/,Tool,"CVE-2016-4069
+CVE-2018-9846
+CVE-2015-2181
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132204726.log,2018/10/23 13:22:04
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/awstats/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132206273.log,2018/10/23 13:22:06
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/awstats/,awstats,awstats,*,/awstats/,Tool,"CVE-2017-1000501
+CVE-2018-10245
+CVE-2005-0116
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132206273.log,2018/10/23 13:22:06
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webalizer/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132207826.log,2018/10/23 13:22:07
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webalizer/,bradford_barrett,webalizer,*,/webalizer/,Tool,"CVE-2001-0835
+CVE-2002-0180
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132207826.log,2018/10/23 13:22:07
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/analog/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132209311.log,2018/10/23 13:22:09
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/analog/,stephen_turner,analog,*,/analog/,Tool,"CVE-2001-0301
+CVE-2002-0166
+CVE-1999-1287
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132209311.log,2018/10/23 13:22:09
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mrtg/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132210802.log,2018/10/23 13:22:10
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mrtg/,mrtg,mrtgconfig,*,/mrtg/,Tool,"CVE-2002-1677
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132210802.log,2018/10/23 13:22:10
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mrtg/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132212286.log,2018/10/23 13:22:12
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mrtg/,mrtg,multi_router_traffic_grapher_cgi,*,/mrtg/,Tool,"CVE-2002-0232
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132212286.log,2018/10/23 13:22:12
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webmin/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132213772.log,2018/10/23 13:22:13
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/webmin/,webmin,webmin,*,/webmin/,Tool,"CVE-2018-8712
+CVE-2017-15645
+CVE-2017-15644
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132213772.log,2018/10/23 13:22:13
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/phpbb/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132215385.log,2018/10/23 13:22:15
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/phpbb/,phpbb,phpbb,*,/phpbb/,Tool,"CVE-2017-1000419
+CVE-2015-3880
+CVE-2008-1766
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132215385.log,2018/10/23 13:22:15
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mediawiki/,-,-,-,-,-,-,*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132216891.log,2018/10/23 13:22:16
+google-gruyere.appspot.com,172.217.31.148,443,*,Direct,https://google-gruyere.appspot.com:443/404763958046908373156707185267202684958/mediawiki/,mediawiki,mediawiki,*,/mediawiki/,Tool,"CVE-2014-9487
+CVE-2017-0372
+CVE-2017-8809
+",*,*,-,-,Server: Google Frontend,C:\Users\itaka\PycharmProjects\GyoiThonLight\modules\../logs\https_google-gruyere.appspot.com_443_20181023132216891.log,2018/10/23 13:22:16
