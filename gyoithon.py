@@ -203,12 +203,12 @@ if __name__ == '__main__':
                                           print_date)
 
         # Check CMS using Google Hack and Explore contents.
-        google_hack.execute_google_hack(cve_explorer, fqdn_list[idx], 'cms', report)
-        content_explorer.content_explorer(cve_explorer, protocol_list[idx], fqdn_list[idx], port_list[idx], 'cms', report)
+        #google_hack.execute_google_hack(cve_explorer, fqdn_list[idx], 'cms', report)
+        content_explorer.content_explorer(cve_explorer, protocol_list[idx], fqdn_list[idx], port_list[idx], path_list[idx], 'cms', report)
 
         # Check unnecessary contents using Google Hack and Explore contents.
-        google_hack.execute_google_hack(cve_explorer, fqdn_list[idx], 'unfile', report)
-        content_explorer.content_explorer(cve_explorer, protocol_list[idx], fqdn_list[idx], port_list[idx], 'unfile', report)
+        #google_hack.execute_google_hack(cve_explorer, fqdn_list[idx], 'unfile', report)
+        content_explorer.content_explorer(cve_explorer, protocol_list[idx], fqdn_list[idx], port_list[idx], path_list[idx], 'unfile', report)
 
         utility.write_log(20, 'End ' + msg)
 

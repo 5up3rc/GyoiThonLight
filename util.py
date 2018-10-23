@@ -55,11 +55,8 @@ class Utilty:
         self.logger.setLevel(20)
         file_handler = FileHandler(self.log_path)
         self.logger.addHandler(file_handler)
-        # stream_handler = StreamHandler()
-        # self.logger.addHandler(stream_handler)
         formatter = Formatter('%(levelname)s,%(message)s')
         file_handler.setFormatter(formatter)
-        # stream_handler.setFormatter(formatter)
 
     # Print metasploit's symbol.
     def print_message(self, type, message):
@@ -160,6 +157,9 @@ class Utilty:
 
         # Check path.
         if isinstance(path, str) is False and isinstance(path, int) is False:
+            self.print_message(FAIL, 'Invalid path : {}'.format(path))
+            return False
+        elif path.startswith('/') is False or path.endswith('/') is False:
             self.print_message(FAIL, 'Invalid path : {}'.format(path))
             return False
 
